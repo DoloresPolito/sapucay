@@ -1,15 +1,13 @@
+@use "../../../styles/variables";
+@use "../../../styles/typography";
 
+.animatedHomeHeader {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
 
-
-.animatedHomeHeader {  
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-
-    background-color: rgba(255, 255, 255, 0); /* Transparente al inicio */
-    transition: background-color 0.3s ease; /* Transición suave del fondo */
-    border-bottom: 0.2vh solid black;
-
-  }
-  
+  // background-color: rgba(255, 255, 255, 0); /* Transparente al inicio */
+  // transition: background-color 0.3s ease; /* Transición suave del fondo */
+  // border-bottom: 0.2vh solid black;
+}

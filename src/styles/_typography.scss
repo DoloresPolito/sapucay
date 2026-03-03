@@ -2,9 +2,29 @@
 
 .navtitle {
   font-family: $font-book;
-  font-size: 5vh;
+  font-size: 7vh ;
   font-weight: 400;
   color: white;
+}
+
+.navtext {
+  font-family: $font-book;
+  font-size: 2vh ;
+  font-weight: 300;
+  color: white;
+}
+.navtextblack {
+  font-family: $font-book;
+  font-size: 2vh ;
+  font-weight: 400;
+  color: black;
+}
+
+.navlink {
+  font-family: $font-book;
+  font-size: 5vh ;
+  font-weight: 300;
+  color: black;
 }
 
 //secciones de tipos de viajes
@@ -12,12 +32,20 @@
   font-family: $font-book;
   font-size: 7vh;
   font-weight: 500;
+  margin: 0;
 }
 
 .travelsubtitle {
   font-family: $font-book;
-  font-size: 4vh;
+  font-size: 3vh;
   font-weight: 200;
+}
+
+.travelplace{
+  font-family: $font-book;
+  font-size: 2.5vh;
+  font-weight: 400;
+  margin: 0;
 }
 
 .traveldescriptiontitle{
@@ -36,10 +64,50 @@
 }
 
 .traveldescriptionitemtitle{
-
+  font-family: $font-book;
+  font-size: 4vh;
+  font-weight: 400;
+  margin-bottom: 0vh;
 }
 .traveldescriptionitemsubtitle{
-  
+  font-family: $font-book;
+  font-size: 2.5vh;
+  font-weight: 300;
+  margin-bottom: 2vh;
+}
+
+.traveldescriptionitemtext{
+  font-family: $font-book;
+  font-size: 2vh;
+  font-weight: 300;
+  max-width: 80%;
+  margin-bottom: 5vh;
+}
+
+.traveldescriptionitembullet{
+  font-family: $font-book;
+  font-size: 2vh;
+  font-weight: 300;
+
+}
+
+
+.text{
+  font-family: $font-book;
+  font-size: 2vh;
+  font-weight: 300;
+
+}
+
+.section1{
+  font-family: $font-book;
+  font-size: 4vh;
+  font-weight: 200;
+}
+.section2{
+  font-family: $font-book;
+  font-size: 4vh;
+  font-weight: 400;
 }
 
 // .herotitle {

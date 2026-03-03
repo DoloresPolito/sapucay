@@ -1,9 +1,21 @@
 
-import ScrollRevealSection from "@/src/components/Scroll/ScrollRevealSection";
-
+"use client"
+import { useEffect } from "react";
+import ScrollRevealSection from "@/src/components/TravelSections/ScrollTravel/ScrollRevealSection";
+import Lenis from "lenis";
 export default function SectionLayout({ images, texts }) {
 
 
+  useEffect(() => {
+    const lenis = new Lenis();
+
+    function raf(time) {
+      lenis.raf(time);
+      requestAnimationFrame(raf);
+    }
+
+    requestAnimationFrame(raf);
+  }, []);
 
   return (
     <ScrollRevealSection

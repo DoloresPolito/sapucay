@@ -1,9 +1,9 @@
 {
   "Home": {
-      "herotitle": "Donde los viajes se viven tan profundo, que al final solo queda gritarlo.",
-      "herosubtitle": "Disenamos experiencias autenticas que conectan territorios, cultura y hospitalidad",
-      "herobutton": "CONOCÉ MÁS"
-  }, 
+    "herotitle": "Donde los viajes se viven tan profundo, que al final solo queda gritarlo.",
+    "herosubtitle": "Disenamos experiencias autenticas que conectan territorios, cultura y hospitalidad",
+    "herobutton": "CONOCÉ MÁS"
+  },
 
   "nav": {
     "home": "Inicio",
@@ -13,53 +13,179 @@
     "impacto": "Impacto y Compromiso",
     "destino": "El Destino"
   },
-  "cultura":{
+  "cultura": {
     "herotitle": "Cultura y Tradición",
     "herosubtitle": "Tradición, comunidad y territorio como una experiencia sensible y transformadora.",
     "herobutton": "CONOCÉ MÁS",
-    "descriptiontitle":"Elegí cómo vivir Iberá",
-    "descriptionsubtitle":"Todos los programas de Cultura y Tradición comparten un mismo marco, pero se diferencian por nivel de profundidad, acompañamiento e impacto."
+    "descriptiontitle": "Elegí cómo vivir Iberá",
+    "descriptionsubtitle": "Todos los programas de Cultura y Tradición comparten un mismo marco, pero se diferencian por nivel de profundidad, acompañamiento e impacto.",
+    "items": [
+      {
+        "image": "/images/cultura/01.png",
+        "title": "Sapucay Observador",
+        "subtitle": "Nivel explorador",
+        "text": "Una vivencia más profunda: prácticas conscientes, naturaleza leída desde adentro y bienestar personalizado.",
+        "button": "Ver más",
+        "bullets": [
+          "Primer acercamiento al territorio",
+          "Experiencias culturales guiadas",
+          "Contacto respetuoso con comunidades locales"
+        ]
+      },
+      {
+        "image": "/images/cultura/02.png",
+        "title": "Sapucay MICE",
+        "subtitle": "Nivel inmersivo",
+        "text": "Procesos colaborativos y experiencias diseñadas para grupos y organizaciones.",
+        "button": "Ver más",
+        "bullets": [
+          "Diseño de experiencias a medida",
+          "Trabajo con actores locales",
+          "Impacto medible en el territorio"
+        ]
+      },
+      {
+        "image": "/images/cultura/03.png",
+        "title": "Travesía Ecuestre",
+        "subtitle": "Nivel regeneración y sentido",
+        "text": "Un viaje transformador con acompañamiento y propósito.",
+        "button": "Ver más",
+        "bullets": [
+          "Recorridos a caballo por el Iberá",
+          "Lectura profunda del paisaje",
+          "Experiencia personal y legado"
+        ]
+      }
+    ],
 
-
+    "sectiontext1":"El verdadero valor no es mirar la cultura.",
+    "sectiontext2":"Es dejarse atravesar por ella.",
+    "sectionitems":["PERTENENCIA", "VÍNCULO HUMANO", "EMOCIÓN COMPARTIDA"],
+    "sectionbutton":["La cultura no se explica: se vive.", " En Iberá, la tradición se transmite en gestos, silencios y encuentros.", "Cada experiencia acompaña el pulso de la comunidad y la forma de estar juntos."]
+    
   },
-  "bienestar":{
+  "bienestar": {
     "herotitle": "Bienestar",
-    "herosubtitle": "Una pausa consciente en uno de los ecosistemas más puros de Sudamérica. 2Naturaleza, silencio y prácticas profundas para volver al equilibrio.",
+    "herosubtitle": "Una pausa consciente en uno de los ecosistemas más puros de Sudamérica. Naturaleza, silencio y prácticas profundas para volver al equilibrio.",
     "herobutton": "CONOCÉ MÁS",
-    "descriptiontitle":"Elegí cómo vivir Iberá",
-    "descriptionsubtitle":"Todos los programas de Cultura y Tradición comparten un mismo marco, pero se diferencian por nivel de profundidad, acompañamiento e impacto."
-
-
-
+    "descriptiontitle": "Elegí cómo vivir Iberá",
+    "descriptionsubtitle": "Todos los programas de Bienestar Iberá comparten un mismo marco, pero se diferencian por nivel de profundidad, acompañamiento e impacto.",
+    "items": [
+      {
+        "image": "/images/cultura/01.png",
+        "title": "Detox",
+        "subtitle": "Nivel explorador",
+        "text": "...",
+        "button": "Ver más",
+        "bullets": [
+          "Naturaleza y descanso consciente",
+          "Caminatas guiadas y fauna local",
+          "Navegación por la laguna Iberá",
+          "Movimiento suave al amanecer",
+          "Cabalgata con baqueanos",
+          "Fogón y cielo estrellado"
+        ]
+      },
+      {
+        "image": "/images/cultura/02.png",
+        "title": "Bienestar Natural",
+        "subtitle": "Nivel inmersivo",
+        "text": "Una vivencia más profunda: prácticas conscientes, naturaleza leída desde adentro y bienestar personalizado.",
+        "button": "Ver más",
+        "bullets": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "image": "/images/cultura/03.png",
+        "title": "Bienestar Insignia",
+        "subtitle": "Nivel regeneración y sentido",
+        "text": "Un viaje transformador: medición emocional, acompañamiento especializado y experiencias con impacto personal y legado.",
+        "button": "Ver más",
+        "bullets": [
+          "1",
+          "2",
+          "3"
+        ]
+      }
+    ],
+    "sectiontext1":"El verdadero lujo no es hacer más.",
+    "sectiontext2":"Es volver al ritmo natural.",
+    "sectionitems":["DESCANSO PROFUNDO", "REGULACIÓN EMOCIONAL", "CLARIDAD Y PRESENCIA"],
+    "sectionbutton":["El bienestar no es una actividad aislada. ", " Es ritmo, entorno y presencia.", "En Iberá, la naturaleza marca el tiempo, y cada experiencia acompaña ese pulso."]
+    
   },
   "naturaleza": {
     "herotitle": "Naturaleza",
     "herosubtitle": "Conexión con el territorio y su biodiversidad.",
     "herobutton": "VER MÁS",
-    "descriptiontitle":"Elegí cómo vivir Iberá",
-    "descriptionsubtitle":"Todos los programas de Cultura y Tradición comparten un mismo marco, pero se diferencian por nivel de profundidad, acompañamiento e impacto."
-
-
+    "descriptiontitle": "Elegí cómo vivir Iberá",
+    "descriptionsubtitle": "Todos los programas de Cultura y Tradición comparten un mismo marco, pero se diferencian por nivel de profundidad, acompañamiento e impacto.",
+    "items": [
+      {
+        "image": "/images/cultura/01.png",
+        "title": "Sapucay Observador",
+        "subtitle": "Nivel explorador",
+        "text": "Una vivencia más profunda: prácticas conscientes, naturaleza leída desde adentro y bienestar personalizado.",
+        "button": "Ver más",
+        "bullets": [
+          "Primer acercamiento al territorio",
+          "Experiencias culturales guiadas",
+          "Contacto respetuoso con comunidades locales"
+        ]
+      },
+      {
+        "image": "/images/cultura/02.png",
+        "title": "Sapucay MICE",
+        "subtitle": "Nivel inmersivo",
+        "text": "Procesos colaborativos y experiencias diseñadas para grupos y organizaciones.",
+        "button": "Ver más",
+        "bullets": [
+          "Diseño de experiencias a medida",
+          "Trabajo con actores locales",
+          "Impacto medible en el territorio"
+        ]
+      },
+      {
+        "image": "/images/cultura/03.png",
+        "title": "Travesía Ecuestre",
+        "subtitle": "Nivel regeneración y sentido",
+        "text": "Un viaje transformador con acompañamiento y propósito.",
+        "button": "Ver más",
+        "bullets": [
+          "Recorridos a caballo por el Iberá",
+          "Lectura profunda del paisaje",
+          "Experiencia personal y legado"
+        ]
+      }
+    ],
+    "sectiontext1":"El verdadero valor no es mirar la cultura.",
+    "sectiontext2":"Es dejarse atravesar por ella.",
+    "sectionitems":["PERTENENCIA", "VÍNCULO HUMANO", "EMOCIÓN COMPARTIDA"],
+    "sectionbutton":["La cultura no se explica: se vive.", " En Iberá, la tradición se transmite en gestos, silencios y encuentros.", "Cada experiencia acompaña el pulso de la comunidad y la forma de estar juntos."]
+    
   },
   "AboutPage": {
-      "title": "Acerca de",
-      "description": "Pagina de Acerca de",
-      "team": "Nuestro Equipo"
+    "title": "Acerca de",
+    "description": "Pagina de Acerca de",
+    "team": "Nuestro Equipo"
   },
-  "Footer":{
-    "subtitle":"Donde los viajes se viven tan profundo, que al final solo queda gritarlo.",
-    "col1title":"Navegación",
-    "col1item1":"Inicio",
-    "col1item2":"Impacto y Compromiso",
-    "col1item3":"El Destino",
-    "col1item4":"Bienestar",
-    "col1item5":"Cultura y Tradición",
+  "Footer": {
+    "subtitle": "Donde los viajes se viven tan profundo, que al final solo queda gritarlo.",
+    "col1title": "Navegación",
+    "col1item1": "Inicio",
+    "col1item2": "Impacto y Compromiso",
+    "col1item3": "El Destino",
+    "col1item4": "Bienestar",
+    "col1item5": "Cultura y Tradición",
 
-    "col2title":"Contacto",
-    "col2item1":"Col. Carlos Pellegrini, Corrientes, Argentina",
-    "col2item2":"info@sapucay travel",
-    "col2item3":"WhatsApp directo",
+    "col2title": "Contacto",
+    "col2item1": "Col. Carlos Pellegrini, Corrientes, Argentina",
+    "col2item2": "info@sapucay travel",
+    "col2item3": "WhatsApp directo",
 
-    "rights":"Todos los derechos reservados  2026 Sapucay Travell"
+    "rights": "Todos los derechos reservados  2026 Sapucay Travell"
   }
 }

@@ -3,7 +3,8 @@
     "herotitle": "Where journeys are lived so deeply that in the end all that’s left is to shout it out.",
     "herosubtitle": "We design authentic experiences that connect territories, culture, and hospitality.",
     "herobutton": "DISCOVER MORE"
-  }, "nav": {
+  },
+  "nav": {
     "home": "Home",
     "cultura": "Culture & Tradition",
     "bienestar": "Wellbeing",
@@ -17,16 +18,119 @@
     "herosubtitle": "Tradition, community, and territory as a sensitive and transformative experience.",
     "herobutton": "LEARN MORE",
     "descriptiontitle": "Choose how to experience Iberá",
-"descriptionsubtitle": "All Culture and Tradition programs share the same framework, but differ in their level of depth, guidance, and impact."
+    "descriptionsubtitle": "All Culture and Tradition programs share the same framework, but differ in their level of depth, guidance, and impact.",
+    "items": [
+      {
+        "image": "/images/cultura/01.png",
+        "title": "Sapucay Observer",
+        "subtitle": "Explorer level",
+        "text": "A deeper experience: conscious practices, an inward reading of nature, and personalized well-being.",
+        "button": "See more",
+        "bullets": [
+          "First approach to the territory",
+          "Guided cultural experiences",
+          "Respectful contact with local communities"
+        ]
+      },
+      {
+        "image": "/images/cultura/02.png",
+        "title": "Sapucay MICE",
+        "subtitle": "Immersive level",
+        "text": "Collaborative processes and experiences designed for groups and organizations.",
+        "button": "See more",
+        "bullets": [
+          "Tailor-made experience design",
+          "Collaboration with local stakeholders",
+          "Measurable territorial impact"
+        ]
+      },
+      {
+        "image": "/images/cultura/03.png",
+        "title": "Equestrian Journey",
+        "subtitle": "Regeneration and purpose level",
+        "text": "A transformative journey with guidance and purpose.",
+        "button": "See more",
+        "bullets": [
+          "Horseback journeys through Iberá",
+          "Deep reading of the landscape",
+          "Personal experience and lasting legacy"
+        ]
+      }
+    ],
+    
+      "sectiontext1": "True value is not about observing culture.",
+      "sectiontext2": "It is about allowing yourself to be shaped by it.",
+      "sectionitems": ["BELONGING", "HUMAN CONNECTION", "SHARED EMOTION"],
+      "sectionbutton": [
+        "Culture is not explained: it is lived.",
+        "In Iberá, tradition is passed on through gestures, silences, and encounters.",
+        "Each experience follows the rhythm of the community and the way of being together."
+      ]
+    
+   
   },
 
   "bienestar": {
-    "herotitle": "Wellness",
+    "herotitle": "Wellbeing",
     "herosubtitle": "A conscious pause in one of South America’s purest ecosystems. Nature, silence, and deep practices to return to balance.",
     "herobutton": "LEARN MORE",
     "descriptiontitle": "Choose how to experience Iberá",
-    "descriptionsubtitle": "All Culture and Tradition programs share the same framework, but differ in their level of depth, guidance, and impact."
-      
+    "descriptionsubtitle": "All Iberá Wellbeing programs share the same framework, but differ in depth, level of guidance, and impact.",
+    "items": [
+      {
+        "image": "/images/cultura/01.png",
+        "title": "Detox",
+        "subtitle": "Explorer level",
+        "text": "...",
+        "button": "See more",
+        "bullets": [
+          "Nature and conscious rest",
+          "Guided walks and local wildlife",
+          "Navigation through the Iberá lagoon",
+          "Gentle movement at sunrise",
+          "Horseback riding with local guides",
+          "Bonfire and starry skies"
+        ]
+      },
+      {
+        "image": "/images/cultura/02.png",
+        "title": "Natural Wellbeing",
+        "subtitle": "Immersive level",
+        "text": "A deeper experience: mindful practices, nature understood from within, and personalized wellbeing.",
+        "button": "See more",
+        "bullets": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "image": "/images/cultura/03.png",
+        "title": "Signature Wellbeing",
+        "subtitle": "Regeneration and purpose level",
+        "text": "A transformative journey: emotional assessment, specialized guidance, and experiences with personal impact and lasting meaning.",
+        "button": "See more",
+        "bullets": [
+          "1",
+          "2",
+          "3"
+        ]
+      }
+    ],
+    "sectiontext1": "True luxury is not doing more.",
+    "sectiontext2": "It is returning to a natural rhythm.",
+    "sectionitems": [
+      "DEEP REST",
+      "EMOTIONAL REGULATION",
+      "CLARITY AND PRESENCE"
+    ],
+    "sectionbutton": [
+      "Wellbeing is not an isolated activity.",
+      "It is rhythm, environment, and presence.",
+      "In Iberá, nature sets the pace, and each experience follows that pulse."
+    ]
+  
+  
   },
   "naturaleza": {
     "herotitle": "Nature",
@@ -34,7 +138,54 @@
     "herobutton": "LEARN MORE",
     "descriptiontitle": "Choose how to experience Iberá",
     "descriptionsubtitle": "All Culture and Tradition programs share the same framework, but differ in their level of depth, guidance, and impact."
-      
+  ,
+  "items": [
+    {
+      "image": "/images/cultura/01.png",
+      "title": "Sapucay Observer",
+      "subtitle": "Explorer level",
+      "text": "A deeper experience: conscious practices, an inward reading of nature, and personalized well-being.",
+      "button": "See more",
+      "bullets": [
+        "First approach to the territory",
+        "Guided cultural experiences",
+        "Respectful contact with local communities"
+      ]
+    },
+    {
+      "image": "/images/cultura/02.png",
+      "title": "Sapucay MICE",
+      "subtitle": "Immersive level",
+      "text": "Collaborative processes and experiences designed for groups and organizations.",
+      "button": "See more",
+      "bullets": [
+        "Tailor-made experience design",
+        "Collaboration with local stakeholders",
+        "Measurable territorial impact"
+      ]
+    },
+    {
+      "image": "/images/cultura/03.png",
+      "title": "Equestrian Journey",
+      "subtitle": "Regeneration and purpose level",
+      "text": "A transformative journey with guidance and purpose.",
+      "button": "See more",
+      "bullets": [
+        "Horseback journeys through Iberá",
+        "Deep reading of the landscape",
+        "Personal experience and lasting legacy"
+      ]
+    }
+  ],
+  "sectiontext1": "True value is not about observing culture.",
+  "sectiontext2": "It is about allowing yourself to be shaped by it.",
+  "sectionitems": ["BELONGING", "HUMAN CONNECTION", "SHARED EMOTION"],
+  "sectionbutton": [
+    "Culture is not explained: it is lived.",
+    "In Iberá, tradition is passed on through gestures, silences, and encounters.",
+    "Each experience follows the rhythm of the community and the way of being together."
+  ]
+  
   },
 
   "AboutPage": {

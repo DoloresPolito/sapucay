@@ -1,3 +1,4 @@
+
 import { notFound } from "next/navigation";
 import { getTranslations } from "next-intl/server";
 import SectionLayout from "../../../../components/SectionLayout";
@@ -38,6 +39,8 @@ export default async function SectionPage({ params }) {
   // usamos el param directamente como namespace
   const t = await getTranslations(section);
 
+
+
   const texts = {
     hero: {
       title: t("herotitle"),
@@ -47,8 +50,14 @@ export default async function SectionPage({ params }) {
     description: {
       title: t("descriptiontitle"),
       subtitle: t("descriptionsubtitle"),
+      items: t.raw("items"), // 👈 clave
     },
-    // podés seguir agregando lo que quieras acá
+    section: {
+      sectiontext1: t("sectiontext1"),
+      sectiontext2: t("sectiontext2"),
+      sectionitems: t.raw("sectionitems"), // 👈 clave
+      sectionbutton: t.raw("sectionbutton"), // 👈 clave
+    },
   };
 
   return <SectionLayout images={images} texts={texts} />;

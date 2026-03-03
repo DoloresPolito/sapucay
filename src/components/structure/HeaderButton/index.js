@@ -1,6 +1,6 @@
 "use client";
 import styles from "./style.module.scss";
-import Link from "next/link";
+// import Link from "next/link";
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { opacity, background } from "./amin";
@@ -22,7 +22,7 @@ export default function HeaderButton() {
         </div>
 
         <div className={styles.center}>
-          <p>Sapucay Travel</p>
+          <p className={styles.navtitle}>SAPUCAY TRAVEL</p>
         </div>
 
         <div
@@ -35,10 +35,11 @@ export default function HeaderButton() {
             <motion.p
               variants={opacity}
               animate={!isActive ? "open" : "closed"}
+              className={styles.navtext}
             >
               Menu
             </motion.p>
-            <motion.p variants={opacity} animate={isActive ? "open" : "closed"}>
+            <motion.p variants={opacity} animate={isActive ? "open" : "closed"}   className={styles.navtextblack}>
               Cerrar
             </motion.p>
           </div>

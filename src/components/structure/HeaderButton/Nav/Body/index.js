@@ -79,7 +79,9 @@ export default function Body({ links, selectedLink, setSelectedLink, setIsActive
               onMouseOver={() => setSelectedLink({ isActive: true, index })}
               onMouseLeave={() => setSelectedLink({ isActive: false, index })}
               onClick={() => handleMenuClose()}
-              className={selectedLink.isActive && selectedLink.index === index ? styles.active : ""}
+              className={`${styles.navlink} ${
+                selectedLink.isActive && selectedLink.index === index ? styles.active : ""
+              }`}
             >
               <span className={styles.textContainer}>
                 {getChars(title)}

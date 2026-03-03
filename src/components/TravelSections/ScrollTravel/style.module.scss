@@ -1,34 +1,40 @@
-@use "../../styles/variables";
-@use "../../styles/typography";
+@use "../../../styles/variables";
+@use "../../../styles/typography";
 
 //Intro
 
 .intro {
+
+
   height: 100vh;
-  width: 100vw;
+
+  width: 100%;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
-  overflow: hidden;
 }
 
 .introImage {
-  position: relative;
-  height: 100%;
+
   position: relative;
   height: 100%;
   width: 100%;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
-  overflow-y: scroll;
+
+
+
 }
 
 .overlay {
   position: relative;
   bottom: 20vh;
   height: 100%;
-  width: 100%;
+  width: 95%;
+  margin: 0 auto;
   display: flex;
   flex-direction: row;
   align-items: flex-end;
@@ -68,6 +74,7 @@
   display: flex;
   width: 100%;
   height: 80vh;
+  overflow: hidden; 
 }
 
 .item {
@@ -100,14 +107,19 @@
 
 .overlayBase {
   background: linear-gradient(to top, rgba(0, 0, 0, 0.45), transparent);
+  display: flex;
+  align-items: flex-start;
+  text-align: left;
 }
 
 .overlayHover {
   background: rgba(26, 30, 34, 0.85);
   opacity: 0;
   pointer-events: none;
-  justify-content: center;
   gap: 1.2rem;
+  display: flex;
+  align-items: flex-start;
+  text-align: left;
 }
 
 .overlayHover ul {
@@ -117,10 +129,6 @@
 
 .overlayHover li {
   margin-bottom: 0.4rem;
-}
-
-.button {
-  align-self: flex-start;
 }
 
 //Section
@@ -137,14 +145,56 @@
 .content {
   position: relative;
   z-index: 10;
-  // padding: 5rem;
-  mix-blend-mode: difference;
+
   color: white;
-  width: 100%;
+  width: 90%;
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: center;
+
+  .top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+
+    .titlecontainer {
+      display: flex;
+      flex-direction: column;
+      margin: 0;
+      background-color: red;
+    }
+
+
+    .line{
+      width: auto;
+      height: 0.3vh;
+      background-color: white;
+    }
+  }
+
+  // .bottom {
+  //   display: flex;
+  //   justify-content: center;
+  //   align-items: center;
+
+  //   .container {
+  //     background-color: transparent;
+  //     border: 0.2vh solid white;
+  //     border-radius: 2vh;
+  //     padding: 2vh 4vh;
+
+  //     .sectionBottomText {
+  //       // font-family: $font-book;
+  //       font-size: 2vh;
+  //       font-weight: 300;
+  //       max-width: none;
+  //       white-space: nowrap; // si querés UNA sola línea sí o sí
+  //     }
+  //   }
+  // }
 }
 
 .background {
@@ -153,9 +203,19 @@
   left: 0;
   height: 120vh;
   width: 100%;
+  overflow: hidden;
+
 }
 .backgroundInner {
   position: relative;
   width: 100%;
   height: 100%;
+
+
+  .img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+ 
 }

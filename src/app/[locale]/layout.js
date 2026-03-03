@@ -4,7 +4,7 @@ import { routing } from '@/src/i18n/routing';
 import { notFound } from 'next/navigation';
 import { setRequestLocale } from 'next-intl/server';
 
-
+import "./globals.scss";
 export function generateStaticParams() {
   return routing.locales.map(locale => ({ locale }));
 }

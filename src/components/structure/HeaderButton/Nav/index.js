@@ -4,44 +4,40 @@ import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { height } from "../amin";
 import Body from "./Body";
-
-import { useTranslations } from "next-intl";
-
-
+import { useTranslations, useLocale } from "next-intl";
 
 
 export default function Index({ setIsActive }) {
 
 
   const t = useTranslations("nav");
-
+  const locale = useLocale();
   const links = [
-    { title: t("home"), href: "/" },
-    { title: t("cultura"), href: "/cultura" },
-    { title: t("bienestar"), href: "/bienestar" },
-    { title: t("naturaleza"), href: "/naturaleza" },
-    { title: t("impacto"), href: "/impacto" },
-    { title: t("destino"), href: "/destino" },
+    { title: t("home"), href: `/${locale}` },
+    { title: t("cultura"), href: `/${locale}/cultura` },
+    { title: t("bienestar"), href: `/${locale}/bienestar` },
+    { title: t("naturaleza"), href: `/${locale}/naturaleza` },
+    { title: t("impacto"), href: `/${locale}/impacto` },
+    { title: t("destino"), href: `/${locale}/destino` },
   ];
-
 
   const [selectedLink, setSelectedLink] = useState({
     isActive: false,
     index: 0,
   });
 
-  const [isMobile, setIsMobile] = useState(false);
+  // const [isMobile, setIsMobile] = useState(false);
 
-  useEffect(() => {
-    const handleResize = () => {
-      setIsMobile(window.innerWidth < 750);
-    };
+  // useEffect(() => {
+  //   const handleResize = () => {
+  //     setIsMobile(window.innerWidth < 750);
+  //   };
 
-    handleResize(); // Set initial value
-    window.addEventListener("resize", handleResize);
+  //   handleResize(); // Set initial value
+  //   window.addEventListener("resize", handleResize);
 
-    return () => window.removeEventListener("resize", handleResize);
-  }, []);
+  //   return () => window.removeEventListener("resize", handleResize);
+  // }, []);
 
   return (
     <motion.div
