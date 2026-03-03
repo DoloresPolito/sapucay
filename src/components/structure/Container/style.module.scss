@@ -1,0 +1,13 @@
+
+.container {
+  max-width: 95%;
+  margin: 0 auto;
+  padding: 0 3vh;
+  border-radius: 5vh;
+
+
+  @media (max-width: 800px) {
+    max-width:97%;
+    padding: 0 1vh;
+  }
+}

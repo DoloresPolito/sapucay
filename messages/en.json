@@ -1,0 +1,61 @@
+{
+  "Home": {
+    "herotitle": "Where journeys are lived so deeply that in the end all that’s left is to shout it out.",
+    "herosubtitle": "We design authentic experiences that connect territories, culture, and hospitality.",
+    "herobutton": "DISCOVER MORE"
+  }, "nav": {
+    "home": "Home",
+    "cultura": "Culture & Tradition",
+    "bienestar": "Wellbeing",
+    "naturaleza": "Nature",
+    "impacto": "Impact & Commitment",
+    "destino": "The Destination"
+  },
+
+  "cultura": {
+    "herotitle": "Culture and Tradition",
+    "herosubtitle": "Tradition, community, and territory as a sensitive and transformative experience.",
+    "herobutton": "LEARN MORE",
+    "descriptiontitle": "Choose how to experience Iberá",
+"descriptionsubtitle": "All Culture and Tradition programs share the same framework, but differ in their level of depth, guidance, and impact."
+  },
+
+  "bienestar": {
+    "herotitle": "Wellness",
+    "herosubtitle": "A conscious pause in one of South America’s purest ecosystems. Nature, silence, and deep practices to return to balance.",
+    "herobutton": "LEARN MORE",
+    "descriptiontitle": "Choose how to experience Iberá",
+    "descriptionsubtitle": "All Culture and Tradition programs share the same framework, but differ in their level of depth, guidance, and impact."
+      
+  },
+  "naturaleza": {
+    "herotitle": "Nature",
+    "herosubtitle": "Connection with the territory and its biodiversity.",
+    "herobutton": "LEARN MORE",
+    "descriptiontitle": "Choose how to experience Iberá",
+    "descriptionsubtitle": "All Culture and Tradition programs share the same framework, but differ in their level of depth, guidance, and impact."
+      
+  },
+
+  "AboutPage": {
+    "title": "About",
+    "description": "About page",
+    "team": "Our Team"
+  },
+  "Footer": {
+    "subtitle": "Where journeys are lived so deeply that in the end all that’s left is to shout it out.",
+    "col1title": "Navigation",
+    "col1item1": "Home",
+    "col1item2": "Impact & Commitment",
+    "col1item3": "The Destination",
+    "col1item4": "Wellbeing",
+    "col1item5": "Culture & Tradition",
+
+    "col2title": "Contact",
+    "col2item1": "Col. Carlos Pellegrini, Corrientes, Argentina",
+    "col2item2": "info@sapucay travel",
+    "col2item3": "Direct WhatsApp",
+
+    "rights": "All rights reserved 2026 Sapucay Travel"
+  }
+}

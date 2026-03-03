@@ -1,0 +1,161 @@
+@use "../../styles/variables";
+@use "../../styles/typography";
+
+//Intro
+
+.intro {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  overflow: hidden;
+}
+
+.introImage {
+  position: relative;
+  height: 100%;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+}
+
+.overlay {
+  position: relative;
+  bottom: 20vh;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  pointer-events: none; // opcional
+  color: white;
+
+  .left {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .right {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+
+    align-items: flex-end;
+  }
+}
+
+//Description
+
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 3vh 0;
+  background-color: #1a1e22;
+  color: white;
+}
+
+.itemscontainer {
+  display: flex;
+  width: 100%;
+  height: 80vh;
+}
+
+.item {
+  width: 33.3333%;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+
+  &:hover .overlayHover {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  &:hover .overlayBase {
+    opacity: 0;
+  }
+}
+
+.overlayBase,
+.overlayHover {
+  position: absolute;
+  inset: 0;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  transition: opacity 0.4s ease;
+}
+
+.overlayBase {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.45), transparent);
+}
+
+.overlayHover {
+  background: rgba(26, 30, 34, 0.85);
+  opacity: 0;
+  pointer-events: none;
+  justify-content: center;
+  gap: 1.2rem;
+}
+
+.overlayHover ul {
+  list-style: disc;
+  padding-left: 1.2rem;
+}
+
+.overlayHover li {
+  margin-bottom: 0.4rem;
+}
+
+.button {
+  align-self: flex-start;
+}
+
+//Section
+
+.section {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.content {
+  position: relative;
+  z-index: 10;
+  // padding: 5rem;
+  mix-blend-mode: difference;
+  color: white;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.background {
+  position: fixed;
+  top: -10vh;
+  left: 0;
+  height: 120vh;
+  width: 100%;
+}
+.backgroundInner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}

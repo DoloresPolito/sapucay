@@ -1,0 +1,52 @@
+
+/* Futura PT – sin tildes */
+@font-face {
+    font-family: "FuturaPtLight";
+    src: url("/fonts/FuturaCyrillicLight.ttf") format("truetype");
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "FuturaPtMedium";
+    src: url("/fonts/FuturaCyrillicMedium.ttf") format("truetype");
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "FuturaPtHeavy";
+    src: url("/fonts/FuturaCyrillicHeavy.ttf") format("truetype");
+    font-display: swap;
+  }
+  
+  /* Futura Book – con tildes */
+  @font-face {
+    font-family: "FuturaBook";
+    src: url("/fonts/Futura Book font.ttf") format("truetype");
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "FuturaBookItalic";
+    src: url("/fonts/Futura Book Italic font.ttf") format("truetype");
+    font-display: swap;
+  }
+  
+  /* Futura Heavy – con tildes */
+  @font-face {
+    font-family: "FuturaHeavy";
+    src: url("/fonts/Futura Heavy font.ttf") format("truetype");
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "FuturaHeavyItalic";
+    src: url("/fonts/Futura Heavy Italic font.ttf") format("truetype");
+    font-display: swap;
+  }
+  
+  /* Futura Light Italic */
+  @font-face {
+    font-family: "FuturaLightItalic";
+    src: url("/fonts/Futura Light Italic font.ttf") format("truetype");
+    font-display: swap;
+  }

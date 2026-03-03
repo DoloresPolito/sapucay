@@ -1,0 +1,84 @@
+@use "./variables" as *;
+
+.navtitle {
+  font-family: $font-book;
+  font-size: 5vh;
+  font-weight: 400;
+  color: white;
+}
+
+//secciones de tipos de viajes
+.traveltitle {
+  font-family: $font-book;
+  font-size: 7vh;
+  font-weight: 500;
+}
+
+.travelsubtitle {
+  font-family: $font-book;
+  font-size: 4vh;
+  font-weight: 200;
+}
+
+.traveldescriptiontitle{
+  font-family: $font-book;
+  font-size: 4vh;
+  font-weight: 200;
+
+}
+
+.traveldescriptionsubtitle{
+  font-family: $font-book;
+  font-size: 2vh;
+  font-weight: 200;
+  max-width: 80vh;
+
+}
+
+.traveldescriptionitemtitle{
+
+}
+.traveldescriptionitemsubtitle{
+  
+}
+
+// .herotitle {
+//   font-family: $font-book;
+//   font-size: 5vh;
+//   font-weight: 400;
+//   color:black;
+//   margin-top: 10vh;
+// }
+
+// .herosubtitle {
+//   font-family: $font-book;
+//   font-size: 3vh;
+//   font-weight: 400;
+//   color:black
+// }
+// .section-title {
+//   font-family: $font-title;
+//   font-size: 2rem;
+//   line-height: 1.2;
+// }
+
+// .subtitle {
+//   font-family: $font-subtitle;
+//   font-size: 1.125rem;
+//   opacity: 0.8;
+// }
+
+// .body-text {
+//   font-family: $font-body;
+//   font-size: 1rem;
+//   line-height: 1.6;
+// }
+
+// .small-text {
+//   font-family: $font-small;
+//   font-size: 0.875rem;
+// }
+
+// .emphasis {
+//   font-family: $font-emphasis;
+// }

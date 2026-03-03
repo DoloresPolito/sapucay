@@ -1,0 +1,39 @@
+.nav {
+    overflow: hidden;
+    position: relative;
+    padding: 2vh;
+    // margin-top: -5vh;
+    z-index: 10000;
+  
+    .wrapper {
+      display: flex;
+      gap: 50px;
+      height: 100vh;
+      justify-content: space-between;
+  
+      @media only screen and (max-width: 950px) {
+        flex-direction: column;
+      }
+  
+      .imagecontainermobile {
+        height: 40vh;
+        width: 40vh;
+        display: flex;
+        align-self: flex-end;
+  
+        margin-top: -7vh;
+  
+        img {
+          height: 100%;
+          width: 100%;
+        }
+      }
+    }
+  
+    .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 50vh;
+    }
+  }

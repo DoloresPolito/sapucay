@@ -1,0 +1,65 @@
+{
+  "Home": {
+      "herotitle": "Donde los viajes se viven tan profundo, que al final solo queda gritarlo.",
+      "herosubtitle": "Disenamos experiencias autenticas que conectan territorios, cultura y hospitalidad",
+      "herobutton": "CONOCÉ MÁS"
+  }, 
+
+  "nav": {
+    "home": "Inicio",
+    "cultura": "Cultura y Tradición",
+    "bienestar": "Bienestar",
+    "naturaleza": "Naturaleza",
+    "impacto": "Impacto y Compromiso",
+    "destino": "El Destino"
+  },
+  "cultura":{
+    "herotitle": "Cultura y Tradición",
+    "herosubtitle": "Tradición, comunidad y territorio como una experiencia sensible y transformadora.",
+    "herobutton": "CONOCÉ MÁS",
+    "descriptiontitle":"Elegí cómo vivir Iberá",
+    "descriptionsubtitle":"Todos los programas de Cultura y Tradición comparten un mismo marco, pero se diferencian por nivel de profundidad, acompañamiento e impacto."
+
+
+  },
+  "bienestar":{
+    "herotitle": "Bienestar",
+    "herosubtitle": "Una pausa consciente en uno de los ecosistemas más puros de Sudamérica. 2Naturaleza, silencio y prácticas profundas para volver al equilibrio.",
+    "herobutton": "CONOCÉ MÁS",
+    "descriptiontitle":"Elegí cómo vivir Iberá",
+    "descriptionsubtitle":"Todos los programas de Cultura y Tradición comparten un mismo marco, pero se diferencian por nivel de profundidad, acompañamiento e impacto."
+
+
+
+  },
+  "naturaleza": {
+    "herotitle": "Naturaleza",
+    "herosubtitle": "Conexión con el territorio y su biodiversidad.",
+    "herobutton": "VER MÁS",
+    "descriptiontitle":"Elegí cómo vivir Iberá",
+    "descriptionsubtitle":"Todos los programas de Cultura y Tradición comparten un mismo marco, pero se diferencian por nivel de profundidad, acompañamiento e impacto."
+
+
+  },
+  "AboutPage": {
+      "title": "Acerca de",
+      "description": "Pagina de Acerca de",
+      "team": "Nuestro Equipo"
+  },
+  "Footer":{
+    "subtitle":"Donde los viajes se viven tan profundo, que al final solo queda gritarlo.",
+    "col1title":"Navegación",
+    "col1item1":"Inicio",
+    "col1item2":"Impacto y Compromiso",
+    "col1item3":"El Destino",
+    "col1item4":"Bienestar",
+    "col1item5":"Cultura y Tradición",
+
+    "col2title":"Contacto",
+    "col2item1":"Col. Carlos Pellegrini, Corrientes, Argentina",
+    "col2item2":"info@sapucay travel",
+    "col2item3":"WhatsApp directo",
+
+    "rights":"Todos los derechos reservados  2026 Sapucay Travell"
+  }
+}

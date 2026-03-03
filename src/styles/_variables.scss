@@ -1,0 +1,35 @@
+/* =====================
+   FONT FAMILIES
+===================== */
+
+$font-primary-light: "FuturaPtLight", sans-serif;
+$font-primary-medium: "FuturaPtMedium", sans-serif;
+$font-primary-heavy: "FuturaPtHeavy", sans-serif;
+
+$font-book: "FuturaBook", sans-serif;
+$font-book-italic: "FuturaBookItalic", sans-serif;
+
+$font-heavy: "FuturaHeavy", sans-serif;
+$font-heavy-italic: "FuturaHeavyItalic", sans-serif;
+
+$font-light-italic: "FuturaLightItalic", sans-serif;
+
+/* =====================
+   TYPO ROLES
+===================== */
+
+$font-hero: $font-primary-heavy;
+$font-title: $font-primary-medium;
+$font-subtitle: $font-book;
+$font-body: $font-book;
+$font-small: $font-primary-light;
+$font-emphasis: $font-heavy-italic;
+
+/* Colors */
+$color-blue: #28374a;
+$color-white-bg: #fffbf5;
+$color-grey-bg: #f8f3ee;
+$color-white-font: #f5f4eb;
+$color-grey-font: #bcbab4;
+
+
