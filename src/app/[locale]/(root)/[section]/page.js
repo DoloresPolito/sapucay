@@ -1,7 +1,7 @@
 
 import { notFound } from "next/navigation";
 import { getTranslations } from "next-intl/server";
-import SectionLayout from "../../../../components/SectionLayout";
+import SectionLayout from "../../../../components/TravelSectionLayout";
 
 const VALID_SECTIONS = ["cultura", "bienestar", "naturaleza"];
 
@@ -15,15 +15,17 @@ const IMAGES = {
   ],
   bienestar: [
     "/images/cultura/culturahero.png",
-    "/images/cultura/01.png",
-    "/images/cultura/02.png",
-    "/images/cultura/03.png",
+    "/images/bienestar/01.png",
+    "/images/bienestar/02.png",
+    "/images/bienestar/03.png",
+    "/images/cultura/culturasection.png",
   ],
   naturaleza: [
     "/images/cultura/culturahero.png",
     "/images/cultura/01.png",
     "/images/cultura/02.png",
     "/images/cultura/03.png",
+    "/images/cultura/culturasection.png",
   ],
 };
 
@@ -39,7 +41,7 @@ export default async function SectionPage({ params }) {
   // usamos el param directamente como namespace
   const t = await getTranslations(section);
 
-
+console.log("t", t)
 
   const texts = {
     hero: {
@@ -50,14 +52,22 @@ export default async function SectionPage({ params }) {
     description: {
       title: t("descriptiontitle"),
       subtitle: t("descriptionsubtitle"),
-      items: t.raw("items"), // 👈 clave
+      items: t.raw("items"),
     },
     section: {
       sectiontext1: t("sectiontext1"),
       sectiontext2: t("sectiontext2"),
-      sectionitems: t.raw("sectionitems"), // 👈 clave
-      sectionbutton: t.raw("sectionbutton"), // 👈 clave
+      sectionitems: t.raw("sectionitems"),
+      sectionbutton: t.raw("sectionbutton"), 
     },
+
+    // table: {
+    //   title: t("title"),
+    //   subtitle: t("subtitle"),
+    //   columns: t.raw("columns"),
+    //   rows: t.raw("rows"),
+     
+    // },
   };
 
   return <SectionLayout images={images} texts={texts} />;

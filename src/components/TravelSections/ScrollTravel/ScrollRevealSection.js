@@ -3,12 +3,16 @@
 import Intro from "./Intro";
 import Description from "./Description";
 import Section from "./Section";
+import ComparativeTable from "../../ComparativeTable";
 
 export default function ScrollRevealSection({
   introImage,
   sectionImage,
-  texts
+  texts,
 }) {
+
+
+  console.log("texts", texts)
   return (
     <>
       <Intro
@@ -17,7 +21,7 @@ export default function ScrollRevealSection({
         herosubtitle={texts.hero.subtitle}
         herobutton={texts.hero.button}
       />
-       <Description
+      <Description
         title={texts.description.title}
         subtitle={texts.description.subtitle}
         items={texts.description.items} // 👈 acá
@@ -29,7 +33,13 @@ export default function ScrollRevealSection({
         sectionitems={texts.section.sectionitems}
         sectionbutton={texts.section.sectionbutton}
       />
+      <ComparativeTable
+        backgroundImage="/images/background-table.png"
+        // title={texts.table.title}
+        // subtitle={texts.table}
+        // columns={texts.table.columns}
+        // rows={texts.table.rows}
+      />
     </>
   );
 }
-

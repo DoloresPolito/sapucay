@@ -1,6 +1,7 @@
 
 "use client"
 import { useEffect } from "react";
+
 import ScrollRevealSection from "@/src/components/TravelSections/ScrollTravel/ScrollRevealSection";
 import Lenis from "lenis";
 export default function SectionLayout({ images, texts }) {
@@ -18,10 +19,13 @@ export default function SectionLayout({ images, texts }) {
   }, []);
 
   return (
+    <>
     <ScrollRevealSection
       introImage={images[0]}
       texts={texts}
       sectionImage={images[4]}
     />
+   
+</>
   );
 }

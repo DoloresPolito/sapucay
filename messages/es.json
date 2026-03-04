@@ -62,7 +62,38 @@
     "sectiontext2":"Es dejarse atravesar por ella.",
     "sectionitems":["PERTENENCIA", "VÍNCULO HUMANO", "EMOCIÓN COMPARTIDA"],
     "sectionbutton":["La cultura no se explica: se vive.", " En Iberá, la tradición se transmite en gestos, silencios y encuentros.", "Cada experiencia acompaña el pulso de la comunidad y la forma de estar juntos."]
-    
+    ,
+    "table": {
+      "title": "Niveles de experiencia",
+      "subtitle": "Comparación entre los distintos niveles del programa",
+      "columns": [
+        "Explorador",
+        "Inmersivo",
+        "Regeneración"
+      ],
+      "rows": [
+        {
+          "label": "Duración",
+          "values": ["3 días", "5 días", "7 días"]
+        },
+        {
+          "label": "Acompañamiento",
+          "values": ["Básico", "Personalizado", "Integral"]
+        },
+        {
+          "label": "Profundidad",
+          "values": ["Introductoria", "Experiencial", "Transformadora"]
+        },
+        {
+          "label": "Impacto territorial",
+          "values": ["Bajo", "Medio", "Alto"]
+        },
+        {
+          "label": "Perfil del viajero",
+          "values": ["Curioso", "Comprometido", "Buscador de sentido"]
+        }
+      ]
+    }
   },
   "bienestar": {
     "herotitle": "Bienestar",
@@ -72,7 +103,7 @@
     "descriptionsubtitle": "Todos los programas de Bienestar Iberá comparten un mismo marco, pero se diferencian por nivel de profundidad, acompañamiento e impacto.",
     "items": [
       {
-        "image": "/images/cultura/01.png",
+        "image": "/images/bienestar/01.png",
         "title": "Detox",
         "subtitle": "Nivel explorador",
         "text": "...",
@@ -87,7 +118,7 @@
         ]
       },
       {
-        "image": "/images/cultura/02.png",
+        "image": "/images/bienestar/02.png",
         "title": "Bienestar Natural",
         "subtitle": "Nivel inmersivo",
         "text": "Una vivencia más profunda: prácticas conscientes, naturaleza leída desde adentro y bienestar personalizado.",
@@ -99,7 +130,7 @@
         ]
       },
       {
-        "image": "/images/cultura/03.png",
+        "image": "/images/bienestar/03.png",
         "title": "Bienestar Insignia",
         "subtitle": "Nivel regeneración y sentido",
         "text": "Un viaje transformador: medición emocional, acompañamiento especializado y experiencias con impacto personal y legado.",
@@ -115,7 +146,38 @@
     "sectiontext2":"Es volver al ritmo natural.",
     "sectionitems":["DESCANSO PROFUNDO", "REGULACIÓN EMOCIONAL", "CLARIDAD Y PRESENCIA"],
     "sectionbutton":["El bienestar no es una actividad aislada. ", " Es ritmo, entorno y presencia.", "En Iberá, la naturaleza marca el tiempo, y cada experiencia acompaña ese pulso."]
-    
+    ,
+    "table": {
+      "title": "Niveles de experiencia",
+      "subtitle": "Comparación entre los distintos niveles del programa",
+      "columns": [
+        "Explorador",
+        "Inmersivo",
+        "Regeneración"
+      ],
+      "rows": [
+        {
+          "label": "Duración",
+          "values": ["3 días", "5 días", "7 días"]
+        },
+        {
+          "label": "Acompañamiento",
+          "values": ["Básico", "Personalizado", "Integral"]
+        },
+        {
+          "label": "Profundidad",
+          "values": ["Introductoria", "Experiencial", "Transformadora"]
+        },
+        {
+          "label": "Impacto territorial",
+          "values": ["Bajo", "Medio", "Alto"]
+        },
+        {
+          "label": "Perfil del viajero",
+          "values": ["Curioso", "Comprometido", "Buscador de sentido"]
+        }
+      ]
+    }
   },
   "naturaleza": {
     "herotitle": "Naturaleza",
@@ -165,7 +227,40 @@
     "sectiontext2":"Es dejarse atravesar por ella.",
     "sectionitems":["PERTENENCIA", "VÍNCULO HUMANO", "EMOCIÓN COMPARTIDA"],
     "sectionbutton":["La cultura no se explica: se vive.", " En Iberá, la tradición se transmite en gestos, silencios y encuentros.", "Cada experiencia acompaña el pulso de la comunidad y la forma de estar juntos."]
-    
+    ,
+
+
+    "table": {
+      "title": "Niveles de experiencia",
+      "subtitle": "Comparación entre los distintos niveles del programa",
+      "columns": [
+        "Explorador",
+        "Inmersivo",
+        "Regeneración"
+      ],
+      "rows": [
+        {
+          "label": "Duración",
+          "values": ["3 días", "5 días", "7 días"]
+        },
+        {
+          "label": "Acompañamiento",
+          "values": ["Básico", "Personalizado", "Integral"]
+        },
+        {
+          "label": "Profundidad",
+          "values": ["Introductoria", "Experiencial", "Transformadora"]
+        },
+        {
+          "label": "Impacto territorial",
+          "values": ["Bajo", "Medio", "Alto"]
+        },
+        {
+          "label": "Perfil del viajero",
+          "values": ["Curioso", "Comprometido", "Buscador de sentido"]
+        }
+      ]
+    }
   },
   "AboutPage": {
     "title": "Acerca de",

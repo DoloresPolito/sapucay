@@ -1,0 +1,124 @@
+@use "../../styles/variables";
+@use "../../styles/typography";
+
+.section {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  
+  .background {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+  
+    img {
+      filter: brightness(0.75);
+    }
+  }
+  
+  .content {
+    position: relative;
+    z-index: 2;
+    width: 90%;
+    max-width: 1400px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+    background-color: red;
+  }
+  
+  .header {
+    text-align: center;
+  
+    h2 {
+      font-size: clamp(2rem, 4vw, 3rem);
+      font-weight: 300;
+      margin-bottom: 1vh;
+    }
+  
+    p {
+      font-size: 1rem;
+      opacity: 0.85;
+    }
+  }
+  
+  /* CONTENEDOR GLASS */
+  .tableWrapper {
+    backdrop-filter: blur(12px);
+    background: rgba(255, 255, 255, 0.06);
+    border-radius: 2rem;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    overflow: hidden;
+  }
+  
+  /* TABLA */
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+  
+    th,
+    td {
+      padding: 1.4rem 1.2rem;
+      text-align: center;
+      font-size: 0.95rem;
+    }
+  
+    thead th {
+      font-weight: 400;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    }
+  
+    tbody tr:not(:last-child) td {
+      border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    }
+  
+    th:not(:last-child),
+    td:not(:last-child) {
+      border-right: 1px solid rgba(255, 255, 255, 0.2);
+    }
+  }
+  
+  /* PRIMERA COLUMNA (LABELS) */
+  .rowLabel {
+    text-align: left;
+    font-weight: 400;
+    opacity: 0.9;
+    padding-left: 2rem;
+    white-space: nowrap;
+  }
+  
+  /* HEADERS DE COLUMNAS */
+  .table thead th {
+    font-size: 1rem;
+  
+    &:first-child {
+      background: transparent;
+    }
+  }
+  
+  /* RESPONSIVE */
+  @media (max-width: 900px) {
+    .content {
+      width: 95%;
+    }
+  
+    .table {
+      font-size: 0.85rem;
+  
+      th,
+      td {
+        padding: 1rem 0.8rem;
+      }
+    }
+  
+    .rowLabel {
+      white-space: normal;
+    }
+  }

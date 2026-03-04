@@ -140,61 +140,59 @@
   justify-content: center;
   height: 100vh;
   overflow: hidden;
+  
 }
 
 .content {
   position: relative;
   z-index: 10;
-
   color: white;
   width: 90%;
-  height: 100%;
+  height: auto;      // 👈 no 100%
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+
 
   .top {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
+   margin-bottom: 20vh;
 
     .titlecontainer {
       display: flex;
       flex-direction: column;
       margin: 0;
-      background-color: red;
     }
 
 
     .line{
       width: auto;
       height: 0.3vh;
+      margin-bottom: 3vh;
       background-color: white;
     }
   }
 
-  // .bottom {
-  //   display: flex;
-  //   justify-content: center;
-  //   align-items: center;
+  .bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    .container {
+      background-color: transparent;
+      border: 0.2vh solid white;
+      border-radius: 10vh;
+      padding: 2vh 10vh;
 
-  //   .container {
-  //     background-color: transparent;
-  //     border: 0.2vh solid white;
-  //     border-radius: 2vh;
-  //     padding: 2vh 4vh;
-
-  //     .sectionBottomText {
-  //       // font-family: $font-book;
-  //       font-size: 2vh;
-  //       font-weight: 300;
-  //       max-width: none;
-  //       white-space: nowrap; // si querés UNA sola línea sí o sí
-  //     }
-  //   }
-  // }
+      
+    }
+  }
 }
 
 .background {

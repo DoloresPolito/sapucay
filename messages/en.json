@@ -57,17 +57,43 @@
         ]
       }
     ],
-    
-      "sectiontext1": "True value is not about observing culture.",
-      "sectiontext2": "It is about allowing yourself to be shaped by it.",
-      "sectionitems": ["BELONGING", "HUMAN CONNECTION", "SHARED EMOTION"],
-      "sectionbutton": [
-        "Culture is not explained: it is lived.",
-        "In Iberá, tradition is passed on through gestures, silences, and encounters.",
-        "Each experience follows the rhythm of the community and the way of being together."
+
+    "sectiontext1": "True value is not about observing culture.",
+    "sectiontext2": "It is about allowing yourself to be shaped by it.",
+    "sectionitems": ["BELONGING", "HUMAN CONNECTION", "SHARED EMOTION"],
+    "sectionbutton": [
+      "Culture is not explained: it is lived.",
+      "In Iberá, tradition is passed on through gestures, silences, and encounters.",
+      "Each experience follows the rhythm of the community and the way of being together."
+    ],
+
+    "table": {
+      "title": "Niveles de experiencia",
+      "subtitle": "Comparación entre los distintos niveles del programa",
+      "columns": ["Explorador", "Inmersivo", "Regeneración"],
+      "rows": [
+        {
+          "label": "Duración",
+          "values": ["3 días", "5 días", "7 días"]
+        },
+        {
+          "label": "Acompañamiento",
+          "values": ["Básico", "Personalizado", "Integral"]
+        },
+        {
+          "label": "Profundidad",
+          "values": ["Introductoria", "Experiencial", "Transformadora"]
+        },
+        {
+          "label": "Impacto territorial",
+          "values": ["Bajo", "Medio", "Alto"]
+        },
+        {
+          "label": "Perfil del viajero",
+          "values": ["Curioso", "Comprometido", "Buscador de sentido"]
+        }
       ]
-    
-   
+    }
   },
 
   "bienestar": {
@@ -98,11 +124,7 @@
         "subtitle": "Immersive level",
         "text": "A deeper experience: mindful practices, nature understood from within, and personalized wellbeing.",
         "button": "See more",
-        "bullets": [
-          "1",
-          "2",
-          "3"
-        ]
+        "bullets": ["1", "2", "3"]
       },
       {
         "image": "/images/cultura/03.png",
@@ -110,11 +132,7 @@
         "subtitle": "Regeneration and purpose level",
         "text": "A transformative journey: emotional assessment, specialized guidance, and experiences with personal impact and lasting meaning.",
         "button": "See more",
-        "bullets": [
-          "1",
-          "2",
-          "3"
-        ]
+        "bullets": ["1", "2", "3"]
       }
     ],
     "sectiontext1": "True luxury is not doing more.",
@@ -128,64 +146,115 @@
       "Wellbeing is not an isolated activity.",
       "It is rhythm, environment, and presence.",
       "In Iberá, nature sets the pace, and each experience follows that pulse."
-    ]
-  
-  
+    ],
+
+    "table": {
+      "title": "Niveles de experiencia",
+      "subtitle": "Comparación entre los distintos niveles del programa",
+      "columns": ["Explorador", "Inmersivo", "Regeneración"],
+      "rows": [
+        {
+          "label": "Duración",
+          "values": ["3 días", "5 días", "7 días"]
+        },
+        {
+          "label": "Acompañamiento",
+          "values": ["Básico", "Personalizado", "Integral"]
+        },
+        {
+          "label": "Profundidad",
+          "values": ["Introductoria", "Experiencial", "Transformadora"]
+        },
+        {
+          "label": "Impacto territorial",
+          "values": ["Bajo", "Medio", "Alto"]
+        },
+        {
+          "label": "Perfil del viajero",
+          "values": ["Curioso", "Comprometido", "Buscador de sentido"]
+        }
+      ]
+    }
   },
   "naturaleza": {
     "herotitle": "Nature",
     "herosubtitle": "Connection with the territory and its biodiversity.",
     "herobutton": "LEARN MORE",
     "descriptiontitle": "Choose how to experience Iberá",
-    "descriptionsubtitle": "All Culture and Tradition programs share the same framework, but differ in their level of depth, guidance, and impact."
-  ,
-  "items": [
-    {
-      "image": "/images/cultura/01.png",
-      "title": "Sapucay Observer",
-      "subtitle": "Explorer level",
-      "text": "A deeper experience: conscious practices, an inward reading of nature, and personalized well-being.",
-      "button": "See more",
-      "bullets": [
-        "First approach to the territory",
-        "Guided cultural experiences",
-        "Respectful contact with local communities"
-      ]
-    },
-    {
-      "image": "/images/cultura/02.png",
-      "title": "Sapucay MICE",
-      "subtitle": "Immersive level",
-      "text": "Collaborative processes and experiences designed for groups and organizations.",
-      "button": "See more",
-      "bullets": [
-        "Tailor-made experience design",
-        "Collaboration with local stakeholders",
-        "Measurable territorial impact"
-      ]
-    },
-    {
-      "image": "/images/cultura/03.png",
-      "title": "Equestrian Journey",
-      "subtitle": "Regeneration and purpose level",
-      "text": "A transformative journey with guidance and purpose.",
-      "button": "See more",
-      "bullets": [
-        "Horseback journeys through Iberá",
-        "Deep reading of the landscape",
-        "Personal experience and lasting legacy"
+    "descriptionsubtitle": "All Culture and Tradition programs share the same framework, but differ in their level of depth, guidance, and impact.",
+    "items": [
+      {
+        "image": "/images/cultura/01.png",
+        "title": "Sapucay Observer",
+        "subtitle": "Explorer level",
+        "text": "A deeper experience: conscious practices, an inward reading of nature, and personalized well-being.",
+        "button": "See more",
+        "bullets": [
+          "First approach to the territory",
+          "Guided cultural experiences",
+          "Respectful contact with local communities"
+        ]
+      },
+      {
+        "image": "/images/cultura/02.png",
+        "title": "Sapucay MICE",
+        "subtitle": "Immersive level",
+        "text": "Collaborative processes and experiences designed for groups and organizations.",
+        "button": "See more",
+        "bullets": [
+          "Tailor-made experience design",
+          "Collaboration with local stakeholders",
+          "Measurable territorial impact"
+        ]
+      },
+      {
+        "image": "/images/cultura/03.png",
+        "title": "Equestrian Journey",
+        "subtitle": "Regeneration and purpose level",
+        "text": "A transformative journey with guidance and purpose.",
+        "button": "See more",
+        "bullets": [
+          "Horseback journeys through Iberá",
+          "Deep reading of the landscape",
+          "Personal experience and lasting legacy"
+        ]
+      }
+    ],
+    "sectiontext1": "True value is not about observing culture.",
+    "sectiontext2": "It is about allowing yourself to be shaped by it.",
+    "sectionitems": ["BELONGING", "HUMAN CONNECTION", "SHARED EMOTION"],
+    "sectionbutton": [
+      "Culture is not explained: it is lived.",
+      "In Iberá, tradition is passed on through gestures, silences, and encounters.",
+      "Each experience follows the rhythm of the community and the way of being together."
+    ],
+    "table": {
+      "title": "Niveles de experiencia",
+      "subtitle": "Comparación entre los distintos niveles del programa",
+      "columns": ["Explorador", "Inmersivo", "Regeneración"],
+      "rows": [
+        {
+          "label": "Duración",
+          "values": ["3 días", "5 días", "7 días"]
+        },
+        {
+          "label": "Acompañamiento",
+          "values": ["Básico", "Personalizado", "Integral"]
+        },
+        {
+          "label": "Profundidad",
+          "values": ["Introductoria", "Experiencial", "Transformadora"]
+        },
+        {
+          "label": "Impacto territorial",
+          "values": ["Bajo", "Medio", "Alto"]
+        },
+        {
+          "label": "Perfil del viajero",
+          "values": ["Curioso", "Comprometido", "Buscador de sentido"]
+        }
       ]
     }
-  ],
-  "sectiontext1": "True value is not about observing culture.",
-  "sectiontext2": "It is about allowing yourself to be shaped by it.",
-  "sectionitems": ["BELONGING", "HUMAN CONNECTION", "SHARED EMOTION"],
-  "sectionbutton": [
-    "Culture is not explained: it is lived.",
-    "In Iberá, tradition is passed on through gestures, silences, and encounters.",
-    "Each experience follows the rhythm of the community and the way of being together."
-  ]
-  
   },
 
   "AboutPage": {

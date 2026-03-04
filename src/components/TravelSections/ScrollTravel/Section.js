@@ -37,9 +37,9 @@ export default function Section({
           </div>
           <div>
             {sectionitems.map((item, index) => (
-              <div key={index} className={styles.item}>
+              <div key={index} className={styles.itemsection}>
                 <div>
-                  <p >{item}</p>
+                  <p className={styles.section1}>{item}</p>
                   <div className={styles.line}/>
 
                 </div>
@@ -48,17 +48,17 @@ export default function Section({
           </div>
         </div>
 
-        {/* <div className={styles.bottom}>
+        <div className={styles.bottom}>
           <div className={styles.container}>
             {sectionbutton.map((item, index) => (
-              <div key={index} className={styles.item}>
+              <div key={index} className={styles.itemsection}>
                 <div>
-                  <p className={styles.sectionBottomText}>{item}</p>
+                  <p className={styles.text}>{item}</p>
                 </div>
               </div>
             ))}
           </div>
-        </div> */}
+        </div>
       </div>
 
       <div className={styles.background}>
