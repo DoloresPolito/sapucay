@@ -1,10 +1,9 @@
 
 "use client"
 import { useEffect } from "react";
-
-import ScrollRevealSection from "@/src/components/TravelSections/ScrollTravel/ScrollRevealSection";
+import ScrollRevealSection from "@/src/components/ScrollTravel/ScrollRevealSection";
 import Lenis from "lenis";
-export default function SectionLayout({ images, texts }) {
+export default function TravelSection({ images, texts }) {
 
 
   useEffect(() => {

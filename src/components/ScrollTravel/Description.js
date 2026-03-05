@@ -1,5 +1,5 @@
 import styles from "./style.module.scss";
-import Button from "../../ui/Button";
+import Button from "../ui/Button";
 
 export default function Description({ title, subtitle, items }) {
 

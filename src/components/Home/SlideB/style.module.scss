@@ -1,0 +1,70 @@
+.section {
+    display: flex;
+    background-color: #36514b;
+    background-color: #234a74;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    color: white;
+    .container {
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      width: 50vw;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+  
+      @media only screen and (max-width: 750px) {
+        width: 90vw;
+      }
+  
+      h5 {
+        margin-bottom: 10vh;
+        font-family: "MoriLight";
+        font-size: 2.4vh;
+        line-height: 120%;
+        max-width: 80vh;
+        @media only screen and (max-width: 750px) {
+          font-size: 2vh;
+          max-width: 80vw;
+        }
+  
+        @media only screen and (max-width: 450px) {
+          font-size: 1.8vh;
+          max-width: 90vw;
+        }
+      }
+  
+      .imagecontainer {
+        height: 50vh;
+        width: auto;
+        display: flex;
+        justify-content: center;
+  
+        @media only screen and (max-width: 750px) {
+          width: 90vw;
+          height: auto;
+        }
+  
+        img {
+          height: 50vh;
+          width: auto;
+          margin: 2vh;
+  
+          @media only screen and (max-width: 750px) {
+            width: 40vw;
+            height: auto;
+          }
+        }
+      }
+  
+      p {
+        text-decoration: underline;
+        margin-top: 10vh;
+        @media only screen and (max-width: 750px) {
+          font-size: 1.5vh;
+        }
+      }
+    }
+  }

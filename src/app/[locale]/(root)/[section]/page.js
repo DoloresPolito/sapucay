@@ -1,7 +1,7 @@
 
 import { notFound } from "next/navigation";
 import { getTranslations } from "next-intl/server";
-import SectionLayout from "../../../../components/TravelSectionLayout";
+import SectionLayout from "../../../../section/TravelSection";
 
 const VALID_SECTIONS = ["cultura", "bienestar", "naturaleza"];
 

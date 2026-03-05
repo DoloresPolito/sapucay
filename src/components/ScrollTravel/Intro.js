@@ -3,8 +3,8 @@ import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
 import styles from "./style.module.scss";
-import Button from "../../ui/Button";
-import Link from "next/link";
+import Button from "../ui/Button";
+// import Link from "next/link";
 
 export default function Intro({ image, herotitle, herosubtitle, herobutton }) {
   const container = useRef(null);

@@ -3,7 +3,7 @@
 import Intro from "./Intro";
 import Description from "./Description";
 import Section from "./Section";
-import ComparativeTable from "../../ComparativeTable";
+import ComparativeTable from "../ComparativeTable";
 
 export default function ScrollRevealSection({
   introImage,
@@ -11,8 +11,6 @@ export default function ScrollRevealSection({
   texts,
 }) {
 
-
-  console.log("texts", texts)
   return (
     <>
       <Intro

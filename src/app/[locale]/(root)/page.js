@@ -1,6 +1,6 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import Section from "@/src/components/structure/Section";
-
+import HomeSection from "@/src/section/HomeSection";
 
 export default async function HomePage({ params }) {
   const { locale } = await params;
@@ -10,8 +10,7 @@ export default async function HomePage({ params }) {
 
   return (
     <Section>
-     
-
+      <HomeSection />
     </Section>
   );
 }
