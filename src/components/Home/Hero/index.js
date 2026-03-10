@@ -3,7 +3,7 @@ import styles from "./style.module.scss";
 import Image from "next/image";
 import image from "../../../../public/images/home/herohome.png";
 import Button from "@/src/components/ui/Button";
-export default function Hero() {
+export default function Hero({herotexts}) {
   return (
     <div className={styles.herosection}>
       <div className={styles.heroimage}>
@@ -17,11 +17,11 @@ export default function Hero() {
 
         <div className={styles.overlay}>
     
-            <h1 className={styles.traveltitle}>titulo</h1>
-            <p className={styles.travelsubtitle}>subtitulo</p>
+            <h2 className={styles.titleh2}>{herotexts.title}</h2>
+            <h3 className={styles.titleh3}>{herotexts.subtitle}</h3>
 
             <div>
-              <Button>conocé más</Button>
+              <Button>{herotexts.button}</Button>
             </div>
         
         </div>

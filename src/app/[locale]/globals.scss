@@ -8,7 +8,7 @@ body {
   padding: 0;
   width: 100%;
   overflow-x: hidden;
-  background-color: #1a1e22;
+  background: transparent;
   font-family: "FuturaBook", sans-serif;
 }
 
@@ -24,8 +24,4 @@ a {
   text-decoration: none;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-}
+

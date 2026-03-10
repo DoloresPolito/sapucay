@@ -41,7 +41,7 @@ export default async function SectionPage({ params }) {
   // usamos el param directamente como namespace
   const t = await getTranslations(section);
 
-console.log("t", t)
+
 
   const texts = {
     hero: {

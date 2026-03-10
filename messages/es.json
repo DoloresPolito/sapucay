@@ -1,8 +1,77 @@
 {
   "Home": {
-    "herotitle": "Donde los viajes se viven tan profundo, que al final solo queda gritarlo.",
-    "herosubtitle": "Disenamos experiencias autenticas que conectan territorios, cultura y hospitalidad",
-    "herobutton": "CONOCÉ MÁS"
+    "HeroHome":{
+      "title": "Donde los viajes se viven tan profundo, que al final solo queda gritarlo.",
+      "subtitle": "Disenamos experiencias autenticas que conectan territorios, cultura y hospitalidad",
+      "button": "CONOCÉ MÁS"
+  
+    },
+    
+    "LevelsHome": {
+      "title": "Cada propuesta propone un nivel distinto de involucramiento.",
+      "subtitle": "El territorio es el mismo, pero el viaje se transforma según cómo decidís habitarlo.",
+      "button": "Ver más",
+      "items": [
+        {
+          "image": "/images/home/explorador.png",
+          "title": "Explorador",
+          "text": "Un primer encuentro profundo con Iberá. Un viaje contemplativo para observar, sentir y despertar el asombro, acompañado por guías locales y experiencias de bajo impacto.",
+          "bullets": [
+            "Primer acercamiento al territorio",
+            "Experiencias culturales guiadas",
+            "Contacto respetuoso con las comunidades locales"
+          ]
+        },
+        {
+          "image": "/images/home/inmersivo.png",
+          "title": "Inmersivo",
+          "text": "Una experiencia más profunda para dialogar con el territorio, comprender sus ciclos, su historia y las voces que lo habitan.",
+          "bullets": [
+            "Diálogo con la cultura local",
+            "Experiencias de aprendizaje compartido",
+            "Comprensión de los ciclos del territorio"
+          ]
+        },
+        {
+          "image": "/images/home/regeneracion.png",
+          "title": "Regeneración y sentido",
+          "text": "Una experiencia transformadora donde el viaje genera un impacto real. El viajero contribuye activamente a la conservación y al fortalecimiento comunitario.",
+          "bullets": [
+            "Contribución activa a la conservación",
+            "Fortalecimiento de las comunidades",
+            "Legado positivo en el territorio"
+          ]
+        }
+      ]
+    },
+
+    "BirdHome": {
+      "title": "No hay un nivel correcto.",
+      "subtitle": "Hay un momento vital, una apertura y una forma de estar.",
+      "button": "Cada experiencia respeta tu ritmo y acompana el modo en que hoy elegís viajar.",
+      "title2": "Sapucay Travel es una agencia Argentina dedicada a crear experiencias con alma.",
+      "text2-1": "Con base en los Esteros del Ibera y presenciaen Buenos Aires, disenamos viajes donde la naturaleza, la cultura y las emociones se encuentran en un mismo lugar.",
+      "text2-2": "El verdadero lujo esta en lo autentico, el vinculo humano, la tierra viva y el momento compartido.",
+      "button2": "Conoce nuestra filosofía",
+      "title3": "Impacto y compromiso",
+      "subtitle3": "Turismo que deja huella positiva",
+      "text3": "Viajamos con una visión regenerativa: cada experiencia en Iberá busca fortalecer la naturaleza, la comunidad y el futuro del territorio. Medimos nuestro impacto y trabajamos para que cada visita sume.",
+      "button3": "Conocé nuestro impacto"
+    }
+  },
+  "footer": {
+    "subtitle": "Donde los viajes se viven tan profundo que al final solo queda gritarlos",
+    "title1": "Navegación",
+    "col1item1": "Inicio",
+    "col1item2": "El Destino",
+    "col1item3": "Impacto y Compromiso",
+    "col1item4": "Naturaleza",
+    "col1item5": "Bienestar",
+    "title2": "Contacto",
+    "col2item1": "Col. Carlos Pellegrini, Corrientes, Argentina",
+    "col2item2": "info@sapucay travel",
+    "col2item3": "WhatsApp directo",
+    "right": "Todos los derechos reservados  2026 Sapucay Travell"
   },
 
   "nav": {
@@ -58,19 +127,18 @@
       }
     ],
 
-    "sectiontext1":"El verdadero valor no es mirar la cultura.",
-    "sectiontext2":"Es dejarse atravesar por ella.",
-    "sectionitems":["PERTENENCIA", "VÍNCULO HUMANO", "EMOCIÓN COMPARTIDA"],
-    "sectionbutton":["La cultura no se explica: se vive.", " En Iberá, la tradición se transmite en gestos, silencios y encuentros.", "Cada experiencia acompaña el pulso de la comunidad y la forma de estar juntos."]
-    ,
+    "sectiontext1": "El verdadero valor no es mirar la cultura.",
+    "sectiontext2": "Es dejarse atravesar por ella.",
+    "sectionitems": ["PERTENENCIA", "VÍNCULO HUMANO", "EMOCIÓN COMPARTIDA"],
+    "sectionbutton": [
+      "La cultura no se explica: se vive.",
+      " En Iberá, la tradición se transmite en gestos, silencios y encuentros.",
+      "Cada experiencia acompaña el pulso de la comunidad y la forma de estar juntos."
+    ],
     "table": {
       "title": "Niveles de experiencia",
       "subtitle": "Comparación entre los distintos niveles del programa",
-      "columns": [
-        "Explorador",
-        "Inmersivo",
-        "Regeneración"
-      ],
+      "columns": ["Explorador", "Inmersivo", "Regeneración"],
       "rows": [
         {
           "label": "Duración",
@@ -123,11 +191,7 @@
         "subtitle": "Nivel inmersivo",
         "text": "Una vivencia más profunda: prácticas conscientes, naturaleza leída desde adentro y bienestar personalizado.",
         "button": "Ver más",
-        "bullets": [
-          "1",
-          "2",
-          "3"
-        ]
+        "bullets": ["1", "2", "3"]
       },
       {
         "image": "/images/bienestar/03.png",
@@ -135,26 +199,25 @@
         "subtitle": "Nivel regeneración y sentido",
         "text": "Un viaje transformador: medición emocional, acompañamiento especializado y experiencias con impacto personal y legado.",
         "button": "Ver más",
-        "bullets": [
-          "1",
-          "2",
-          "3"
-        ]
+        "bullets": ["1", "2", "3"]
       }
     ],
-    "sectiontext1":"El verdadero lujo no es hacer más.",
-    "sectiontext2":"Es volver al ritmo natural.",
-    "sectionitems":["DESCANSO PROFUNDO", "REGULACIÓN EMOCIONAL", "CLARIDAD Y PRESENCIA"],
-    "sectionbutton":["El bienestar no es una actividad aislada. ", " Es ritmo, entorno y presencia.", "En Iberá, la naturaleza marca el tiempo, y cada experiencia acompaña ese pulso."]
-    ,
+    "sectiontext1": "El verdadero lujo no es hacer más.",
+    "sectiontext2": "Es volver al ritmo natural.",
+    "sectionitems": [
+      "DESCANSO PROFUNDO",
+      "REGULACIÓN EMOCIONAL",
+      "CLARIDAD Y PRESENCIA"
+    ],
+    "sectionbutton": [
+      "El bienestar no es una actividad aislada. ",
+      " Es ritmo, entorno y presencia.",
+      "En Iberá, la naturaleza marca el tiempo, y cada experiencia acompaña ese pulso."
+    ],
     "table": {
       "title": "Niveles de experiencia",
       "subtitle": "Comparación entre los distintos niveles del programa",
-      "columns": [
-        "Explorador",
-        "Inmersivo",
-        "Regeneración"
-      ],
+      "columns": ["Explorador", "Inmersivo", "Regeneración"],
       "rows": [
         {
           "label": "Duración",
@@ -223,21 +286,18 @@
         ]
       }
     ],
-    "sectiontext1":"El verdadero valor no es mirar la cultura.",
-    "sectiontext2":"Es dejarse atravesar por ella.",
-    "sectionitems":["PERTENENCIA", "VÍNCULO HUMANO", "EMOCIÓN COMPARTIDA"],
-    "sectionbutton":["La cultura no se explica: se vive.", " En Iberá, la tradición se transmite en gestos, silencios y encuentros.", "Cada experiencia acompaña el pulso de la comunidad y la forma de estar juntos."]
-    ,
-
-
+    "sectiontext1": "El verdadero valor no es mirar la cultura.",
+    "sectiontext2": "Es dejarse atravesar por ella.",
+    "sectionitems": ["PERTENENCIA", "VÍNCULO HUMANO", "EMOCIÓN COMPARTIDA"],
+    "sectionbutton": [
+      "La cultura no se explica: se vive.",
+      " En Iberá, la tradición se transmite en gestos, silencios y encuentros.",
+      "Cada experiencia acompaña el pulso de la comunidad y la forma de estar juntos."
+    ],
     "table": {
       "title": "Niveles de experiencia",
       "subtitle": "Comparación entre los distintos niveles del programa",
-      "columns": [
-        "Explorador",
-        "Inmersivo",
-        "Regeneración"
-      ],
+      "columns": ["Explorador", "Inmersivo", "Regeneración"],
       "rows": [
         {
           "label": "Duración",

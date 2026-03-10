@@ -1,10 +1,10 @@
-"use client"
+"use client";
 import { useState, useEffect, useRef } from "react";
 import { useScroll, useTransform, motion } from "framer-motion";
 import Image from "next/image";
 import styles from "./style.module.scss";
 // import AnimatedDiv from "@/components/AnimatedDiv";
-import image1 from "../../../../public/images/home/home1.png";
+import image from "../../../../public/images/home/home1.png";
 
 export default function SlideA() {
   const container = useRef();
@@ -32,17 +32,19 @@ export default function SlideA() {
   return (
     <div ref={container} className={styles.section}>
       <motion.div style={{ y }} className={styles.motionDiv}>
-        <div className={styles.container}>
-          {/* <AnimatedDiv> */}
-            <h3>
-           teeeeeexto
-            </h3>
-          {/* </AnimatedDiv> */}
-          {/* <AnimatedDiv delay={0.3}> */}
-            <div className={styles.imagecontainer}>
-              <Image src={image1} alt="about" />
-            </div>
-          {/* </AnimatedDiv> */}
+        <div className={styles.heroimage}>
+          <Image
+            src={image}
+            fill
+            alt=""
+            priority
+            style={{ objectFit: "cover" }}
+          />
+
+          <div className={styles.overlay}>
+            <h1 className={styles.traveltitle}>titulo</h1>
+            <p className={styles.travelsubtitle}>subtitulo</p>
+          </div>
         </div>
       </motion.div>
     </div>

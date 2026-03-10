@@ -1,9 +1,83 @@
 {
   "Home": {
-    "herotitle": "Where journeys are lived so deeply that in the end all that’s left is to shout it out.",
-    "herosubtitle": "We design authentic experiences that connect territories, culture, and hospitality.",
-    "herobutton": "DISCOVER MORE"
+
+    "HeroHome":{
+      "title": "Where journeys are lived so deeply that in the end all that’s left is to shout it out.",
+      "subtitle": "We design authentic experiences that connect territories, culture, and hospitality.",
+      "button": "DISCOVER MORE"
+  
+    },
+
+    "LevelsHome": {
+      "title": "Each proposal offers a different level of involvement.",
+      "subtitle": "The territory is the same, but the journey transforms depending on how you choose to experience it.",
+      "button": "Learn more",
+      "items": [
+        {
+          "image": "/images/home/explorador.png",
+          "title": "Explorer",
+          "text": "A first deep encounter with Iberá. A contemplative journey to observe, feel, and awaken a sense of wonder, accompanied by local guides and low-impact experiences.",
+          "bullets": [
+            "First approach to the territory",
+            "Guided cultural experiences",
+            "Respectful contact with local communities"
+          ]
+        },
+        {
+          "image": "/images/home/inmersivo.png",
+          "title": "Immersive",
+          "text": "A deeper experience to engage with the territory, understand its cycles, its history, and the voices that inhabit it.",
+          "bullets": [
+            "Dialogue with local culture",
+            "Shared learning experiences",
+            "Understanding the cycles of the territory"
+          ]
+        },
+        {
+          "image": "/images/home/regeneracion.png",
+          "title": "Regeneration and Meaning",
+          "text": "A transformative experience where travel generates real impact. The traveler actively contributes to conservation and community strengthening.",
+          "bullets": [
+            "Active contribution to conservation",
+            "Community strengthening",
+            "Positive legacy in the territory"
+          ]
+        }
+      ]
+    },
+
+
+
+    "BirdHome": {
+      "title": "There is no right level.",
+      "subtitle": "There is a moment in life, an openness, and a way of being.",
+      "button": "Each experience respects your pace and accompanies the way you choose to travel today.",
+      "title2": "Sapucay Travel is an Argentine agency dedicated to creating experiences with soul.",
+      "text2-1": "Based in the Iberá Wetlands and with a presence in Buenos Aires, we design journeys where nature, culture, and emotions come together in one place.",
+      "text2-2": "True luxury lies in authenticity, human connection, living land, and shared moments.",
+      "button2": "Discover our philosophy",
+      "title3": "Impact and commitment",
+      "subtitle3": "Tourism that leaves a positive footprint",
+      "text3": "We travel with a regenerative vision: each experience in Iberá aims to strengthen nature, the local community, and the future of the territory. We measure our impact and work to ensure every visit adds value.",
+      "button3": "Discover our impact"
+    }
   },
+
+  "footer": {
+    "subtitle": "Where journeys are lived so deeply that in the end the only thing left is to shout them out",
+    "title1": "Navigation",
+    "col1item1": "Home",
+    "col1item2": "The Destination",
+    "col1item3": "Impact & Commitment",
+    "col1item4": "Nature",
+    "col1item5": "Wellbeing",
+    "title2": "Contact",
+    "col2item1": "Col. Carlos Pellegrini, Corrientes, Argentina",
+    "col2item2": "info@sapucaytravel",
+    "col2item3": "Direct WhatsApp",
+    "right": "All rights reserved 2026 Sapucay Travel"
+  },
+
   "nav": {
     "home": "Home",
     "cultura": "Culture & Tradition",
@@ -278,4 +352,6 @@
 
     "rights": "All rights reserved 2026 Sapucay Travel"
   }
+
+ 
 }

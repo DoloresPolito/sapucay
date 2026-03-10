@@ -1,0 +1,151 @@
+.footer {
+    display: flex;
+    width: 100vw;
+    height: 50vh;
+    z-index: 100;
+ 
+
+  
+    justify-content: center;
+    align-items: center;
+  
+    @media only screen and (max-width: 750px) {
+      flex-direction: column;
+      height: auto;
+      align-items: flex-start;
+    }
+  
+    .leftcontainer {
+      display: flex;
+      flex-direction: column;
+      width: 35%;
+      height: 100%;
+      border-right: 1px solid black;
+      padding: 4vh 0vh;
+  
+  
+      @media only screen and (max-width: 750px) {
+        border-right: none;
+        border-bottom: 1px solid black;
+        width: 100%;
+        padding: 2vh 0;
+      }
+    }
+  
+    .rightcontainer {
+      display: flex;
+      flex-direction: column;
+      width: 65%;
+      height: 100%;
+      padding: 4vh 0vh;
+  
+  
+      @media only screen and (max-width: 750px) {
+        width: 100%;
+        padding: 0;
+      }
+    }
+  
+    .topleft {
+      display: flex;
+      flex-direction: column;
+      height: 90%;
+      width: 100%;
+      padding: 4vh 3vh;
+  
+  
+      .navcontainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+     
+  
+        @media only screen and (max-width: 750px) {
+          flex-direction: column;
+        }
+  
+        .col {
+          display: flex;
+          flex-direction: column;
+          padding-right: 2vh;
+      
+          .navitem {
+            position: relative;
+            display: inline-block;
+            margin-bottom: 0.5vh;
+            width: auto !important;
+  
+            .underline {
+              position: absolute;
+              left: 0;
+              bottom: 0;
+              height: 1px;
+              background-color: white;
+              width: 0;
+              transition: width 0.5s ease-in-out;
+  
+            }
+  
+            &:hover .underline {
+              width: 100%;
+            }
+          }
+  
+          p {
+            font-size: 1.7vh;
+            padding-bottom: 0.5vh;
+          }
+        }
+      }
+    }
+  
+    .topright {
+      display: flex;
+      justify-content: space-between;
+      height: 90%;
+      width: 100%;
+      padding: 4vh 5vh;
+   
+      @media only screen and (max-width: 750px) {
+        flex-direction: column;
+        padding: 4vh 3vh;
+      }
+  
+      .item {
+        display: flex;
+        flex-direction: column;
+        padding: 0 2vh;
+  
+        @media only screen and (max-width: 750px) {
+          padding: 0;
+          margin-bottom: 3vh;
+   
+        }
+      }
+    }
+  
+    .bottom {
+      display: flex;
+      height: 10%;
+      width: 100%;
+      padding: 4vh 3vh;
+  
+  
+      @media only screen and (max-width: 750px) {
+        display: none;
+      }
+    }
+  
+
+    .responsiveBottom {
+      display: none;
+      padding: 4vh 5vh;
+      color: white;
+      font-size: 2vh;
+  
+      @media only screen and (max-width: 750px) {
+        display: flex;
+        padding: 4vh 3vh;
+      }
+    }
+  }
