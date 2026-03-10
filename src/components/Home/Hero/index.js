@@ -25,6 +25,15 @@ export default function Hero({herotexts}) {
             </div>
         
         </div>
+
+          {/* GRID INFERIOR */}
+          <div className={styles.bottomGrid}>
+          <div className={styles.gridItem}><p className={styles.text}>Naturaleza Viva</p></div>
+          <div className={styles.gridItem}><p className={styles.text}>Naturaleza Salvaje</p></div>
+          <div className={styles.gridItem}><p className={styles.text}>Cultura y Tradición</p></div>
+          <div className={styles.gridItem}><p className={styles.text}>Bienestar</p></div>
+        </div>
+
       </div>
     </div>
 

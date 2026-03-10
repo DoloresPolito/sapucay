@@ -30,8 +30,8 @@ export default function HomeSection({texts}) {
     <Section>
       <Hero herotexts={texts.hero}/>
       <SlideA />
-      <SlideB />
-      <Levels levelstexts={texts.levels}/>
+      <SlideB levelstexts={texts.levels}/>
+      {/* <Levels levelstexts={texts.levels}/> */}
       <Bird birdtexts={texts.bird}/>
     </Section>
   );
