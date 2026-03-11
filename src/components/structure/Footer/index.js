@@ -29,61 +29,45 @@ export default function Footer() {
   };
 
   return (
-    <div className={styles.footer}>
-      <div className={styles.leftcontainer}>
-        <div className={styles.topleft}>
-          <h4>{t("subtitle")}</h4>
-
-         
-        </div>
-        <div className={styles.bottom}>
-          <p>{t("right")}</p>
-        </div>
-      </div>
-
-      <div className={styles.rightcontainer}>
-        <div className={styles.topright}>
-       
-
-          
-            <div className={styles.item}>
-              <h4>
-                {t("title1")}
+    <footer className={styles.footer}>
+      <div className={styles.container}>
         
-              </h4>
-              <div className={styles.navcontainer}>
-            <div className={styles.col}>
-              {links.map((link, i) => (
-                <Link key={i} href={link.href}>
-                  <motion.div className={styles.navitem} whileHover="hover">
-                    <p>{link.title}</p>
-
-                    <motion.div
-                      className={styles.underline}
-                      variants={underlineVariants}
-                    />
-                  </motion.div>
-                </Link>
-              ))}
-            </div>
-          </div>
-            </div>
-    
-          
-            <div className={styles.item}>
-              <h4>
-              {t("title2")}
-              </h4>
-              <p>Junin 1040, CABA, Recoleta</p>
-              <p>(+54) (9 3446) 57-8126</p>
-            </div>
-      
+        <div className={styles.col}>
+          <h2 className={styles.logo}>SPUCAY EXPERIENCE</h2>
+          <p className={styles.titleh3}>{t("subtitle")}</p>
         </div>
-        <div className={styles.bottom}>{/* <p>Back to top</p> */}</div>
+  
+        <div className={styles.col}>
+          <h4 className={styles.titlefooter}>{t("title1")}</h4>
+  
+          <div className={styles.links}>
+            {links.map((link, i) => (
+              <Link key={i} href={link.href}>
+                <motion.div className={styles.navitem} whileHover="hover">
+                  <p className={styles.textfooter}>{link.title}</p>
+                  <motion.div
+                    className={styles.underline}
+                    variants={underlineVariants}
+                  />
+                </motion.div>
+              </Link>
+            ))}
+          </div>
+        </div>
+  
+        <div className={styles.col}>
+          <h4  className={styles.titlefooter}>{t("title2")}</h4>
+  
+          <p className={styles.textfooter}>Col. Carlos Pellegrini, Corrientes, Argentina</p>
+          <p className={styles.textfooter}>info@sapucay.travel</p>
+          <p className={styles.textfooter}>WhatsApp directo</p>
+        </div>
+  
       </div>
-      <div className={styles.responsiveBottom}>
-        <p>{t("right")}</p>
+  
+      <div className={styles.bottom}>
+        <p className={styles.textfooter}>{t("right")}</p>
       </div>
-    </div>
+    </footer>
   );
 }

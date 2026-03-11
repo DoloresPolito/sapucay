@@ -5,8 +5,36 @@ import Image from "next/image";
 import styles from "./style.module.scss";
 // import AnimatedDiv from "@/components/AnimatedDiv";
 import image from "../../../../public/images/home/home1.png";
-
+import Body from "./Body";
+import Content from "./Content";
 export default function SlideA() {
+  const items = [
+    {
+      title: "Exploration",
+      description: "Discover the territory",
+      text: "Travel through landscapes that are part of an ecological regeneration process.",
+    },
+    {
+      title: "Culture",
+      description: "Local traditions",
+      text: "Experience the identity of Iberá through its people and traditions.",
+    },
+    {
+      title: "Nature",
+      description: "Biodiversity",
+      text: "Observe wildlife and ecosystems restored through conservation.",
+    },
+    {
+      title: "Impact",
+      description: "Positive footprint",
+      text: "Every visit contributes to the regeneration of the territory.",
+    },
+  ];
+
+  const [selectedLink, setSelectedLink] = useState({
+    isActive: false,
+    index: 0,
+  });
   const container = useRef();
   const [isMobile, setIsMobile] = useState(false);
 
@@ -42,8 +70,31 @@ export default function SlideA() {
           />
 
           <div className={styles.overlay}>
-            <h1 className={styles.traveltitle}>titulo</h1>
-            <p className={styles.travelsubtitle}>subtitulo</p>
+            <div className={styles.container}>
+              <div className={styles.header}>
+                <h2 className={styles.titleh2}>
+                  Un mismo destino, distintas formas de vivirlo.
+                </h2>
+
+                <p className={styles.text}>
+                  Te ofrecemos distintas propuestas para que encuentres tu
+                  manera de explorar.
+                </p>
+              </div>
+
+              <div className={styles.columns}>
+                <Body
+                  items={items}
+                  selectedLink={selectedLink}
+                  setSelectedLink={setSelectedLink}
+                />
+
+                <Content
+                  item={items[selectedLink.index]}
+                  isActive={selectedLink.isActive}
+                />
+              </div>
+            </div>
           </div>
         </div>
       </motion.div>
