@@ -12,8 +12,11 @@ export default function Content({ item, isActive }) {
     >
 
       <h2>{item.title}</h2>
-      <h3>{item.description}</h3>
-      <p>{item.text}</p>
+      <h3>{item.subtitle}</h3>
+
+      <p>{item.level1}</p>
+      <p>{item.level2}</p>
+      <p>{item.level3}</p>
 
     </motion.div>
   );

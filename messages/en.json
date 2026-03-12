@@ -1,11 +1,50 @@
 {
   "Home": {
-
-    "HeroHome":{
+    "HeroHome": {
       "title": "Where journeys are lived so deeply that in the end all that’s left is to shout it out.",
       "subtitle": "We design authentic experiences that connect territories, culture, and hospitality.",
-      "button": "DISCOVER MORE"
-  
+      "button": "DISCOVER MORE",
+      "options": [
+        { "title": "Living Nature" },
+        { "title": "Wild Territories" },
+        { "title": "Culture & Tradition" },
+        { "title": "Wellness" }
+      ]
+    },
+
+    "TypesHome": {
+      "title": "One destination, different ways to experience it.",
+      "subtitle": "We offer different journeys so you can find your own way to explore.",
+      "types": [
+        {
+          "title": "Living Nature",
+          "subtitle": "Evolution Leadership Project",
+          "level1": "Living Nature",
+          "level2": "Immersive Living Nature",
+          "level3": "Living Nature Signature"
+        },
+        {
+          "title": "Wild Territories",
+          "subtitle": "Evolution Leadership Project",
+          "level1": "Wild Nature",
+          "level2": "Immersive Wild Nature",
+          "level3": "Wild Nature Signature"
+        },
+        {
+          "title": "Culture & Tradition",
+          "subtitle": "Evolution Leadership Project",
+          "level1": "Sapucay Observer",
+          "level2": "Sapucay MICE",
+          "level3": "Equestrian Journey"
+        },
+        {
+          "title": "Wellness",
+          "subtitle": "Evolution Leadership Project",
+          "level1": "Detox",
+          "level2": "Natural Wellness",
+          "level3": "Wellness Signature"
+        }
+      ]
     },
 
     "LevelsHome": {
@@ -45,8 +84,6 @@
         }
       ]
     },
-
-
 
     "BirdHome": {
       "title": "There is no right level.",
@@ -358,6 +395,4 @@
 
     "rights": "All rights reserved 2026 Sapucay Travel"
   }
-
- 
 }

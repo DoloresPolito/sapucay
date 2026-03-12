@@ -7,34 +7,38 @@ import styles from "./style.module.scss";
 import image from "../../../../public/images/home/home1.png";
 import Body from "./Body";
 import Content from "./Content";
-export default function SlideA() {
-  const items = [
-    {
-      title: "Exploration",
-      description: "Discover the territory",
-      text: "Travel through landscapes that are part of an ecological regeneration process.",
-    },
-    {
-      title: "Culture",
-      description: "Local traditions",
-      text: "Experience the identity of Iberá through its people and traditions.",
-    },
-    {
-      title: "Nature",
-      description: "Biodiversity",
-      text: "Observe wildlife and ecosystems restored through conservation.",
-    },
-    {
-      title: "Impact",
-      description: "Positive footprint",
-      text: "Every visit contributes to the regeneration of the territory.",
-    },
-  ];
+export default function SlideA({ typestexts }) {
+  // const items = [
+  //   {
+  //     title: "Exploration",
+  //     description: "Discover the territory",
+  //     text: "Travel through landscapes that are part of an ecological regeneration process.",
+  //   },
+  //   {
+  //     title: "Culture",
+  //     description: "Local traditions",
+  //     text: "Experience the identity of Iberá through its people and traditions.",
+  //   },
+  //   {
+  //     title: "Nature",
+  //     description: "Biodiversity",
+  //     text: "Observe wildlife and ecosystems restored through conservation.",
+  //   },
+  //   {
+  //     title: "Impact",
+  //     description: "Positive footprint",
+  //     text: "Every visit contributes to the regeneration of the territory.",
+  //   },
+  // ];
 
+  // const items = typestexts.types;
+
+  const items = typestexts?.types ?? [];
   const [selectedLink, setSelectedLink] = useState({
     isActive: false,
     index: 0,
   });
+
   const container = useRef();
   const [isMobile, setIsMobile] = useState(false);
 
@@ -72,14 +76,9 @@ export default function SlideA() {
           <div className={styles.overlay}>
             <div className={styles.container}>
               <div className={styles.header}>
-                <h2 className={styles.titleh2}>
-                  Un mismo destino, distintas formas de vivirlo.
-                </h2>
+                <h2 className={styles.titleh2}>{typestexts.title}</h2>
 
-                <p className={styles.text}>
-                  Te ofrecemos distintas propuestas para que encuentres tu
-                  manera de explorar.
-                </p>
+                <p className={styles.text}>{typestexts.subtitle}</p>
               </div>
 
               <div className={styles.columns}>

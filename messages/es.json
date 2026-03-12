@@ -1,12 +1,55 @@
 {
   "Home": {
-    "HeroHome":{
+    "HeroHome": {
       "title": "Donde los viajes se viven tan profundo, que al final solo queda gritarlo.",
       "subtitle": "Disenamos experiencias autenticas que conectan territorios, cultura y hospitalidad",
-      "button": "CONOCÉ MÁS"
-  
+      "button": "CONOCÉ MÁS",
+ 
+
+      "options": [
+        { "title": "Naturaleza Viva" },
+        { "title": "Territorios Salvajes" },
+        { "title": "Cultura y Tradición" },
+        { "title": "Bienestar" }
+      ]
     },
-    
+
+    "TypesHome": {
+      "title": "Un mismo destino, distintas formas de vivirlo.",
+
+      "subtitle": "Te ofrecemos distintas propuestas para que encuentres tu manera de explorar.",
+      "types": [
+        {
+          "title": "Naturaleza Viva",
+          "subtitle": "Proyecto Liderazo de Evolución",
+          "level1": "Naturaleza Viva",
+          "level2": "Naturaleza Viva Inmersivo",
+          "level3": "Naturaleza Viva Insignia"
+        },
+        {
+          "title": "Territorios Salvajes",
+          "subtitle": "Proyecto Liderazo de Evolución",
+          "level1": "Naturaleza Salvaje",
+          "level2": "Naturaleza Salvaje Inmersivo",
+          "level3": "Naturaleza Salvaje Insignia"
+        },
+        {
+          "title": "Cultura y Tradición",
+          "subtitle": "Proyecto Liderazo de Evolución",
+          "level1": "Sapucay Observador",
+          "level2": "Sapucay MICE",
+          "level3": "Travesía Ecuestre"
+        },
+        {
+          "title": "Bienestar",
+          "subtitle": "Proyecto Liderazo de Evolución",
+          "level1": "Detox",
+          "level2": "Bienestar Natural",
+          "level3": "Bienestar Insignia"
+        }
+      ]
+    },
+
     "LevelsHome": {
       "title": "Cada propuesta propone un nivel distinto de involucramiento.",
       "subtitle": "El territorio es el mismo, pero el viaje se transforma según cómo decidís habitarlo.",
@@ -59,14 +102,12 @@
       "button3": "Conocé nuestro impacto"
     },
 
-    "ImpactHome":{
+    "ImpactHome": {
       "impact1": "Conservación activa del ecosistema",
       "impact2": "Fortalecimiento de la comunidad local",
       "impact3": "Experiencias que regeneran el territorio",
       "impact4": "Impacto social y ambiental medible"
     }
-
-
   },
   "footer": {
     "subtitle": "Donde los viajes se viven tan profundo que al final solo queda gritarlos",

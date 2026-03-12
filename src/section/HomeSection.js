@@ -29,7 +29,7 @@ export default function HomeSection({texts}) {
   return (
     <Section>
       <Hero herotexts={texts.hero}/>
-      <SlideA />
+      <SlideA typestexts={texts.types}/>
       <SlideB levelstexts={texts.levels}/>
 
       <Bird birdtexts={texts.bird}/>
