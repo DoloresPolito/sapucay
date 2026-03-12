@@ -1,7 +1,8 @@
 import styles from "./style.module.scss";
-import Image from "next/image";
-import image from "../../../../public/images/home/plants.png";
+// import Image from "next/image";
+// import image from "../../../../public/images/home/plants.png";
 import Button from "../../ui/Button";
+import AnimatedDiv from "../../ui/AnimatedDiv";
 
 export default function Levels({ levelstexts }) {
   return (
@@ -17,9 +18,13 @@ export default function Levels({ levelstexts }) {
           /> */}
 
           <div className={styles.overlay}>
-            <h2 className={styles.titleh2}>{levelstexts.title}</h2>
+            <AnimatedDiv>
+              <h2 className={styles.titleh2}>{levelstexts.title}</h2>
+            </AnimatedDiv>
 
-            <h3 className={styles.titleh3}>{levelstexts.subtitle}</h3>
+            <AnimatedDiv delay={0.5}>
+              <h3 className={styles.titleh3}>{levelstexts.subtitle}</h3>
+            </AnimatedDiv>
           </div>
         </div>
       </div>

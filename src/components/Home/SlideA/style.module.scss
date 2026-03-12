@@ -25,7 +25,6 @@
     overflow: hidden;
     display: flex;
     flex-direction: column;
-
   }
 
   .overlay {
@@ -39,11 +38,20 @@
     color: white;
     pointer-events: auto;
     margin-top: -20vh;
+
+    @media only screen and (max-width: 850px) {
+      text-align: center;
+      margin-top: 0vh;
+    }
   }
 
   .container {
     width: 80%;
     max-width: 1200px;
+
+    @media only screen and (max-width: 850px) {
+      width: 100%;
+    }
   }
 
   .header {
@@ -55,12 +63,19 @@
     grid-template-columns: 1fr 1fr;
     gap: 6vw;
     align-items: center;
+
+    @media only screen and (max-width: 850px) {
+      display: flex;
+      flex-direction: column;
+    }
   }
 
   .body {
     display: flex;
     flex-direction: column;
     gap: 2vh;
+    @media only screen and (max-width: 850px) {
+    }
 
     p {
       font-size: 2.2vw;
@@ -84,7 +99,10 @@
     backdrop-filter: blur(5px);
 
     color: white;
-    max-width: 420px;
+
+    @media only screen and (max-width: 850px) {
+      width: 80vw;
+    }
 
     h2 {
       font-size: 2.5vw;
@@ -103,65 +121,5 @@
     }
   }
 
-  //   .overlay {
-  //     position: relative;
-  //     bottom: 10vh;
-  //     height: 100%;
-  //     width: 95%;
-  //     margin: 0 auto;
-  //     display: flex;
-  //     flex-direction: column;
-  //     align-items: center;
-  //     justify-content: center;
-  //     pointer-events: none; // opcional
-  //     color: white;
-
-  //     pointer-events: auto;
-  //     background-color: red;
-
-  //     .columns {
-  //       display: grid;
-  //       grid-template-columns: 1fr 1fr;
-  //       width: 80%;
-  //       margin: auto;
-  //       gap: 6vw;
-  //       background-color: blue;
-  //     }
-
-  //     .body {
-  //       display: flex;
-  //       flex-direction: column;
-
-  //       p {
-  //         font-size: 4vw;
-  //         margin: 0;
-  //         cursor: pointer;
-  //         overflow: hidden;
-  //         display: flex;
-  //       }
-
-  //       span {
-  //         display: inline-block;
-  //       }
-  //     }
-
-  //     .content {
-  //       color: white;
-
-  //       h2 {
-  //         font-size: 3vw;
-  //         margin-bottom: 1vh;
-  //       }
-
-  //       h3 {
-  //         font-size: 1.5vw;
-  //         margin-bottom: 2vh;
-  //       }
-
-  //       p {
-  //         font-size: 1vw;
-  //         max-width: 420px;
-  //       }
-  //     }
-  //   }
+  
 }

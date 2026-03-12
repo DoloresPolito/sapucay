@@ -6,8 +6,8 @@ import Button from "@/src/components/ui/Button";
 import Link from "next/link";
 import { useLocale } from "next-intl";
 
-export default function Hero({ herotexts }) {
 
+export default function Hero({ herotexts }) {
   const locale = useLocale();
   const links = [
     "/naturaleza-viva",
@@ -37,15 +37,17 @@ export default function Hero({ herotexts }) {
         </div>
 
         <div className={styles.bottomGrid}>
-          <div className={styles.bottomGrid}>
+    
             {herotexts.options.map((type, i) => (
-  
-
-<Link key={i} href={`/${locale}/${links[i]}`} className={styles.gridItem}>
-<p className={styles.text}>{type.title}</p>
-</Link>
+              <Link
+                key={i}
+                href={`/${locale}/${links[i]}`}
+                className={styles.gridItem}
+              >
+                <p className={styles.text}>{type.title}</p>
+              </Link>
             ))}
-          </div>
+ 
         </div>
       </div>
     </div>

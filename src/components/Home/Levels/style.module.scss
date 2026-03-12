@@ -8,7 +8,7 @@
   justify-content: center;
   color: white;
   flex-direction: column;
-
+  min-height: 120vh;
 
   h3{
     margin-bottom: 3vh;
@@ -61,6 +61,11 @@
     width: 100%;
     height: 100%;
     overflow: hidden;
+
+    @media only screen and (max-width: 850px) {
+      flex-direction: column;
+
+    }
   }
 
   .item {
@@ -69,6 +74,11 @@
     background-size: cover;
     background-position: center;
     overflow: hidden;
+
+    @media only screen and (max-width: 850px) {
+      width: 100%;
+      height: 50vh;
+    }
 
     &:hover .overlayHover {
       opacity: 1;

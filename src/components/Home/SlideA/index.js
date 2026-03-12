@@ -3,36 +3,11 @@ import { useState, useEffect, useRef } from "react";
 import { useScroll, useTransform, motion } from "framer-motion";
 import Image from "next/image";
 import styles from "./style.module.scss";
-// import AnimatedDiv from "@/components/AnimatedDiv";
 import image from "../../../../public/images/home/home1.png";
 import Body from "./Body";
 import Content from "./Content";
+import AnimatedDiv from "../../ui/AnimatedDiv";
 export default function SlideA({ typestexts }) {
-  // const items = [
-  //   {
-  //     title: "Exploration",
-  //     description: "Discover the territory",
-  //     text: "Travel through landscapes that are part of an ecological regeneration process.",
-  //   },
-  //   {
-  //     title: "Culture",
-  //     description: "Local traditions",
-  //     text: "Experience the identity of Iberá through its people and traditions.",
-  //   },
-  //   {
-  //     title: "Nature",
-  //     description: "Biodiversity",
-  //     text: "Observe wildlife and ecosystems restored through conservation.",
-  //   },
-  //   {
-  //     title: "Impact",
-  //     description: "Positive footprint",
-  //     text: "Every visit contributes to the regeneration of the territory.",
-  //   },
-  // ];
-
-  // const items = typestexts.types;
-
   const items = typestexts?.types ?? [];
   const [selectedLink, setSelectedLink] = useState({
     isActive: false,
@@ -75,12 +50,13 @@ export default function SlideA({ typestexts }) {
 
           <div className={styles.overlay}>
             <div className={styles.container}>
-              <div className={styles.header}>
-                <h2 className={styles.titleh2}>{typestexts.title}</h2>
+              <AnimatedDiv>
+                <div className={styles.header}>
+                  <h2 className={styles.titleh2}>{typestexts.title}</h2>
 
-                <p className={styles.text}>{typestexts.subtitle}</p>
-              </div>
-
+                  <p className={styles.text}>{typestexts.subtitle}</p>
+                </div>
+              </AnimatedDiv>
               <div className={styles.columns}>
                 <Body
                   items={items}
