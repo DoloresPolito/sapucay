@@ -4,8 +4,8 @@ import Section from "@/src/components/structure/Section";
 import SlideA from "@/src/components/Home/SlideA";
 import SlideB from "@/src/components/Home/SlideB";
 import Hero from "@/src/components/Home/Hero";
-import Levels from "../components/Home/Levels";
 import Bird from "../components/Home/Bird";
+import Impact from "../components/Home/Impact";
 import Lenis from "lenis";
 
 
@@ -31,8 +31,9 @@ export default function HomeSection({texts}) {
       <Hero herotexts={texts.hero}/>
       <SlideA />
       <SlideB levelstexts={texts.levels}/>
-      {/* <Levels levelstexts={texts.levels}/> */}
+
       <Bird birdtexts={texts.bird}/>
+      <Impact impacttexts={texts.impact}/>
     </Section>
   );
 }

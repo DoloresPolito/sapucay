@@ -36,11 +36,16 @@ export default async function HomePage({ params }) {
       subtitle: t("LevelsHome.subtitle"),
       button: t("LevelsHome.button"),
       items: t.raw("LevelsHome.items"),
+    },
+    impact:{
+      impact1:t("ImpactHome.impact1"),
+      impact2:t("ImpactHome.impact2"),
+      impact3:t("ImpactHome.impact3"),
+      impact4:t("ImpactHome.impact4"),
     }
    
   
   }
-
 
 
 

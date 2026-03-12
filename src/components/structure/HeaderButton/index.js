@@ -22,7 +22,7 @@ export default function HeaderButton() {
         </div>
 
         <div className={styles.center}>
-          <p className={styles.navtitle}>SAPUCAY TRAVEL</p>
+          <h1 className={styles.navtitle}>SAPUCAY EXPERIENCE</h1>
         </div>
 
         <div

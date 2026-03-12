@@ -19,22 +19,17 @@ export default function Bird({ birdtexts }) {
 
   return (
     <section ref={sectionRef} className={styles.section}>
-      <motion.div 
-      style={{ y }} 
-      className={styles.background}>
+      <motion.div style={{ y }} className={styles.background}>
         <Image src={image} alt="background" fill priority />
       </motion.div>
 
       <div className={styles.content}>
-        <div>
+
+        <div >
           <h2 className={styles.titleh2}>{birdtexts.title}</h2>
           <h3 className={styles.titleh3}>{birdtexts.subtitle}</h3>
 
-          <div>
-              <Button>{birdtexts.button}</Button>
-            </div>
-
-
+          {/* <div className={styles.personalbutton}>{birdtexts.button}</div> */}
         </div>
 
         <div>
@@ -43,9 +38,8 @@ export default function Bird({ birdtexts }) {
           <p className={styles.text}>{birdtexts.text22}</p>
 
           <div>
-              <Button>{birdtexts.button2}</Button>
-            </div>
-  
+            <Button>{birdtexts.button2}</Button>
+          </div>
         </div>
 
         <div>
@@ -53,13 +47,10 @@ export default function Bird({ birdtexts }) {
           <h3 className={styles.titleh3}>{birdtexts.subtitle3}</h3>
           <p className={styles.text}>{birdtexts.text3}</p>
           <div>
-              <Button>{birdtexts.button3}</Button>
-            </div>
-    
+            <Button>{birdtexts.button3}</Button>
+          </div>
         </div>
       </div>
     </section>
   );
 }
-
-

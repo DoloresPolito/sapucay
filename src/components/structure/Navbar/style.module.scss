@@ -6,8 +6,10 @@
   top: 0;
   left: 0;
   width: 100%;
-
-  // background-color: rgba(255, 255, 255, 0); /* Transparente al inicio */
-  // transition: background-color 0.3s ease; /* Transición suave del fondo */
-  // border-bottom: 0.2vh solid black;
+  height: 15vh;
+  z-index: 100;
+  border-bottom: 0.01vh solid white;
+  display: flex;
+  margin-top: 2vh;
+  align-items: center;
 }

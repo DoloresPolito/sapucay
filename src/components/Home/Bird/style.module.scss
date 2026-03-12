@@ -2,51 +2,66 @@
 @use "../../../styles/typography";
 
 .section {
-    position: relative;
-    height: 200vh; // sección grande para scrollear
-    width: 100vw;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
+  position: relative;
+  height: 200vh; // sección grande para scrollear
+  width: 100vw;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
 
+.background {
+  position: absolute;
+  inset: 0;
+  height: 200vh; // imagen más grande que la sección
+  width: 100%;
+
+  img {
+    object-fit: cover;
   }
-  
-  .background {
-    position: absolute;
-    inset: 0;
-    height: 200vh; // imagen más grande que la sección
-    width: 100%;
-  
-    img {
-      object-fit: cover;
-    }
-  }
-  
-  .content {
-    position: relative;
-    z-index: 2;
-    height: 150vh;
+}
+
+.content {
+  position: relative;
+  z-index: 2;
+  height: 150vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20vh;
+
+  padding: 0 10vw;
+  width: 50%;
+
+  .personalbutton {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
-    gap: 20vh;
+    justify-content: center;
+    padding: 1vh 2vh;
+    border-radius: 4vh;
+    background-color: transparent;
+    font-size: 1.7vh;
+    border: none;
+    cursor: pointer;
 
-    padding: 0 10vw;
-    width: 50%;
-  
-
-    p{
-      margin-bottom: 3vh;
-    }
-
-    h2{
-      margin-bottom: 3vh;
-      line-height: 100%;
-    }
-    h3{
-      margin-bottom: 3vh;
-      line-height: 100%;
-    }
-    
+    color: white;
+    border: 0.2vh solid white;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+    width: fit-content;
+ 
   }
+
+  p {
+    margin-bottom: 3vh;
+  }
+
+  h2 {
+    margin-bottom: 3vh;
+    line-height: 100%;
+  }
+  h3 {
+    margin-bottom: 3vh;
+    line-height: 100%;
+  }
+}

@@ -57,7 +57,16 @@
       "subtitle3": "Turismo que deja huella positiva",
       "text3": "Viajamos con una visión regenerativa: cada experiencia en Iberá busca fortalecer la naturaleza, la comunidad y el futuro del territorio. Medimos nuestro impacto y trabajamos para que cada visita sume.",
       "button3": "Conocé nuestro impacto"
+    },
+
+    "ImpactHome":{
+      "impact1": "Conservación activa del ecosistema",
+      "impact2": "Fortalecimiento de la comunidad local",
+      "impact3": "Experiencias que regeneran el territorio",
+      "impact4": "Impacto social y ambiental medible"
     }
+
+
   },
   "footer": {
     "subtitle": "Donde los viajes se viven tan profundo que al final solo queda gritarlos",

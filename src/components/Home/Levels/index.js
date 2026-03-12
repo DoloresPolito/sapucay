@@ -8,13 +8,13 @@ export default function Levels({ levelstexts }) {
     <div className={styles.section}>
       <div className={styles.top}>
         <div className={styles.heroimage}>
-          <Image
+          {/* <Image
             src={image}
             fill
             alt=""
             priority
             style={{ objectFit: "cover" }}
-          />
+          /> */}
 
           <div className={styles.overlay}>
             <h2 className={styles.titleh2}>{levelstexts.title}</h2>

@@ -22,14 +22,7 @@ export const SelectLanguage = () => {
 
   return (
     <div className={styles.selectorcontainer}>
-      <button
-        className={`${styles.custombutton} ${
-          currentLocale === 'en' ? styles.selected : ''
-        }`}
-        onClick={() => changeLanguage('en')}
-      >
-        US
-      </button>
+     
 
       <button
         className={`${styles.custombutton} ${
@@ -38,6 +31,14 @@ export const SelectLanguage = () => {
         onClick={() => changeLanguage('es')}
       >
         ES 
+      </button>
+      <button
+        className={`${styles.custombutton} ${
+          currentLocale === 'en' ? styles.selected : ''
+        }`}
+        onClick={() => changeLanguage('en')}
+      >
+        US
       </button>
     </div>
   );
