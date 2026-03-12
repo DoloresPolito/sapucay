@@ -1,8 +1,9 @@
 import { hasLocale, NextIntlClientProvider } from 'next-intl';
 import {getMessages} from 'next-intl/server';
 import { routing } from '@/src/i18n/routing';
-import { notFound } from 'next/navigation';
+// import { notFound } from 'next/navigation';
 import { setRequestLocale } from 'next-intl/server';
+import PageTransition from '@/src/components/PageTransition';
 
 import "./globals.scss";
 export function generateStaticParams() {
@@ -24,7 +25,10 @@ export default async function RootLayout({children, params}) {
     <html lang={locale}>
       <body>
         <NextIntlClientProvider messages={messages}>
+          <PageTransition>
           {children}
+          </PageTransition>
+
         </NextIntlClientProvider>
       </body>
     </html>

@@ -58,10 +58,15 @@
     margin-bottom: 6vh;
   }
 
+  .header {
+    margin-bottom: 6vh;
+    max-width: 550px;
+  }
+
   .columns {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 6vw;
+    gap: 5vw;
     align-items: center;
 
     @media only screen and (max-width: 850px) {
@@ -73,53 +78,72 @@
   .body {
     display: flex;
     flex-direction: column;
-    gap: 2vh;
-    @media only screen and (max-width: 850px) {
-    }
+    width: 100%;
+  }
 
-    p {
-      font-size: 2.2vw;
-      margin: 0;
-      cursor: pointer;
-      overflow: hidden;
-      display: flex;
-      font-weight: 400;
-    }
+  .item {
+    padding: 2vh 0;
+    font-size: 1.7vw;
+    font-weight: 400;
+    cursor: pointer;
 
-    span {
-      display: inline-block;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+
+    transition: all 0.3s ease;
+
+    &:hover {
+      background: rgba(255, 255, 255, 0.08);
+      padding-left: 1vw;
     }
   }
 
+  .active {
+    background: rgba(255, 255, 255, 0.12);
+    padding-left: 1vw;
+  }
+
   .content {
-    padding: 3vw;
+    padding: 3vh 3vh;
     border-radius: 20px;
+    background: rgba(255, 255, 255, 0.18);
+    backdrop-filter: blur(12px);
+    color: black;
 
-    background: rgba(255, 255, 255, 0.15);
-    backdrop-filter: blur(5px);
-
-    color: white;
-
-    @media only screen and (max-width: 850px) {
-      width: 80vw;
-    }
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 30vh;
 
     h2 {
-      font-size: 2.5vw;
+      font-size: 3vh;
       margin-bottom: 1vh;
     }
 
     h3 {
-      font-size: 1.1vw;
-      opacity: 0.8;
+      font-size: 0.9vw;
       margin-bottom: 2vh;
+      display: inline-block;
+      border: 1px solid rgba(0, 0, 0, 0.3);
+      padding: 6px 14px;
+      border-radius: 30px;
     }
 
     p {
-      font-size: 0.95vw;
-      line-height: 1.5;
+      font-size: 2vh;
+      margin-bottom: 0.7vh;
+    }
+
+    .left {
+      display: flex;
+      margin-right: 3vh;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .right {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
     }
   }
-
-  
 }
