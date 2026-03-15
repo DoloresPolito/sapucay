@@ -10,8 +10,6 @@ export default function ScrollRevealSection({
   sectionImage,
   texts,
 }) {
-
-
   return (
     <>
       <Intro
@@ -34,7 +32,7 @@ export default function ScrollRevealSection({
       />
       <ComparativeTable
         backgroundImage="/images/background-table.png"
-       tabletext={texts.table}
+        tabletext={texts.table}
       />
     </>
   );

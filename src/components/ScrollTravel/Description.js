@@ -1,13 +1,20 @@
 import styles from "./style.module.scss";
 import Button from "../ui/Button";
-
+import AnimatedDiv from "../ui/AnimatedDiv";
 export default function Description({ title, subtitle, items }) {
-
-
   return (
     <div className={styles.description}>
-      <h2 className={styles.titleh2}>{title}</h2>
-      <h3 className={styles.titleh3}>{subtitle}</h3>
+      <div className={styles.top}>
+        <div className={styles.titlecontainer}>
+          <AnimatedDiv>
+            <h2 className={styles.titleh2}>{title}</h2>
+          </AnimatedDiv>
+        </div>
+
+        <AnimatedDiv delay={0.5}>
+          <h3 className={styles.titleh3}> {subtitle}</h3>
+        </AnimatedDiv>
+      </div>
 
       <div className={styles.itemscontainer}>
         {items.map((item, index) => (
@@ -16,18 +23,19 @@ export default function Description({ title, subtitle, items }) {
             className={styles.item}
             style={{ backgroundImage: `url(${item.image})` }}
           >
-            {/* Contenido base */}
             <div className={styles.overlayBase}>
-              <h3 className={styles.traveldescriptionitemtitle}>{item.title}</h3>
-              <p className={styles.traveldescriptionitemsubtitle}>{item.subtitle}</p>
-              <p className={styles.traveldescriptionitemtext} >{item.text}</p>
+              <div className={styles.toptitle}>
+              <h2 className={`${styles.titleh2} ${styles.titleWide}`}>
+                {item.title}
+              </h2>
+
+              <h3 className={styles.titleh3}>{item.subtitle}</h3>
+              </div>
+              <p className={styles.text}>{item.text}</p>
               <Button>{item.button}</Button>
             </div>
-         
-            {/* Overlay hover */}
+
             <div className={styles.overlayHover}>
-              {/* <h3 className={styles.traveldescriptionitemtitle}>{item.title}</h3>
-              <p className={styles.traveldescriptionitemsubtitle}>{item.subtitle}</p> */}
               <ul>
                 {item.bullets.map((bullet, i) => (
                   <li className={styles.traveldescriptionitembullet} key={i}>

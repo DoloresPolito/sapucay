@@ -14,14 +14,14 @@ const IMAGES = {
     "/images/cultura/culturasection.png",
   ],
   bienestar: [
-    "/images/cultura/culturahero.png",
+    "/images/bienestar/bienestar.png",
     "/images/bienestar/01.png",
     "/images/bienestar/02.png",
     "/images/bienestar/03.png",
     "/images/cultura/culturasection.png",
   ],
   naturaleza: [
-    "/images/cultura/culturahero.png",
+    "/images/naturaleza/naturaleza.png",
     "/images/cultura/01.png",
     "/images/cultura/02.png",
     "/images/cultura/03.png",
