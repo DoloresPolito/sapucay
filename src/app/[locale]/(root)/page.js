@@ -10,7 +10,8 @@ export default async function HomePage({ params }) {
 
   const texts = {
     hero: {
-      title: t("HeroHome.title"),
+      title1: t("HeroHome.title1"),
+      title2: t("HeroHome.title2"),
       subtitle: t("HeroHome.subtitle"),
       button: t("HeroHome.button"),
       options: t.raw("HeroHome.options"),

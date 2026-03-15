@@ -1,13 +1,14 @@
 {
   "Home": {
     "HeroHome": {
-      "title": "Donde los viajes se viven tan profundo, que al final solo queda gritarlo.",
+    
+      "title1": "Donde los viajes se viven tan profundo,",
+      "title2": "que al final solo queda gritarlo.",
       "subtitle": "Disenamos experiencias autenticas que conectan territorios, cultura y hospitalidad",
-      "button": "CONOCÉ MÁS",
+      "button": "Conocé más",
 
       "options": [
-        { "title": "Naturaleza Viva" },
-        { "title": "Territorios Salvajes" },
+        { "title": "Naturaleza Viva / Salvaje" },
         { "title": "Cultura y Tradición" },
         { "title": "Bienestar" }
       ]

@@ -19,7 +19,9 @@ export default function Bird({ birdtexts }) {
 
   return (
     <section ref={sectionRef} className={styles.section}>
-      <motion.div style={{ y }} className={styles.background}>
+      <motion.div 
+      style={{ y }}
+       className={styles.background}>
         <Image src={image} alt="background" fill priority />
       </motion.div>
 

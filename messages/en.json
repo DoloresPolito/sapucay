@@ -1,12 +1,12 @@
 {
   "Home": {
     "HeroHome": {
-      "title": "Where journeys are lived so deeply that in the end all that’s left is to shout it out.",
+      "title1": "Where journeys are lived so deeply",
+      "title2": "that in the end all that’s left is to shout it out.",
       "subtitle": "We design authentic experiences that connect territories, culture, and hospitality.",
-      "button": "DISCOVER MORE",
+      "button": "Discover more",
       "options": [
         { "title": "Living Nature" },
-        { "title": "Wild Territories" },
         { "title": "Culture & Tradition" },
         { "title": "Wellness" }
       ]

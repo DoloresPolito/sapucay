@@ -5,16 +5,11 @@ import image from "../../../../public/images/home/herohome.png";
 import Button from "@/src/components/ui/Button";
 import Link from "next/link";
 import { useLocale } from "next-intl";
-
+import AnimatedDiv from "../../ui/AnimatedDiv";
 
 export default function Hero({ herotexts }) {
   const locale = useLocale();
-  const links = [
-    "/naturaleza-viva",
-    "/territorios-salvajes",
-    "/cultura",
-    "/bienestar",
-  ];
+  const links = ["/naturaleza", "/cultura", "/bienestar"];
 
   return (
     <div className={styles.herosection}>
@@ -24,12 +19,22 @@ export default function Hero({ herotexts }) {
           fill
           alt=""
           priority
-          style={{ objectFit: "cover" }}
+          style={{ objectFit: "cover"}}
         />
 
         <div className={styles.overlay}>
-          <h2 className={styles.titleh2}>{herotexts.title}</h2>
-          <h3 className={styles.titleh3}>{herotexts.subtitle}</h3>
+          <div className={styles.titlecontainer}>
+            <AnimatedDiv>
+              <h2 className={styles.titleh2}>{herotexts.title1}</h2>
+              <h2 className={`${styles.titleh2} ${styles.titleWide}`}>
+                {herotexts.title2}
+              </h2>
+            </AnimatedDiv>
+          </div>
+
+          <AnimatedDiv delay={0.5}>
+            <h3 className={styles.titleh3}>{herotexts.subtitle}</h3>
+          </AnimatedDiv>
 
           <div>
             <Button>{herotexts.button}</Button>
@@ -37,17 +42,15 @@ export default function Hero({ herotexts }) {
         </div>
 
         <div className={styles.bottomGrid}>
-    
-            {herotexts.options.map((type, i) => (
-              <Link
-                key={i}
-                href={`/${locale}/${links[i]}`}
-                className={styles.gridItem}
-              >
-                <p className={styles.text}>{type.title}</p>
-              </Link>
-            ))}
- 
+          {herotexts.options.map((type, i) => (
+            <Link
+              key={i}
+              href={`/${locale}/${links[i]}`}
+              className={styles.gridItem}
+            >
+              <p className={styles.text}>{type.title}</p>
+            </Link>
+          ))}
         </div>
       </div>
     </div>

@@ -8,21 +8,26 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
+  min-height: 100vh;
 }
 
 .heroimage {
   position: relative;
-  height: 100vh;
+  height: 100%;
   width: 100%;
   overflow: hidden;
   display: flex;
   flex-direction: column;
 }
 
+.heroimage img {
+  display: block;
+}
+
 .overlay {
   position: relative;
   height: 100%;
-  width: 40%;
+  width: 60%;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -35,13 +40,28 @@
     width: 80%;
   }
 
+  .titlecontainer {
+    display: flex;
+    flex-direction: column;
+    h2 {
+      margin: 0;
+      font-size: 5.5vh;
+    }
 
-  h2 {
-    margin-bottom: 4vh;
+    .titleWide {
+      letter-spacing: 0.03vh;
+      font-weight: 500;
+      color: rgb(220, 219, 219);
+      font-size: 6vh;
+    }
   }
 
   h3 {
-    margin-bottom: 4vh;
+    margin-top: 3vh;
+    margin-bottom: 5vh;
+  }
+  @media only screen and (max-width: 850px) {
+    max-width: 100%;
   }
 }
 
@@ -51,9 +71,13 @@
   width: 100%;
   height: 13vh;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
 
   z-index: 3;
+
+  @media only screen and (max-width: 600px) {
+    display: none;
+  }
 }
 
 .gridItem {
@@ -62,7 +86,6 @@
   justify-content: center;
   background: rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(4px);
-  font-family: "MoriLight";
   font-size: 2vh;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -73,6 +96,8 @@
   &:hover {
     background: rgba(255, 255, 255, 0.7);
   }
+
+
 }
 
 .gridItem:last-child {
