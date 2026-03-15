@@ -8,12 +8,13 @@ export default function Footer() {
   const locale = useLocale();
   const links = [
     { title: t("col1item1"), href: `/${locale}` },
-    { title: t("col1item2"), href: `/${locale}/cultura` },
-    { title: t("col1item3"), href: `/${locale}/bienestar` },
-    { title: t("col1item4"), href: `/${locale}/naturaleza` },
-    { title: t("col1item5"), href: `/${locale}/impacto` },
-    { title: t("col2item1"), href: `/${locale}/destino` },
+    { title: t("col1item2"), href: `/${locale}/destino` },
+    { title: t("col1item3"), href: `/${locale}/impacto` },
+    { title: t("col1item4"), href: `/${locale}/bienestar` },
+    { title: t("col1item5"), href: `/${locale}/naturaleza` },
+    { title: t("col1item6"), href: `/${locale}/cultura` },
   ];
+
 
   const underlineVariants = {
     initial: {
@@ -31,20 +32,25 @@ export default function Footer() {
   return (
     <footer className={styles.footer}>
       <div className={styles.container}>
-        
         <div className={styles.col}>
-          <h2 className={styles.logo}>SPUCAY EXPERIENCE</h2>
-          <p className={styles.titleh3}>{t("subtitle")}</p>
+          <h1 className={styles.navtitle}>SPUCAY EXPERIENCE</h1>
+
+          <div className={styles.titlecontainer}>
+            <h2 className={styles.titleh2}>{t("subtitle1")}</h2>
+            <h2 className={`${styles.titleh2} ${styles.titleWide}`}>
+              {t("subtitle2")}
+            </h2>
+          </div>
         </div>
-  
+
         <div className={styles.col}>
           <h4 className={styles.titlefooter}>{t("title1")}</h4>
-  
+
           <div className={styles.links}>
             {links.map((link, i) => (
               <Link key={i} href={link.href}>
                 <motion.div className={styles.navitem} whileHover="hover">
-                  <p className={styles.textfooter}>{link.title}</p>
+                  <p className={styles.text}>{link.title}</p>
                   <motion.div
                     className={styles.underline}
                     variants={underlineVariants}
@@ -54,19 +60,20 @@ export default function Footer() {
             ))}
           </div>
         </div>
-  
+
         <div className={styles.col}>
-          <h4  className={styles.titlefooter}>{t("title2")}</h4>
-  
-          <p className={styles.textfooter}>Col. Carlos Pellegrini, Corrientes, Argentina</p>
-          <p className={styles.textfooter}>info@sapucay.travel</p>
-          <p className={styles.textfooter}>WhatsApp directo</p>
+          <h4 className={styles.titlefooter}>{t("title2")}</h4>
+
+          <p className={styles.text}>
+            Col. Carlos Pellegrini, Corrientes, Argentina
+          </p>
+          <p className={styles.text}>info@sapucay.travel</p>
+          <p className={styles.text}>WhatsApp directo</p>
         </div>
-  
       </div>
-  
+
       <div className={styles.bottom}>
-        <p className={styles.textfooter}>{t("right")}</p>
+        <p className={styles.text}>{t("right")}</p>
       </div>
     </footer>
   );

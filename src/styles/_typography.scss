@@ -28,9 +28,12 @@
 //general
 .text{
   font-family: $font-book;
-  font-size: 1.8vh;
+  font-size: 2.1vh;
   font-weight: 300;
-  color:white
+  color:white;
+  @media only screen and (max-width: 850px) {
+    font-size: 1.8vh;
+  }
 
 }
 
@@ -38,14 +41,21 @@
   font-family: $font-book;
   font-size: 4vh;
   font-weight: 300;
-  color:white
+  color:white;
+
+  @media only screen and (max-width: 850px) {
+    font-size: 3.5vh;
+  }
 }
 
 .titleh3{
   font-family: $font-book;
   font-size: 2.5vh;
   font-weight: 300;
-  color:white
+  color:white;
+  @media only screen and (max-width: 850px) {
+    font-size: 2vh;
+  }
 }
 
 
@@ -57,25 +67,22 @@
   text-transform: uppercase;
   margin-bottom: 2vh;
 }
-.textfooter{
-  font-family: $font-book;
-  font-size: 1.8vh;
-  font-weight: 300;
-  color:black
-
-}
 
 
 
 
-.section1{
-  font-family: $font-book;
-  font-size: 4vh;
-  font-weight: 200;
-}
-.section2{
-  font-family: $font-book;
-  font-size: 4vh;
-  font-weight: 400;
-}
+
+
+
+
+// .section1{
+//   font-family: $font-book;
+//   font-size: 4vh;
+//   font-weight: 200;
+// }
+// .section2{
+//   font-family: $font-book;
+//   font-size: 4vh;
+//   font-weight: 400;
+// }
 

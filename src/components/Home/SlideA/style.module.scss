@@ -51,6 +51,7 @@
 
     @media only screen and (max-width: 850px) {
       width: 100%;
+      max-width: 100%;
     }
   }
 
@@ -65,12 +66,16 @@
       flex-direction: column;
       h2 {
         margin: 0;
+      
       }
       .titleWide {
         letter-spacing: 0.03vh;
         font-weight: 500;
-        color:rgb(220, 219, 219);
         font-size: 4.5vh;
+
+        @media only screen and (max-width: 850px) {
+          font-size: 4vh;
+        }
       }
     }
 

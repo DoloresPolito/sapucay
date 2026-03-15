@@ -110,18 +110,21 @@
   },
 
   "footer": {
-    "subtitle": "Where journeys are lived so deeply that in the end the only thing left is to shout them out",
+
+    "subtitle1": "Where journeys are lived so deeply",
+    "subtitle2":"that in the end the only thing left is to shout them out.",
     "title1": "Navigation",
     "col1item1": "Home",
     "col1item2": "The Destination",
     "col1item3": "Impact & Commitment",
-    "col1item4": "Nature",
-    "col1item5": "Wellbeing",
+    "col1item4": "Wellbeing",
+    "col1item5": "Nature",
+    "col1item6": "Culture & Tradition",
     "title2": "Contact",
     "col2item1": "Col. Carlos Pellegrini, Corrientes, Argentina",
     "col2item2": "info@sapucaytravel",
     "col2item3": "Direct WhatsApp",
-    "right": "All rights reserved 2026 Sapucay Travel"
+    "right": "Sapucay Experience ® 2026. All rights reserved."
   },
 
   "nav": {
@@ -418,21 +421,5 @@
     "title": "About",
     "description": "About page",
     "team": "Our Team"
-  },
-  "Footer": {
-    "subtitle": "Where journeys are lived so deeply that in the end all that’s left is to shout it out.",
-    "col1title": "Navigation",
-    "col1item1": "Home",
-    "col1item2": "Impact & Commitment",
-    "col1item3": "The Destination",
-    "col1item4": "Wellbeing",
-    "col1item5": "Culture & Tradition",
-
-    "col2title": "Contact",
-    "col2item1": "Col. Carlos Pellegrini, Corrientes, Argentina",
-    "col2item2": "info@sapucay travel",
-    "col2item3": "Direct WhatsApp",
-
-    "rights": "All rights reserved 2026 Sapucay Travel"
   }
 }

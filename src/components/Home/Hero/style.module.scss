@@ -37,7 +37,7 @@
   text-align: center;
 
   @media only screen and (max-width: 850px) {
-    width: 80%;
+    width: 90%;
   }
 
   .titlecontainer {
@@ -46,6 +46,9 @@
     h2 {
       margin: 0;
       font-size: 5.5vh;
+      @media only screen and (max-width: 850px) {
+        font-size: 4.5vh;
+      }
     }
 
     .titleWide {
@@ -53,6 +56,10 @@
       font-weight: 500;
       color: rgb(220, 219, 219);
       font-size: 6vh;
+
+      @media only screen and (max-width: 850px) {
+        font-size: 5vh;
+      }
     }
   }
 
