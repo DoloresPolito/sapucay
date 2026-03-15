@@ -4,7 +4,6 @@
       "title": "Donde los viajes se viven tan profundo, que al final solo queda gritarlo.",
       "subtitle": "Disenamos experiencias autenticas que conectan territorios, cultura y hospitalidad",
       "button": "CONOCÉ MÁS",
- 
 
       "options": [
         { "title": "Naturaleza Viva" },
@@ -15,8 +14,8 @@
     },
 
     "TypesHome": {
-      "title": "Un mismo destino, distintas formas de vivirlo.",
-
+      "title1": "Un mismo destino,",
+      "title2": "distintas formas de vivirlo.",
       "subtitle": "Te ofrecemos distintas propuestas para que encuentres tu manera de explorar.",
       "types": [
         {
@@ -51,7 +50,9 @@
     },
 
     "LevelsHome": {
-      "title": "Cada propuesta propone un nivel distinto de involucramiento.",
+  
+      "title1": "Cada propuesta propone",
+      "title2": "un nivel distinto de involucramiento.",
       "subtitle": "El territorio es el mismo, pero el viaje se transforma según cómo decidís habitarlo.",
       "button": "Ver más",
       "items": [
@@ -60,6 +61,9 @@
           "title": "Explorador",
           "text": "Un primer encuentro profundo con Iberá. Un viaje contemplativo para observar, sentir y despertar el asombro, acompañado por guías locales y experiencias de bajo impacto.",
           "bullets": [
+            "Primer acercamiento al territorio",
+            "Experiencias culturales guiadas",
+            "Contacto respetuoso con las comunidades locales",
             "Primer acercamiento al territorio",
             "Experiencias culturales guiadas",
             "Contacto respetuoso con las comunidades locales"
@@ -72,6 +76,9 @@
           "bullets": [
             "Diálogo con la cultura local",
             "Experiencias de aprendizaje compartido",
+            "Comprensión de los ciclos del territorio",
+            "Diálogo con la cultura local",
+            "Experiencias de aprendizaje compartido",
             "Comprensión de los ciclos del territorio"
           ]
         },
@@ -82,7 +89,13 @@
           "bullets": [
             "Contribución activa a la conservación",
             "Fortalecimiento de las comunidades",
+            "Legado positivo en el territorio",
+            "Contribución activa a la conservación",
+            "Fortalecimiento de las comunidades",
             "Legado positivo en el territorio"
+            
+            
+
           ]
         }
       ]
@@ -132,6 +145,7 @@
     "impacto": "Impacto y Compromiso",
     "destino": "El Destino"
   },
+
   "cultura": {
     "herotitle": "Cultura y Tradición",
     "herosubtitle": "Tradición, comunidad y territorio como una experiencia sensible y transformadora.",
@@ -185,30 +199,47 @@
       " En Iberá, la tradición se transmite en gestos, silencios y encuentros.",
       "Cada experiencia acompaña el pulso de la comunidad y la forma de estar juntos."
     ],
+
     "table": {
-      "title": "Niveles de experiencia",
-      "subtitle": "Comparación entre los distintos niveles del programa",
-      "columns": ["Explorador", "Inmersivo", "Regeneración"],
+      "title": "Explorá los niveles",
+      "subtitle": "Y elegí el que mejor se adapte a tus necesidades",
+      "button":"Más información",
+      "columns": [
+        { "name": "Sapucay Observador", "level": "Nivel explorador" },
+        { "name": "Sapucay MICE", "level": "Nivel inmersivo" },
+        { "name": "Travesía Ecuestre", "level": "Nivel regeneración y sentido" }
+      ],
       "rows": [
         {
+          "label": "Propósito",
+          "values": [
+            "Información",
+            "Comprensión del modela Iberá",
+            "Participación directa en una acción regenerativa concreta"
+          ]
+        },
+
+        {
+          "label": "Vínculo con la cultura",
+          "values": [
+            "Conocer la tradición",
+            "Participar activamente de prácticas rurales y culturales",
+            "Ser recibido como parte del sistema cultural, no como visitante"
+          ]
+        },
+
+        {
           "label": "Duración",
-          "values": ["3 días", "5 días", "7 días"]
+          "values": ["3 días / 2 noches", "4 días / 3 noches", "Personalizado"]
         },
+
         {
-          "label": "Acompañamiento",
-          "values": ["Básico", "Personalizado", "Integral"]
-        },
-        {
-          "label": "Profundidad",
-          "values": ["Introductoria", "Experiencial", "Transformadora"]
-        },
-        {
-          "label": "Impacto territorial",
-          "values": ["Bajo", "Medio", "Alto"]
-        },
-        {
-          "label": "Perfil del viajero",
-          "values": ["Curioso", "Comprometido", "Buscador de sentido"]
+          "label": "Prácticas",
+          "values": [
+            "Safaris y caminatas",
+            "Travesías, cabalgatas y permanencia en el entorno",
+            "Experiencias de inmersión extendida en silencio y contemplación"
+          ]
         }
       ]
     }
@@ -265,29 +296,45 @@
       "En Iberá, la naturaleza marca el tiempo, y cada experiencia acompaña ese pulso."
     ],
     "table": {
-      "title": "Niveles de experiencia",
-      "subtitle": "Comparación entre los distintos niveles del programa",
-      "columns": ["Explorador", "Inmersivo", "Regeneración"],
+      "title": "Explorá los niveles",
+      "subtitle": "Y elegí el que mejor se adapte a tus necesidades",
+      "button":"Más información",
+      "columns": [
+        { "name": "Detox", "level": "Nivel explorador" },
+        { "name": "Bienestar Natural", "level": "Nivel inmersivo" },
+        { "name": "Bienestar Insignia", "level": "Nivel regeneración y sentido" }
+      ],
       "rows": [
         {
+          "label": "Propósito",
+          "values": [
+            "Descansar y reconectar",
+            "Regular cuerpo y emoción",
+            "Transformación personal"
+          ]
+        },
+
+        {
+          "label": "Ritmo",
+          "values": [
+            "Lento y contemplativo",
+            "Profundo y sostenido",
+            "Íntimo y transformador"
+          ]
+        },
+
+        {
           "label": "Duración",
-          "values": ["3 días", "5 días", "7 días"]
+          "values": ["3 días / 2 noches", "4 días / 3 noches", "Personalizado"]
         },
+
         {
-          "label": "Acompañamiento",
-          "values": ["Básico", "Personalizado", "Integral"]
-        },
-        {
-          "label": "Profundidad",
-          "values": ["Introductoria", "Experiencial", "Transformadora"]
-        },
-        {
-          "label": "Impacto territorial",
-          "values": ["Bajo", "Medio", "Alto"]
-        },
-        {
-          "label": "Perfil del viajero",
-          "values": ["Curioso", "Comprometido", "Buscador de sentido"]
+          "label": "Prácticas",
+          "values": [
+            "Caminatas, respiración, silencio",
+            "Grounding, regulación nerviosa",
+            "Diagnóstico emocional, prácticas simbólicas"
+          ]
         }
       ]
     }
@@ -347,6 +394,7 @@
     "table": {
       "title": "Niveles de experiencia",
       "subtitle": "Comparación entre los distintos niveles del programa",
+      "button":"Más información",
       "columns": ["Explorador", "Inmersivo", "Regeneración"],
       "rows": [
         {

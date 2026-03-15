@@ -47,7 +47,7 @@
 
   .container {
     width: 80%;
-    max-width: 1200px;
+    max-width: 80vw;
 
     @media only screen and (max-width: 850px) {
       width: 100%;
@@ -56,17 +56,36 @@
 
   .header {
     margin-bottom: 6vh;
-  }
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
 
-  .header {
-    margin-bottom: 6vh;
-    max-width: 550px;
+    .titlecontainer {
+      display: flex;
+      flex-direction: column;
+      h2 {
+        margin: 0;
+      }
+      .titleWide {
+        letter-spacing: 0.03vh;
+        font-weight: 500;
+        color:rgb(220, 219, 219);
+        font-size: 4.5vh;
+      }
+    }
+
+    h3 {
+      margin-top: 3vh;
+    }
+    @media only screen and (max-width: 850px) {
+      max-width: 100%;
+    }
   }
 
   .columns {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 5vw;
+    gap: 3vh;
     align-items: center;
 
     @media only screen and (max-width: 850px) {
@@ -81,19 +100,35 @@
     width: 100%;
   }
 
+
   .item {
-    padding: 2vh 0;
-    font-size: 1.7vw;
+    padding: 2vh 4vh 2vh 3vh;
     font-weight: 400;
     cursor: pointer;
-
     border-bottom: 1px solid rgba(255, 255, 255, 0.25);
-
     transition: all 0.3s ease;
-
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
     &:hover {
       background: rgba(255, 255, 255, 0.08);
       padding-left: 1vw;
+    }
+  
+    &::after {
+      content: "→";
+      font-size: 3vh;
+      opacity: 0;
+      transform: translateX(-10px);
+      transition: all 0.3s ease;
+  
+    }
+  
+    &:hover::after {
+      opacity: 1;
+      transform: translateX(0);
     }
   }
 
@@ -107,29 +142,19 @@
     border-radius: 20px;
     background: rgba(255, 255, 255, 0.18);
     backdrop-filter: blur(12px);
-    color: black;
-
     display: flex;
     flex-direction: row;
     justify-content: center;
     height: 30vh;
 
     h2 {
-      font-size: 3vh;
+      font-size: 4vh;
       margin-bottom: 1vh;
+      font-weight: 500;
     }
 
-    h3 {
-      font-size: 0.9vw;
-      margin-bottom: 2vh;
-      display: inline-block;
-      border: 1px solid rgba(0, 0, 0, 0.3);
-      padding: 6px 14px;
-      border-radius: 30px;
-    }
 
     p {
-      font-size: 2vh;
       margin-bottom: 0.7vh;
     }
 
@@ -138,6 +163,8 @@
       margin-right: 3vh;
       flex-direction: column;
       justify-content: center;
+      padding-right: 3vh;
+      border-right: 0.3vh solid rgba(255, 255, 255, 0.3);
     }
 
     .right {

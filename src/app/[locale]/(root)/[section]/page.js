@@ -61,14 +61,11 @@ export default async function SectionPage({ params }) {
       sectionbutton: t.raw("sectionbutton"), 
     },
 
-    // table: {
-    //   title: t("title"),
-    //   subtitle: t("subtitle"),
-    //   columns: t.raw("columns"),
-    //   rows: t.raw("rows"),
-     
-    // },
+    table: t.raw("table"),
   };
+
+
+
 
   return <SectionLayout images={images} texts={texts} />;
 }

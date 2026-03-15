@@ -6,8 +6,8 @@ export default function Description({ title, subtitle, items }) {
 
   return (
     <div className={styles.description}>
-      <h1 className={styles.traveldescriptiontitle}>{title}</h1>
-      <p className={styles.traveldescriptionsubtitle}>{subtitle}</p>
+      <h2 className={styles.titleh2}>{title}</h2>
+      <h3 className={styles.titleh3}>{subtitle}</h3>
 
       <div className={styles.itemscontainer}>
         {items.map((item, index) => (

@@ -11,7 +11,10 @@ export default function Body({ items, selectedLink, setSelectedLink }) {
           }`}
           onMouseEnter={() => setSelectedLink({ isActive: true, index })}
         >
+          <h3 className={styles.titleh3}>
           {item.title}
+          </h3>
+     
         </div>
       ))}
     </div>

@@ -11,6 +11,7 @@ export default function ScrollRevealSection({
   texts,
 }) {
 
+
   return (
     <>
       <Intro
@@ -33,10 +34,7 @@ export default function ScrollRevealSection({
       />
       <ComparativeTable
         backgroundImage="/images/background-table.png"
-        // title={texts.table.title}
-        // subtitle={texts.table}
-        // columns={texts.table.columns}
-        // rows={texts.table.rows}
+       tabletext={texts.table}
       />
     </>
   );

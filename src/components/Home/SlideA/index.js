@@ -52,9 +52,14 @@ export default function SlideA({ typestexts }) {
             <div className={styles.container}>
               <AnimatedDiv>
                 <div className={styles.header}>
-                  <h2 className={styles.titleh2}>{typestexts.title}</h2>
+              
+                  <div className={styles.titlecontainer}>
+                  <h2 className={styles.titleh2}>{typestexts.title1}</h2>
+                  <h2 className={`${styles.titleh2} ${styles.titleWide}`}>{typestexts.title2}</h2>
+                  </div>
+             
 
-                  <p className={styles.text}>{typestexts.subtitle}</p>
+                  <h3 className={styles.titleh3}>{typestexts.subtitle}</h3>
                 </div>
               </AnimatedDiv>
               <div className={styles.columns}>

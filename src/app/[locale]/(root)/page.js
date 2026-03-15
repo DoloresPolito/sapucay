@@ -17,7 +17,8 @@ export default async function HomePage({ params }) {
     },
 
     types: {
-      title: t("TypesHome.title"),
+      title1: t("TypesHome.title1"),
+      title2: t("TypesHome.title2"),
       subtitle: t("TypesHome.subtitle"),
       types: t.raw("TypesHome.types"),
     },
@@ -36,7 +37,8 @@ export default async function HomePage({ params }) {
     },
 
     levels: {
-      title: t("LevelsHome.title"),
+      title1: t("LevelsHome.title1"),
+      title2: t("LevelsHome.title2"),
       subtitle: t("LevelsHome.subtitle"),
       button: t("LevelsHome.button"),
       items: t.raw("LevelsHome.items"),

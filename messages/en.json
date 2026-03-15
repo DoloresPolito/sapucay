@@ -13,7 +13,8 @@
     },
 
     "TypesHome": {
-      "title": "One destination, different ways to experience it.",
+      "title1": "One destination, ",
+      "title2": "different ways to experience it.",
       "subtitle": "We offer different journeys so you can find your own way to explore.",
       "types": [
         {
@@ -48,7 +49,9 @@
     },
 
     "LevelsHome": {
-      "title": "Each proposal offers a different level of involvement.",
+  
+      "title1": "Each proposal offers",
+      "title2": "a different level of involvement.",
       "subtitle": "The territory is the same, but the journey transforms depending on how you choose to experience it.",
       "button": "Learn more",
       "items": [
@@ -185,29 +188,45 @@
     ],
 
     "table": {
-      "title": "Niveles de experiencia",
-      "subtitle": "Comparación entre los distintos niveles del programa",
-      "columns": ["Explorador", "Inmersivo", "Regeneración"],
+      "title": "Experience Levels",
+      "subtitle": "Comparison between the different program levels",
+      "button":"More information",
+      "columns": [
+        { "name": "Sapucay Observer", "level": "Explorer level" },
+        { "name": "Sapucay MICE", "level": "Immersive level" },
+        {
+          "name": "Equestrian Journey",
+          "level": "Regeneration & meaning level"
+        }
+      ],
       "rows": [
         {
-          "label": "Duración",
-          "values": ["3 días", "5 días", "7 días"]
+          "label": "Purpose",
+          "values": [
+            "Information",
+            "Understanding the Iberá model",
+            "Direct participation in a concrete regenerative action"
+          ]
         },
         {
-          "label": "Acompañamiento",
-          "values": ["Básico", "Personalizado", "Integral"]
+          "label": "Connection with culture",
+          "values": [
+            "Learn about local traditions",
+            "Actively participate in rural and cultural practices",
+            "Be welcomed as part of the cultural system, not as a visitor"
+          ]
         },
         {
-          "label": "Profundidad",
-          "values": ["Introductoria", "Experiencial", "Transformadora"]
+          "label": "Duration",
+          "values": ["3 days / 2 nights", "4 days / 3 nights", "Customized"]
         },
         {
-          "label": "Impacto territorial",
-          "values": ["Bajo", "Medio", "Alto"]
-        },
-        {
-          "label": "Perfil del viajero",
-          "values": ["Curioso", "Comprometido", "Buscador de sentido"]
+          "label": "Practices",
+          "values": [
+            "Safaris and walks",
+            "Journeys, horseback rides, and time spent in the landscape",
+            "Extended immersion experiences in silence and contemplation"
+          ]
         }
       ]
     }
@@ -221,7 +240,7 @@
     "descriptionsubtitle": "All Iberá Wellbeing programs share the same framework, but differ in depth, level of guidance, and impact.",
     "items": [
       {
-        "image": "/images/cultura/01.png",
+        "image": "/images/bienestar/01.png",
         "title": "Detox",
         "subtitle": "Explorer level",
         "text": "...",
@@ -236,7 +255,7 @@
         ]
       },
       {
-        "image": "/images/cultura/02.png",
+        "image": "/images/bienestar/02.png",
         "title": "Natural Wellbeing",
         "subtitle": "Immersive level",
         "text": "A deeper experience: mindful practices, nature understood from within, and personalized wellbeing.",
@@ -244,7 +263,7 @@
         "bullets": ["1", "2", "3"]
       },
       {
-        "image": "/images/cultura/03.png",
+        "image": "/images/bienestar/03.png",
         "title": "Signature Wellbeing",
         "subtitle": "Regeneration and purpose level",
         "text": "A transformative journey: emotional assessment, specialized guidance, and experiences with personal impact and lasting meaning.",
@@ -266,29 +285,42 @@
     ],
 
     "table": {
-      "title": "Niveles de experiencia",
-      "subtitle": "Comparación entre los distintos niveles del programa",
-      "columns": ["Explorador", "Inmersivo", "Regeneración"],
+      "title": "Experience Levels",
+      "subtitle": "Comparison between the different program levels",
+      "button":"More information",
+      "columns": [
+        { "name": "Detox", "level": "Explorer level" },
+        { "name": "Natural Wellbeing", "level": "Immersive level" },
+        { "name": "Signature Wellbeing", "level": "Regeneration & meaning level" }
+      ],
       "rows": [
         {
-          "label": "Duración",
-          "values": ["3 días", "5 días", "7 días"]
+          "label": "Purpose",
+          "values": [
+            "Rest and reconnect",
+            "Regulate body and emotions",
+            "Personal transformation"
+          ]
         },
         {
-          "label": "Acompañamiento",
-          "values": ["Básico", "Personalizado", "Integral"]
+          "label": "Rhythm",
+          "values": [
+            "Slow and contemplative",
+            "Deep and sustained",
+            "Intimate and transformative"
+          ]
         },
         {
-          "label": "Profundidad",
-          "values": ["Introductoria", "Experiencial", "Transformadora"]
+          "label": "Duration",
+          "values": ["3 days / 2 nights", "4 days / 3 nights", "Customized"]
         },
         {
-          "label": "Impacto territorial",
-          "values": ["Bajo", "Medio", "Alto"]
-        },
-        {
-          "label": "Perfil del viajero",
-          "values": ["Curioso", "Comprometido", "Buscador de sentido"]
+          "label": "Practices",
+          "values": [
+            "Walks, breathing, silence",
+            "Grounding, nervous system regulation",
+            "Emotional assessment, symbolic practices"
+          ]
         }
       ]
     }
@@ -346,29 +378,37 @@
       "Each experience follows the rhythm of the community and the way of being together."
     ],
     "table": {
-      "title": "Niveles de experiencia",
-      "subtitle": "Comparación entre los distintos niveles del programa",
-      "columns": ["Explorador", "Inmersivo", "Regeneración"],
+      "title": "Experience Levels",
+      "subtitle": "Comparison between the different program levels",
+      "button":"More information",
+      "columns": [
+        { "name": "Sapucay Observer", "level": "Explorer level" },
+        { "name": "Sapucay MICE", "level": "Immersive level" },
+        {
+          "name": "Equestrian Journey",
+          "level": "Regeneration & meaning level"
+        }
+      ],
       "rows": [
         {
-          "label": "Duración",
-          "values": ["3 días", "5 días", "7 días"]
+          "label": "Duration",
+          "values": ["3 days", "5 days", "7 days"]
         },
         {
-          "label": "Acompañamiento",
-          "values": ["Básico", "Personalizado", "Integral"]
+          "label": "Guidance",
+          "values": ["Basic", "Personalized", "Comprehensive"]
         },
         {
-          "label": "Profundidad",
-          "values": ["Introductoria", "Experiencial", "Transformadora"]
+          "label": "Depth",
+          "values": ["Introductory", "Experiential", "Transformational"]
         },
         {
-          "label": "Impacto territorial",
-          "values": ["Bajo", "Medio", "Alto"]
+          "label": "Territorial Impact",
+          "values": ["Low", "Medium", "High"]
         },
         {
-          "label": "Perfil del viajero",
-          "values": ["Curioso", "Comprometido", "Buscador de sentido"]
+          "label": "Traveler Profile",
+          "values": ["Curious", "Committed", "Seeker of meaning"]
         }
       ]
     }

@@ -2,123 +2,199 @@
 @use "../../styles/typography";
 
 .section {
-    position: relative;
-    width: 100%;
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
+  position: relative;
+  width: 100%;
+  min-height: 110vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+
+  @media (max-width: 850px) {
+    min-height: auto;
+    padding: 10vh 0;
   }
-  
-  .background {
-    position: absolute;
-    inset: 0;
-    z-index: 0;
-  
-    img {
-      filter: brightness(0.75);
-    }
+}
+
+.background {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+
+  img {
+    filter: brightness(0.75);
   }
-  
-  .content {
-    position: relative;
-    z-index: 2;
-    width: 90%;
-    max-width: 1400px;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    gap: 4vh;
-    background-color: red;
+}
+
+.content {
+  position: relative;
+  z-index: 2;
+  width: 90%;
+  max-width: 1400px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 4vh;
+
+  @media (max-width: 850px) {
+    gap: 6vh;
   }
-  
-  .header {
+}
+
+.header {
+  text-align: center;
+
+  h2 {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+  }
+
+  h3 {
+    margin-bottom: 5vh;
+  }
+}
+
+/* CONTENEDOR GLASS */
+.tableWrapper {
+  backdrop-filter: blur(12px);
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: 2rem;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  overflow: hidden;
+
+  @media (max-width: 850px) {
+    background: transparent;
+    backdrop-filter: none;
+    border: none;
+  }
+}
+
+/* TABLA */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+
+  th,
+  td {
+    padding: 1.4rem 1.2rem;
     text-align: center;
-  
-    h2 {
-      font-size: clamp(2rem, 4vw, 3rem);
-      font-weight: 300;
-      margin-bottom: 1vh;
-    }
-  
-    p {
-      font-size: 1rem;
-      opacity: 0.85;
-    }
   }
-  
-  /* CONTENEDOR GLASS */
-  .tableWrapper {
-    backdrop-filter: blur(12px);
-    background: rgba(255, 255, 255, 0.06);
-    border-radius: 2rem;
-    border: 1px solid rgba(255, 255, 255, 0.25);
-    overflow: hidden;
-  }
-  
-  /* TABLA */
-  .table {
-    width: 100%;
-    border-collapse: collapse;
-    table-layout: fixed;
-  
-    th,
-    td {
-      padding: 1.4rem 1.2rem;
-      text-align: center;
-      font-size: 0.95rem;
-    }
-  
-    thead th {
-      font-weight: 400;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-    }
-  
-    tbody tr:not(:last-child) td {
-      border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-    }
-  
-    th:not(:last-child),
-    td:not(:last-child) {
-      border-right: 1px solid rgba(255, 255, 255, 0.2);
-    }
-  }
-  
-  /* PRIMERA COLUMNA (LABELS) */
-  .rowLabel {
-    text-align: left;
+
+  thead th {
     font-weight: 400;
-    opacity: 0.9;
-    padding-left: 2rem;
-    white-space: nowrap;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   }
-  
-  /* HEADERS DE COLUMNAS */
-  .table thead th {
-    font-size: 1rem;
-  
-    &:first-child {
-      background: transparent;
+
+  @media (max-width: 850px) {
+    tbody {
+      display: flex;
+      flex-direction: column;
+      gap: 4vh;
     }
-  }
-  
-  /* RESPONSIVE */
-  @media (max-width: 900px) {
-    .content {
-      width: 95%;
+    tr {
+      display: block;
+      width: 100%;
+
+      display: flex;
+      flex-direction: column;
+      gap: 1.2vh;
+      padding: 3vh 3vh;
+      border-radius: 20px;
+      background: rgba(255, 255, 255, 0.08);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.2);
     }
-  
-    .table {
-      font-size: 0.85rem;
-  
-      th,
-      td {
-        padding: 1rem 0.8rem;
-      }
-    }
-  
-    .rowLabel {
-      white-space: normal;
+
+    thead {
+      display: none;
     }
   }
+
+  tbody tr:not(:last-child) td {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  }
+
+  th:not(:last-child),
+  td:not(:last-child) {
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+  }
+}
+
+.activeCol {
+  background-color: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(6px);
+  transition: background-color 0.25s ease;
+}
+
+.cell {
+  font-size: 1.8vh !important;
+  color: rgb(227, 224, 224);
+
+  @media (max-width: 850px) {
+    font-size: 1.6vh;
+    color: rgba(255, 255, 255, 0.9);
+  }
+}
+.columnHeader {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+
+  span {
+    font-weight: 600;
+    font-size: 3vh;
+  }
+
+  small {
+    opacity: 0.7;
+    font-size: 1.8vh;
+  }
+}
+
+.buttonRow td {
+  padding: 2rem 1rem;
+}
+
+.buttonCell {
+  text-align: center;
+}
+
+.moreButton {
+  padding: 0.7rem 1.6rem;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  background: transparent;
+  color: white;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: all 0.3s ease;
+}
+
+.activeButton {
+  opacity: 1;
+  background: rgba(255, 255, 255, 0.15);
+  border-color: rgba(255, 255, 255, 0.7);
+  transform: translateY(-2px);
+}
+
+/* PRIMERA COLUMNA (LABELS) */
+.rowLabel {
+  text-align: left;
+  font-weight: 400;
+  opacity: 0.9;
+  padding-left: 2rem;
+  white-space: nowrap;
+  font-size: 2.5vh;
+
+  @media (max-width: 850px) {
+    display: none;
+  }
+}
+
+/* HEADERS DE COLUMNAS */
+.table thead th {
+  &:first-child {
+    background: transparent;
+  }
+}

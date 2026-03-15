@@ -17,6 +17,8 @@ export default function TravelSection({ images, texts }) {
     requestAnimationFrame(raf);
   }, []);
 
+
+
   return (
     <>
     <ScrollRevealSection

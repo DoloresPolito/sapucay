@@ -10,14 +10,14 @@ export default function Content({ item, isActive }) {
       transition={{ duration: 0.4 }}
     >
       <div className={styles.left}>
-        <h2>{item.title}</h2>
-        <h3>{item.subtitle}</h3>
+        <h2 className={styles.titleh2}>{item.title}</h2>
+        <p className={styles.text}>{item.subtitle}</p>
       </div>
 
       <div className={styles.right}>
-        <p>{item.level1}</p>
-        <p>{item.level2}</p>
-        <p>{item.level3}</p>
+        <p className={styles.text}>{item.level1}</p>
+        <p className={styles.text}>{item.level2}</p>
+        <p className={styles.text}>{item.level3}</p>
       </div>
     </motion.div>
   );
