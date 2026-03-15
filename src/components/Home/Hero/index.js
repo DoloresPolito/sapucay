@@ -11,6 +11,12 @@ export default function Hero({ herotexts }) {
   const locale = useLocale();
   const links = ["/naturaleza", "/cultura", "/bienestar"];
 
+
+  const scrollToNext = () => {
+    const section = document.getElementById("slideA");
+    section?.scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
     <div className={styles.herosection}>
       <div className={styles.heroimage}>
@@ -37,7 +43,7 @@ export default function Hero({ herotexts }) {
           </AnimatedDiv>
 
           <div>
-            <Button>{herotexts.button}</Button>
+            <Button onClick={scrollToNext}>{herotexts.button}</Button>
           </div>
         </div>
 

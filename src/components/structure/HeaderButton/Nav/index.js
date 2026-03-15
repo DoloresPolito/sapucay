@@ -6,10 +6,7 @@ import { height } from "../amin";
 import Body from "./Body";
 import { useTranslations, useLocale } from "next-intl";
 
-
 export default function Index({ setIsActive }) {
-
-
   const t = useTranslations("nav");
   const locale = useLocale();
   const links = [
@@ -56,10 +53,7 @@ export default function Index({ setIsActive }) {
             setIsActive={setIsActive}
           />
         </div>
-      
       </div>
-
-
     </motion.div>
   );
 }

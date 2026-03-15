@@ -1,6 +1,7 @@
 @use "../../../../../styles/variables";
 @use "../../../../../styles/typography";
 
+
 .body {
     display: flex;
     flex-direction: column;
@@ -12,22 +13,18 @@
     }
   
     a {
-      color: #0d0d0d;
       text-decoration: none;
-      font-family: "BwGradual";
-      text-transform: uppercase;
     }
   
     p {
       position: relative;
       margin: 0;
       display: flex;
-      font-size: 6vh;
       padding-right: 30px;
       padding-top: 10px;
       overflow: hidden;
       
-      @media only screen and (max-width: 950px) {
+      @media only screen and (max-width: 850px) {
         font-size: 4.3vh;
         white-space: normal;
         overflow-wrap: break-word;

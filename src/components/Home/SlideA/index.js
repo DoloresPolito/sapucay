@@ -37,7 +37,7 @@ export default function SlideA({ typestexts }) {
   const y = isMobile ? "0vh" : yTransform;
 
   return (
-    <div ref={container} className={styles.section}>
+    <div ref={container} className={styles.section} id="slideA">
       <motion.div style={{ y }} className={styles.motionDiv}>
         <div className={styles.heroimage}>
           <Image

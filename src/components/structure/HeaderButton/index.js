@@ -6,6 +6,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { opacity, background } from "./amin";
 import Nav from "./Nav";
 import { SelectLanguage } from "../../SelectLanguage";
+import AnimatedDiv from "../../ui/AnimatedDiv";
 
 export default function HeaderButton() {
   const [isActive, setIsActive] = useState(false);
@@ -20,16 +21,17 @@ export default function HeaderButton() {
         <div className={styles.left}>
           <SelectLanguage />
         </div>
-
-        <div className={styles.center}>
-          <h1 className={styles.navtitle}>SAPUCAY EXPERIENCE</h1>
-        </div>
+        <AnimatedDiv>
+          <div className={styles.center}>
+            <h1 className={styles.navtitle}>SAPUCAY EXPERIENCE</h1>
+          </div>
+        </AnimatedDiv>
 
         <div
           onClick={() => {
             setIsActive(!isActive);
           }}
-          className={styles.el}
+          className={styles.right}
         >
           <div className={styles.label}>
             <motion.p
@@ -39,7 +41,11 @@ export default function HeaderButton() {
             >
               Menu
             </motion.p>
-            <motion.p variants={opacity} animate={isActive ? "open" : "closed"}   className={styles.navtextblack}>
+            <motion.p
+              variants={opacity}
+              animate={isActive ? "open" : "closed"}
+              className={styles.navtextblack}
+            >
               Cerrar
             </motion.p>
           </div>
