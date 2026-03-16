@@ -4,8 +4,7 @@
 //Intro
 
 .intro {
-  height: 100vh;
-
+  height: 101vh;
   width: 100%;
   overflow: hidden;
   display: flex;
@@ -21,6 +20,9 @@
   overflow: hidden;
   display: flex;
   flex-direction: column;
+  top: -1vh;
+  // height: 110vh;
+  width: 100%;
 }
 
 .overlay {
@@ -230,35 +232,84 @@
 }
 
 .content {
+  height: 50vh;
   position: relative;
   z-index: 10;
-  color: white;
   width: 90%;
-  height: auto; // 👈 no 100%
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 
-  .top {
+  .topsection {
     display: flex;
     flex-direction: row;
+    align-items: center;
     justify-content: space-between;
     width: 100%;
-    margin-bottom: 20vh;
+    height: 70vh;
+    margin-top: -5vh;
+
+    .titleh2 {
+      font-size: 4.5vh;
+      font-weight: 300;
+      color: white;
+      letter-spacing: 0.1vh;
+    }
+
+    .titleWide {
+      font-weight: 600;
+      color: rgb(247, 243, 243);
+    }
+    @media only screen and (max-width: 850px) {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
 
     .titlecontainer {
       display: flex;
       flex-direction: column;
       margin: 0;
+      width: 33.33%;
+
+      @media only screen and (max-width: 850px) {
+        width: 100%;
+        align-items: center;
+      }
     }
 
-    .line {
-      width: auto;
-      height: 0.3vh;
-      margin-bottom: 3vh;
-      background-color: white;
+    .middle {
+      display: flex;
+      justify-content: center;
+      width: 33.33%;
+      @media only screen and (max-width: 850px) {
+        display: none;
+      }
+    }
+    .itemscontainer {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      justify-content: center;
+      width: 33.33%;
+      @media only screen and (max-width: 850px) {
+        width: 100%;
+        align-items: center;
+      }
+
+      .itemcontainer {
+        padding: 3vh 3vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 0.1vh solid white;
+
+        .itemWide {
+          font-size: 3vh;
+          font-weight: 600;
+        }
+      }
     }
   }
 
@@ -268,8 +319,9 @@
     align-items: center;
     width: 100%;
     text-align: center;
+
     .container {
-      background-color: transparent;
+      background: rgba(255, 255, 255, 0.08);
       border: 0.2vh solid white;
       border-radius: 10vh;
       padding: 2vh 10vh;

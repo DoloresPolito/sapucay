@@ -336,7 +336,7 @@
     "descriptionsubtitle": "All Culture and Tradition programs share the same framework, but differ in their level of depth, guidance, and impact.",
     "items": [
       {
-        "image": "/images/cultura/01.png",
+        "image": "/images/naturaleza/01.png",
         "title": "Sapucay Observer",
         "subtitle": "Explorer level",
         "text": "A deeper experience: conscious practices, an inward reading of nature, and personalized well-being.",
@@ -348,7 +348,7 @@
         ]
       },
       {
-        "image": "/images/cultura/02.png",
+        "image": "/images/naturaleza/02.png",
         "title": "Sapucay MICE",
         "subtitle": "Immersive level",
         "text": "Collaborative processes and experiences designed for groups and organizations.",
@@ -360,7 +360,7 @@
         ]
       },
       {
-        "image": "/images/cultura/03.png",
+        "image": "/images/naturaleza/03.png",
         "title": "Equestrian Journey",
         "subtitle": "Regeneration and purpose level",
         "text": "A transformative journey with guidance and purpose.",

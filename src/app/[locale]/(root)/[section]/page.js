@@ -18,14 +18,14 @@ const IMAGES = {
     "/images/bienestar/01.png",
     "/images/bienestar/02.png",
     "/images/bienestar/03.png",
-    "/images/cultura/culturasection.png",
+    "/images/bienestar/bienestarsection.png",
   ],
   naturaleza: [
     "/images/naturaleza/naturaleza.png",
-    "/images/cultura/01.png",
-    "/images/cultura/02.png",
-    "/images/cultura/03.png",
-    "/images/cultura/culturasection.png",
+    "/images/naturaleza/01.png",
+    "/images/naturaleza/02.png",
+    "/images/naturaleza/03.png",
+    "/images/naturaleza/naturalezasection.png",
   ],
 };
 

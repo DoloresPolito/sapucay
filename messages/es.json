@@ -351,7 +351,7 @@
     "descriptionsubtitle": "Todos los programas de Cultura y Tradición comparten un mismo marco, pero se diferencian por nivel de profundidad, acompañamiento e impacto.",
     "items": [
       {
-        "image": "/images/cultura/01.png",
+        "image": "/images/naturaleza/01.png",
         "title": "Sapucay Observador",
         "subtitle": "Nivel explorador",
         "text": "Una vivencia más profunda: prácticas conscientes, naturaleza leída desde adentro y bienestar personalizado.",
@@ -363,7 +363,7 @@
         ]
       },
       {
-        "image": "/images/cultura/02.png",
+        "image": "/images/naturaleza/02.png",
         "title": "Sapucay MICE",
         "subtitle": "Nivel inmersivo",
         "text": "Procesos colaborativos y experiencias diseñadas para grupos y organizaciones.",
@@ -375,7 +375,7 @@
         ]
       },
       {
-        "image": "/images/cultura/03.png",
+        "image": "/images/naturaleza/03.png",
         "title": "Travesía Ecuestre",
         "subtitle": "Nivel regeneración y sentido",
         "text": "Un viaje transformador con acompañamiento y propósito.",

@@ -28,20 +28,33 @@ export default function Section({
       style={{ clipPath: "polygon(0% 0, 100% 0%, 100% 100%, 0 100%)" }}
     >
       <div className={styles.content}>
-        <div className={styles.top}>
+        <div className={styles.topsection}>
           <div className={styles.titlecontainer}>
+            {/* <p className={styles.section1}>{sectiontext1}</p>
+            <h2 className={styles.section2}>{sectiontext2}</h2> */}
 
-       
-          <p className={styles.section1}>{sectiontext1}</p>
-          <h2 className={styles.section2}>{sectiontext2}</h2>
+            <h2 className={styles.titleh2}>El verdadero lujo</h2>
+            <h2 className={styles.titleh2}>no es hacer más.</h2>
+            <h2 className={`${styles.titleh2} ${styles.titleWide}`}>
+            Es volver al
+                </h2>
+                <h2 className={`${styles.titleh2} ${styles.titleWide}`}>
+                ritmo natural.
+                </h2>
+
           </div>
-          <div>
-            {sectionitems.map((item, index) => (
-              <div key={index} className={styles.itemsection}>
-                <div>
-                  <p className={styles.section1}>{item}</p>
-                  <div className={styles.line}/>
 
+          <div className={styles.middle}>
+            <p></p>
+          </div>
+
+          <div className={styles.itemscontainer}>
+            {sectionitems.map((item, index) => (
+              <div key={index} className={styles.itemcontainer}>
+                <div>
+                <p className={`${styles.text} ${styles.itemWide}`}>
+                  {item}</p>
+               
                 </div>
               </div>
             ))}
