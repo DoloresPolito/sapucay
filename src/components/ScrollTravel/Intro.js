@@ -1,14 +1,26 @@
 "use client";
 import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
-import { useRef } from "react";
+import { useRef, useEffect, useState } from "react";
 import styles from "./style.module.scss";
 import Button from "../ui/Button";
-// import Link from "next/link";
 import AnimatedDiv from "../ui/AnimatedDiv";
 
 export default function Intro({ image, herotitle, herosubtitle, herobutton }) {
   const container = useRef(null);
+
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const checkScreen = () => {
+      setIsMobile(window.innerWidth <= 850);
+    };
+
+    checkScreen();
+    window.addEventListener("resize", checkScreen);
+
+    return () => window.removeEventListener("resize", checkScreen);
+  }, []);
 
   const { scrollYProgress } = useScroll({
     target: container,
@@ -19,7 +31,10 @@ export default function Intro({ image, herotitle, herosubtitle, herobutton }) {
 
   return (
     <div ref={container} className={styles.intro}>
-      <motion.div style={{ y }} className={styles.introImage}>
+      <motion.div
+        style={!isMobile ? { y } : {}}
+        className={styles.introImage}
+      >
         <Image
           src={image}
           fill
@@ -28,7 +43,6 @@ export default function Intro({ image, herotitle, herosubtitle, herobutton }) {
           style={{ objectFit: "cover" }}
         />
 
-        {/* Overlay de texto */}
         <div className={styles.overlay}>
           <div className={styles.left}>
             <div className={styles.titlecontainer}>
@@ -41,9 +55,7 @@ export default function Intro({ image, herotitle, herosubtitle, herobutton }) {
             </div>
 
             <div>
-              {/* <Link to="contact" smooth={true} offset={-5} duration={1000}> */}
               <Button>{herobutton}</Button>
-              {/* </Link> */}
             </div>
           </div>
 

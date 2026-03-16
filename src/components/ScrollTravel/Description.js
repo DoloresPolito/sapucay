@@ -38,7 +38,7 @@ export default function Description({ title, subtitle, items }) {
             <div className={styles.overlayHover}>
               <ul>
                 {item.bullets.map((bullet, i) => (
-                  <li className={styles.traveldescriptionitembullet} key={i}>
+                  <li className={styles.text} key={i}>
                     {bullet}
                   </li>
                 ))}

@@ -21,13 +21,16 @@
   display: flex;
   flex-direction: column;
   top: -1vh;
-  // height: 110vh;
   width: 100%;
+
+
+  @media only screen and (max-width: 850px) {
+    top: 0vh;
+  }
 }
 
 .overlay {
   position: relative;
-  bottom: 20vh;
   height: 100%;
   width: 95%;
   margin: 0 auto;
@@ -37,6 +40,38 @@
   justify-content: space-between;
   pointer-events: none; // opcional
   color: white;
+
+
+  @media only screen and (max-width: 850px) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    bottom: 0vh;
+    text-align: center;
+   }
+
+  .left {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    @media only screen and (max-width: 850px) {
+      width: 90%;
+    }
+
+  }
+
+  .right {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+
+    align-items: flex-end;
+    @media only screen and (max-width: 850px) {
+      width: 90%;
+      align-items: center;
+      margin-top: 10vh;
+    }
+  }
 
   .titlecontainer {
     display: flex;
@@ -62,19 +97,7 @@
     }
   }
 
-  .left {
-    width: 60%;
-    display: flex;
-    flex-direction: column;
-  }
 
-  .right {
-    width: 40%;
-    display: flex;
-    flex-direction: column;
-
-    align-items: flex-end;
-  }
 }
 
 //Description
@@ -85,14 +108,22 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 3vh 0;
+  padding: 3vh 0vh 0vh 0vh;
   background-color: #1a1e22;
-  color: white;
+  @media only screen and (max-width: 850px) {
+    height: auto;
+  }
 
   .top {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     .titlecontainer {
       display: flex;
       flex-direction: column;
+
       h2 {
         margin: 0;
         margin-top: 3vh;
@@ -108,12 +139,14 @@
 
     h3 {
       margin-top: 3vh;
-      max-width: 100vh;
       margin-bottom: 7vh;
+      @media only screen and (max-width: 850px) {
+        width: 95%;
+      
+        justify-self: center;
+      }
     }
-    @media only screen and (max-width: 850px) {
-      max-width: 100%;
-    }
+   
   }
 }
 
@@ -122,8 +155,10 @@
   width: 100%;
   height: 80vh;
   overflow: hidden;
+
   @media only screen and (max-width: 850px) {
     flex-direction: column;
+    height: auto;
   }
 }
 
@@ -136,7 +171,7 @@
 
   @media only screen and (max-width: 850px) {
     width: 100%;
-    height: 50vh;
+    height: 60vh;
   }
 
   &:hover .overlayHover {
@@ -169,6 +204,7 @@
   align-self: flex-end;
   justify-content: space-between;
 
+
   .toptitle {
     .titleWide {
       letter-spacing: 0.03vh;
@@ -181,8 +217,11 @@
   @media only screen and (max-width: 850px) {
     height: 80%;
     justify-content: flex-end;
+    height: 50%;
+    justify-content: space-between;
     .titleWide {
       margin-bottom: 1vh;
+
     }
   }
 }
@@ -196,6 +235,7 @@
   align-items: flex-start;
   text-align: left;
   justify-content: center;
+
 }
 
 .overlayHover ul {
@@ -240,6 +280,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  @media only screen and (max-width: 850px) {
+    width: 99%;
+  }
 
   .topsection {
     display: flex;
@@ -296,6 +339,7 @@
       @media only screen and (max-width: 850px) {
         width: 100%;
         align-items: center;
+   margin-top: 4vh;
       }
 
       .itemcontainer {
@@ -309,6 +353,8 @@
           font-size: 3vh;
           font-weight: 600;
         }
+
+  
       }
     }
   }
@@ -325,6 +371,13 @@
       border: 0.2vh solid white;
       border-radius: 10vh;
       padding: 2vh 10vh;
+
+      @media only screen and (max-width: 850px) {
+          border:none;
+          background-color:transparent;
+          margin-top: 5vh;
+
+      }
     }
   }
 }
