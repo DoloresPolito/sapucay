@@ -25,11 +25,11 @@ export default function Description({ title, subtitle, items }) {
           >
             <div className={styles.overlayBase}>
               <div className={styles.toptitle}>
-              <h2 className={`${styles.titleh2} ${styles.titleWide}`}>
-                {item.title}
-              </h2>
+                <h2 className={`${styles.titleh2} ${styles.titleWide}`}>
+                  {item.title}
+                </h2>
 
-              <h3 className={styles.titleh3}>{item.subtitle}</h3>
+                <h3 className={styles.titleh3}>{item.subtitle}</h3>
               </div>
               <p className={styles.text}>{item.text}</p>
               <Button>{item.button}</Button>
