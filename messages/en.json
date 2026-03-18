@@ -237,41 +237,55 @@
 
   "bienestar": {
     "herotitle": "Wellbeing",
-    "herosubtitle": "A conscious pause in one of South America’s purest ecosystems. Nature, silence, and deep practices to return to balance.",
+    "herosubtitle": "A conscious pause in one of South America's purest ecosystems. Nature, silence, and deep practices to restore balance.",
     "herobutton": "Learn more",
     "descriptiontitle": "Choose how to experience Iberá",
-    "descriptionsubtitle": "All Iberá Wellbeing programs share the same framework, but differ in depth, level of guidance, and impact.",
+    "descriptionsubtitle": "All Iberá Wellbeing programs share a common framework, but differ in their level of depth, guidance, and impact.",
     "items": [
       {
         "image": "/images/bienestar/01.png",
         "title": "Detox",
         "subtitle": "Explorer level",
-        "text": "...",
+        "text": "A pause to release the pace of everyday life and reconnect with the body through nature, rest, and simplicity.",
         "button": "See more",
         "bullets": [
-          "Nature and conscious rest",
-          "Guided walks and local wildlife",
+          "Guided walks in natural surroundings",
           "Navigation through the Iberá lagoon",
-          "Gentle movement at sunrise",
-          "Horseback riding with local guides",
-          "Bonfire and starry skies"
+          "Conscious movement at sunrise",
+          "Gentle horseback riding with local guides",
+          "Evening bonfire and stargazing",
+          "Natural nutrition and deep rest"
         ]
       },
       {
         "image": "/images/bienestar/02.png",
         "title": "Natural Wellbeing",
         "subtitle": "Immersive level",
-        "text": "A deeper experience: mindful practices, nature understood from within, and personalized wellbeing.",
+        "text": "A deep experience combining wellbeing practices, nature, and guidance to restore physical and emotional balance.",
         "button": "See more",
-        "bullets": ["1", "2", "3"]
+        "bullets": [
+          "Grounding and sensory walks",
+          "Breathing practices and emotional regulation",
+          "Medicinal plants workshop with personal preparation",
+          "Silent, conscious navigation",
+          "Guidance from a specialized facilitator",
+          "Body–nature integration"
+        ]
       },
       {
         "image": "/images/bienestar/03.png",
-        "title": "Signature Wellbeing",
-        "subtitle": "Regeneration and purpose level",
-        "text": "A transformative journey: emotional assessment, specialized guidance, and experiences with personal impact and lasting meaning.",
+        "title": "Wellbeing Signature",
+        "subtitle": "Regeneration & meaning level",
+        "text": "A transformative process that integrates emotional assessment, deep practices, and personalized guidance with real impact.",
         "button": "See more",
-        "bullets": ["1", "2", "3"]
+        "bullets": [
+          "Pre- and post-experience emotional assessment (AI-assisted)",
+          "Guided meditation with horses",
+          "Nature-based music and personalized soundscapes",
+          "Personal integration journal",
+          "Specialized emotional guidance",
+          "Progress tracking and conscious closure"
+        ]
       }
     ],
     "sectiontext1": "True luxury is not doing more.",
@@ -286,15 +300,17 @@
       "It is rhythm, environment, and presence.",
       "In Iberá, nature sets the pace, and each experience follows that pulse."
     ],
-
     "table": {
-      "title": "Experience Levels",
-      "subtitle": "Comparison between the different program levels",
-      "button":"More information",
+      "title": "Explore the levels",
+      "subtitle": "Choose the one that best fits your needs",
+      "button": "More information",
       "columns": [
         { "name": "Detox", "level": "Explorer level" },
         { "name": "Natural Wellbeing", "level": "Immersive level" },
-        { "name": "Signature Wellbeing", "level": "Regeneration & meaning level" }
+        {
+          "name": "Wellbeing Signature",
+          "level": "Regeneration & meaning level"
+        }
       ],
       "rows": [
         {
@@ -302,7 +318,7 @@
           "values": [
             "Rest and reconnect",
             "Regulate body and emotions",
-            "Personal transformation"
+            "Personal transformation with meaning"
           ]
         },
         {
@@ -315,14 +331,18 @@
         },
         {
           "label": "Duration",
-          "values": ["3 days / 2 nights", "4 days / 3 nights", "Customized"]
+          "values": [
+            "3 days / 2 nights",
+            "3 days / 2 nights",
+            "Custom"
+          ]
         },
         {
           "label": "Practices",
           "values": [
-            "Walks, breathing, silence",
-            "Grounding, nervous system regulation",
-            "Emotional assessment, symbolic practices"
+            "Walks, rest, connection with nature",
+            "Grounding, breathing, medicinal plants",
+            "Emotional assessment, symbolic practices, and tracking"
           ]
         }
       ]
@@ -333,85 +353,109 @@
     "herosubtitle": "Connection with the territory and its biodiversity.",
     "herobutton": "Learn more",
     "descriptiontitle": "Choose how to experience Iberá",
-    "descriptionsubtitle": "All Culture and Tradition programs share the same framework, but differ in their level of depth, guidance, and impact.",
+    "descriptionsubtitle": "All programs share a common framework, but differ in their level of depth, guidance, and impact.",
     "items": [
       {
         "image": "/images/naturaleza/01.png",
-        "title": "Sapucay Observer",
+        "title": "Living Nature",
         "subtitle": "Explorer level",
-        "text": "A deeper experience: conscious practices, an inward reading of nature, and personalized well-being.",
+        "text": "A first immersion into Iberá’s living system: observe, explore, and be surprised by an ecosystem in its pure state.",
         "button": "See more",
         "bullets": [
-          "First approach to the territory",
-          "Guided cultural experiences",
-          "Respectful contact with local communities"
+          "Wildlife observation in its natural habitat",
+          "Safaris and interpretive walks",
+          "First conscious contact with the ecosystem"
         ]
       },
       {
         "image": "/images/naturaleza/02.png",
-        "title": "Sapucay MICE",
+        "title": "Living Nature Immersive",
         "subtitle": "Immersive level",
-        "text": "Collaborative processes and experiences designed for groups and organizations.",
+        "text": "A deeper experience: connection with the territory, its people, and a real understanding of conservation.",
         "button": "See more",
         "bullets": [
-          "Tailor-made experience design",
-          "Collaboration with local stakeholders",
-          "Measurable territorial impact"
+          "Interaction with park rangers and local guides",
+          "Activities such as horseback riding and kayaking",
+          "Understanding the ecosystem from within"
         ]
       },
       {
         "image": "/images/naturaleza/03.png",
-        "title": "Equestrian Journey",
-        "subtitle": "Regeneration and purpose level",
-        "text": "A transformative journey with guidance and purpose.",
+        "title": "Living Nature Signature",
+        "subtitle": "Regeneration & meaning level",
+        "text": "A transformative experience where nature is no longer just observed, but actively engaged with.",
         "button": "See more",
         "bullets": [
-          "Horseback journeys through Iberá",
-          "Deep reading of the landscape",
-          "Personal experience and lasting legacy"
+          "Participation in regenerative actions",
+          "Deep reading of the territory",
+          "A personal experience with purpose and impact"
         ]
       }
     ],
-    "sectiontext1": "True value is not about observing culture.",
-    "sectiontext2": "It is about allowing yourself to be shaped by it.",
-    "sectionitems": ["BELONGING", "HUMAN CONNECTION", "SHARED EMOTION"],
+    "sectiontext1": "The true adventure is not going further,",
+    "sectiontext2": "but learning to go deeper.",
+    "sectionitems": [
+      "CONNECTION WITH LIFE",
+      "NATURAL BALANCE",
+      "INTERDEPENDENCE"
+    ],
     "sectionbutton": [
-      "Culture is not explained: it is lived.",
-      "In Iberá, tradition is passed on through gestures, silences, and encounters.",
-      "Each experience follows the rhythm of the community and the way of being together."
+      "In Iberá, nature is not explored: it is inhabited.",
+      "Each experience invites you to move with respect, observe with attention, and understand the rhythms of the ecosystem.",
+      "Travel becomes a way of relating to life in its most essential form."
     ],
     "table": {
-      "title": "Experience Levels",
+      "title": "Experience levels",
       "subtitle": "Comparison between the different program levels",
-      "button":"More information",
+      "button": "More information",
       "columns": [
-        { "name": "Sapucay Observer", "level": "Explorer level" },
-        { "name": "Sapucay MICE", "level": "Immersive level" },
+        { "name": "Living Nature", "level": "Explorer level" },
+        { "name": "Living Nature Immersive", "level": "Immersive level" },
         {
-          "name": "Equestrian Journey",
+          "name": "Living Nature Signature",
           "level": "Regeneration & meaning level"
         }
       ],
       "rows": [
         {
-          "label": "Duration",
-          "values": ["3 days", "5 days", "7 days"]
+          "label": "Purpose",
+          "values": [
+            "Discover nature",
+            "Understand the ecosystem",
+            "Leave a conscious impact"
+          ]
         },
         {
-          "label": "Guidance",
-          "values": ["Basic", "Personalized", "Comprehensive"]
+          "label": "Wildlife interaction",
+          "values": [
+            "Observation",
+            "Observation + interpretation",
+            "Understanding impact"
+          ]
         },
         {
-          "label": "Depth",
-          "values": ["Introductory", "Experiential", "Transformational"]
+          "label": "Human connection",
+          "values": [
+            "Local guides",
+            "Park rangers and local experts",
+            "Territory stakeholders and leaders"
+          ]
         },
         {
-          "label": "Territorial Impact",
-          "values": ["Low", "Medium", "High"]
+          "label": "Activities",
+          "values": [
+            "Navigation and walks",
+            "Horseback riding and kayaking",
+            "Regenerative action"
+          ]
         },
         {
-          "label": "Traveler Profile",
-          "values": ["Curious", "Committed", "Seeker of meaning"]
+          "label": "Knowledge",
+          "values": [
+            "Natural",
+            "Ecosystemic",
+            "Systemic and symbolic"
+          ]
         }
       ]
     }

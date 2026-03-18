@@ -4,12 +4,17 @@
   padding: 2vh;
   z-index: 10000;
 
+  @media only screen and (max-width: 950px) {
+
+ padding: 1vh;
+  }
   .wrapper {
     display: flex;
     height: 100vh;
     justify-content: space-between;
     @media only screen and (max-width: 950px) {
       flex-direction: column;
+      height: 80vh;
     }
 
     // .imagecontainermobile {

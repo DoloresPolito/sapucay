@@ -1,7 +1,6 @@
 {
   "Home": {
     "HeroHome": {
-    
       "title1": "Donde los viajes se viven tan profundo,",
       "title2": "que al final solo queda gritarlo.",
       "subtitle": "Disenamos experiencias autenticas que conectan territorios, cultura y hospitalidad",
@@ -51,7 +50,6 @@
     },
 
     "LevelsHome": {
-  
       "title1": "Cada propuesta propone",
       "title2": "un nivel distinto de involucramiento.",
       "subtitle": "El territorio es el mismo, pero el viaje se transforma según cómo decidís habitarlo.",
@@ -94,9 +92,6 @@
             "Contribución activa a la conservación",
             "Fortalecimiento de las comunidades",
             "Legado positivo en el territorio"
-            
-            
-
           ]
         }
       ]
@@ -125,7 +120,7 @@
   },
   "footer": {
     "subtitle1": "Donde los viajes se viven tan profundo,",
-    "subtitle2":"que al final solo queda gritarlos.",
+    "subtitle2": "que al final solo queda gritarlos.",
     "title1": "Navegación",
     "col1item1": "Inicio",
     "col1item2": "El Destino",
@@ -133,7 +128,7 @@
     "col1item4": "Bienestar",
     "col1item5": "Naturaleza",
     "col1item6": "Cultura y Tradición",
-    
+
     "title2": "Contacto",
     "col2item1": "Col. Carlos Pellegrini, Corrientes, Argentina",
     "col2item2": "info@sapucay travel",
@@ -207,7 +202,7 @@
     "table": {
       "title": "Explorá los niveles",
       "subtitle": "Y elegí el que mejor se adapte a tus necesidades",
-      "button":"Más información",
+      "button": "Más información",
       "columns": [
         { "name": "Sapucay Observador", "level": "Nivel explorador" },
         { "name": "Sapucay MICE", "level": "Nivel inmersivo" },
@@ -259,32 +254,46 @@
         "image": "/images/bienestar/01.png",
         "title": "Detox",
         "subtitle": "Nivel explorador",
-        "text": "...",
+        "text": "Una pausa para soltar el ritmo cotidiano y reconectar con el cuerpo a través de la naturaleza, el descanso y lo simple.",
         "button": "Ver más",
         "bullets": [
-          "Naturaleza y descanso consciente",
-          "Caminatas guiadas y fauna local",
+          "Caminatas guiadas en entorno natural",
           "Navegación por la laguna Iberá",
-          "Movimiento suave al amanecer",
-          "Cabalgata con baqueanos",
-          "Fogón y cielo estrellado"
+          "Movimiento consciente al amanecer",
+          "Cabalgata suave con baqueanos",
+          "Fogón nocturno y observación de estrellas",
+          "Alimentación natural y descanso profundo"
         ]
       },
       {
         "image": "/images/bienestar/02.png",
         "title": "Bienestar Natural",
         "subtitle": "Nivel inmersivo",
-        "text": "Una vivencia más profunda: prácticas conscientes, naturaleza leída desde adentro y bienestar personalizado.",
+        "text": "Una experiencia profunda que combina prácticas de bienestar, naturaleza y acompañamiento para restaurar el equilibrio físico y emocional.",
         "button": "Ver más",
-        "bullets": ["1", "2", "3"]
+        "bullets": [
+          "Grounding y caminatas sensoriales",
+          "Prácticas de respiración y regulación emocional",
+          "Taller de plantas medicinales con preparación personal",
+          "Navegación consciente en silencio",
+          "Acompañamiento de facilitador especializado",
+          "Integración cuerpo–naturaleza"
+        ]
       },
       {
         "image": "/images/bienestar/03.png",
         "title": "Bienestar Insignia",
         "subtitle": "Nivel regeneración y sentido",
-        "text": "Un viaje transformador: medición emocional, acompañamiento especializado y experiencias con impacto personal y legado.",
+        "text": "Un proceso transformador que integra diagnóstico emocional, prácticas profundas y acompañamiento personalizado con impacto real.",
         "button": "Ver más",
-        "bullets": ["1", "2", "3"]
+        "bullets": [
+          "Diagnóstico emocional previo y posterior (IA)",
+          "Meditación guiada con caballos",
+          "Música naturaleza y paisajes sonoros personalizados",
+          "Bitácora personal de integración",
+          "Acompañamiento emocional especializado",
+          "Medición de evolución y cierre consciente"
+        ]
       }
     ],
     "sectiontext1": "El verdadero lujo no es hacer más.",
@@ -302,11 +311,14 @@
     "table": {
       "title": "Explorá los niveles",
       "subtitle": "Y elegí el que mejor se adapte a tus necesidades",
-      "button":"Más información",
+      "button": "Más información",
       "columns": [
         { "name": "Detox", "level": "Nivel explorador" },
         { "name": "Bienestar Natural", "level": "Nivel inmersivo" },
-        { "name": "Bienestar Insignia", "level": "Nivel regeneración y sentido" }
+        {
+          "name": "Bienestar Insignia",
+          "level": "Nivel regeneración y sentido"
+        }
       ],
       "rows": [
         {
@@ -314,10 +326,9 @@
           "values": [
             "Descansar y reconectar",
             "Regular cuerpo y emoción",
-            "Transformación personal"
+            "Transformación personal con sentido"
           ]
         },
-
         {
           "label": "Ritmo",
           "values": [
@@ -326,18 +337,20 @@
             "Íntimo y transformador"
           ]
         },
-
         {
           "label": "Duración",
-          "values": ["3 días / 2 noches", "4 días / 3 noches", "Personalizado"]
+          "values": [
+            "3 días / 2 noches",
+            "3 días / 2 noches",
+            "Personalizado"
+          ]
         },
-
         {
           "label": "Prácticas",
           "values": [
-            "Caminatas, respiración, silencio",
-            "Grounding, regulación nerviosa",
-            "Diagnóstico emocional, prácticas simbólicas"
+            "Caminatas, descanso, conexión con la naturaleza",
+            "Grounding, respiración, plantas medicinales",
+            "Diagnóstico emocional, prácticas simbólicas y medición"
           ]
         }
       ]
@@ -352,74 +365,105 @@
     "items": [
       {
         "image": "/images/naturaleza/01.png",
-        "title": "Sapucay Observador",
+        "title": "Naturaleza Viva",
         "subtitle": "Nivel explorador",
-        "text": "Una vivencia más profunda: prácticas conscientes, naturaleza leída desde adentro y bienestar personalizado.",
+        "text": "Una primera inmersión en la vida del Iberá: observar, recorrer y dejarse sorprender por un ecosistema en estado puro.",
         "button": "Ver más",
         "bullets": [
-          "Primer acercamiento al territorio",
-          "Experiencias culturales guiadas",
-          "Contacto respetuoso con comunidades locales"
+          "Observación de fauna en libertad",
+          "Safaris y caminatas interpretativas",
+          "Primer contacto consciente con el ecosistema"
         ]
       },
       {
         "image": "/images/naturaleza/02.png",
-        "title": "Sapucay MICE",
+        "title": "Naturaleza Viva Inmersivo",
         "subtitle": "Nivel inmersivo",
-        "text": "Procesos colaborativos y experiencias diseñadas para grupos y organizaciones.",
+        "text": "Una experiencia más profunda: vínculo con el territorio, sus actores y comprensión real de la conservación.",
         "button": "Ver más",
         "bullets": [
-          "Diseño de experiencias a medida",
-          "Trabajo con actores locales",
-          "Impacto medible en el territorio"
+          "Interacción con guardaparques y baqueanos",
+          "Actividades como cabalgatas y kayak",
+          "Comprensión del ecosistema desde adentro"
         ]
       },
       {
         "image": "/images/naturaleza/03.png",
-        "title": "Travesía Ecuestre",
+        "title": "Naturaleza Viva Insignia",
         "subtitle": "Nivel regeneración y sentido",
-        "text": "Un viaje transformador con acompañamiento y propósito.",
+        "text": "Una vivencia transformadora donde ya no solo se observa la naturaleza, sino que se asume un rol dentro de ella.",
         "button": "Ver más",
         "bullets": [
-          "Recorridos a caballo por el Iberá",
-          "Lectura profunda del paisaje",
-          "Experiencia personal y legado"
+          "Participación en acciones regenerativas",
+          "Lectura profunda del territorio",
+          "Experiencia personal con impacto y propósito"
         ]
       }
     ],
-    "sectiontext1": "El verdadero valor no es mirar la cultura.",
-    "sectiontext2": "Es dejarse atravesar por ella.",
-    "sectionitems": ["PERTENENCIA", "VÍNCULO HUMANO", "EMOCIÓN COMPARTIDA"],
-    "sectionbutton": [
-      "La cultura no se explica: se vive.",
-      " En Iberá, la tradición se transmite en gestos, silencios y encuentros.",
-      "Cada experiencia acompaña el pulso de la comunidad y la forma de estar juntos."
+    "sectiontext1": "La verdadera aventura no es llegar más lejos,",
+    "sectiontext2": "sino aprender a ir más profundo.",
+
+    "sectionitems": [
+      "CONEXIÓN CON LA VIDA",
+      "EQUILIBRIO NATURAL",
+      "INTERDEPENDENCIA"
     ],
+
+    "sectionbutton": [
+      "En el Iberá, la naturaleza no se recorre: se habita.",
+      "Cada experiencia invita a moverse con respeto, observar con atención y comprender los ritmos del ecosistema.",
+      "Viajar se transforma en una forma de vincularse con la vida en su estado más esencial."
+    ],
+
     "table": {
       "title": "Niveles de experiencia",
       "subtitle": "Comparación entre los distintos niveles del programa",
-      "button":"Más información",
-      "columns": ["Explorador", "Inmersivo", "Regeneración"],
+      "button": "Más información",
+
+      "columns": [
+        { "name": "Naturaleza Viva", "level": "Nivel explorador" },
+        { "name": "Naturaleza Viva Inmersivo", "level": "Nivel inmersivo" },
+        {
+          "name": "Naturaleza Viva Insignia",
+          "level": "Nivel regeneración y sentido"
+        }
+      ],
       "rows": [
         {
-          "label": "Duración",
-          "values": ["3 días", "5 días", "7 días"]
+          "label": "Propósito",
+          "values": [
+            "Descubrir la naturaleza",
+            "Entender el ecosistema",
+            "Dejar una huella consciente"
+          ]
         },
         {
-          "label": "Acompañamiento",
-          "values": ["Básico", "Personalizado", "Integral"]
+          "label": "Contacto con fauna",
+          "values": [
+            "Observación",
+            "Observación + interpretación",
+            "Comprensión del impacto"
+          ]
         },
         {
-          "label": "Profundidad",
-          "values": ["Introductoria", "Experiencial", "Transformadora"]
+          "label": "Relación humana",
+          "values": [
+            "Guías locales",
+            "Guardaparques y baqueanos",
+            "Referentes y actores del territorio"
+          ]
         },
         {
-          "label": "Impacto territorial",
-          "values": ["Bajo", "Medio", "Alto"]
+          "label": "Actividad",
+          "values": [
+            "Navegación y caminatas",
+            "Cabalgata y kayak",
+            "Acción regenerativa"
+          ]
         },
         {
-          "label": "Perfil del viajero",
-          "values": ["Curioso", "Comprometido", "Buscador de sentido"]
+          "label": "Conocimiento",
+          "values": ["Natural", "Ecosistémico", "Sistémico y simbólico"]
         }
       ]
     }

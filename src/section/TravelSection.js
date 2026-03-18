@@ -16,7 +16,6 @@ export default function TravelSection({ images, texts }) {
 
     requestAnimationFrame(raf);
   }, []);
-console.log("images", images)
 
 
   return (
