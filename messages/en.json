@@ -49,7 +49,6 @@
     },
 
     "LevelsHome": {
-  
       "title1": "Each proposal offers",
       "title2": "a different level of involvement.",
       "subtitle": "The territory is the same, but the journey transforms depending on how you choose to experience it.",
@@ -110,9 +109,8 @@
   },
 
   "footer": {
-
     "subtitle1": "Where journeys are lived so deeply",
-    "subtitle2":"that in the end the only thing left is to shout them out.",
+    "subtitle2": "that in the end the only thing left is to shout them out.",
     "title1": "Navigation",
     "col1item1": "Home",
     "col1item2": "The Destination",
@@ -181,8 +179,11 @@
       }
     ],
 
-    "sectiontext1": "True value is not about observing culture.",
-    "sectiontext2": "It is about allowing yourself to be shaped by it.",
+    "sectiontext1": "The true value",
+    "sectiontext2": "is not in observing culture.",
+    "sectiontext3": "It is in allowing yourself",
+    "sectiontext4": "to be shaped by it.",
+
     "sectionitems": ["BELONGING", "HUMAN CONNECTION", "SHARED EMOTION"],
     "sectionbutton": [
       "Culture is not explained: it is lived.",
@@ -193,7 +194,7 @@
     "table": {
       "title": "Experience Levels",
       "subtitle": "Comparison between the different program levels",
-      "button":"More information",
+      "button": "More information",
       "columns": [
         { "name": "Sapucay Observer", "level": "Explorer level" },
         { "name": "Sapucay MICE", "level": "Immersive level" },
@@ -288,8 +289,12 @@
         ]
       }
     ],
-    "sectiontext1": "True luxury is not doing more.",
-    "sectiontext2": "It is returning to a natural rhythm.",
+
+    "sectiontext1": "True luxury",
+    "sectiontext2": "is not about doing more.",
+    "sectiontext3": "It is about returning",
+    "sectiontext4": "to a natural rhythm.",
+
     "sectionitems": [
       "DEEP REST",
       "EMOTIONAL REGULATION",
@@ -331,11 +336,7 @@
         },
         {
           "label": "Duration",
-          "values": [
-            "3 days / 2 nights",
-            "3 days / 2 nights",
-            "Custom"
-          ]
+          "values": ["3 days / 2 nights", "3 days / 2 nights", "Custom"]
         },
         {
           "label": "Practices",
@@ -392,8 +393,12 @@
         ]
       }
     ],
-    "sectiontext1": "The true adventure is not going further,",
-    "sectiontext2": "but learning to go deeper.",
+
+    "sectiontext1": "The true adventure",
+    "sectiontext2": "is not about going further,",
+    "sectiontext3": "but about learning",
+    "sectiontext4": "to go deeper.",
+
     "sectionitems": [
       "CONNECTION WITH LIFE",
       "NATURAL BALANCE",
@@ -451,11 +456,7 @@
         },
         {
           "label": "Knowledge",
-          "values": [
-            "Natural",
-            "Ecosystemic",
-            "Systemic and symbolic"
-          ]
+          "values": ["Natural", "Ecosystemic", "Systemic and symbolic"]
         }
       ]
     }

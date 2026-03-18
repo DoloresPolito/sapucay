@@ -9,6 +9,8 @@ export default function Section({
   image,
   sectiontext1,
   sectiontext2,
+  sectiontext3,
+  sectiontext4,
   sectionitems,
   sectionbutton,
 }) {
@@ -33,15 +35,14 @@ export default function Section({
             {/* <p className={styles.section1}>{sectiontext1}</p>
             <h2 className={styles.section2}>{sectiontext2}</h2> */}
 
-            <h2 className={styles.titleh2}>El verdadero lujo</h2>
-            <h2 className={styles.titleh2}>no es hacer más.</h2>
+            <h2 className={styles.titleh2}>{sectiontext1}</h2>
+            <h2 className={styles.titleh2}>{sectiontext2}</h2>
             <h2 className={`${styles.titleh2} ${styles.titleWide}`}>
-            Es volver al
-                </h2>
-                <h2 className={`${styles.titleh2} ${styles.titleWide}`}>
-                ritmo natural.
-                </h2>
-
+              {sectiontext3}
+            </h2>
+            <h2 className={`${styles.titleh2} ${styles.titleWide}`}>
+              {sectiontext4}
+            </h2>
           </div>
 
           <div className={styles.middle}>
@@ -52,9 +53,7 @@ export default function Section({
             {sectionitems.map((item, index) => (
               <div key={index} className={styles.itemcontainer}>
                 <div>
-                <p className={`${styles.text} ${styles.itemWide}`}>
-                  {item}</p>
-               
+                  <p className={`${styles.text} ${styles.itemWide}`}>{item}</p>
                 </div>
               </div>
             ))}

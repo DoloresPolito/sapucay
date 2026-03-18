@@ -137,6 +137,12 @@ margin-bottom: 10vh;
         font-weight: 500;
         color: rgb(220, 219, 219);
         font-size: 4.5vh;
+        @media only screen and (max-width: 850px) {
+
+        
+          text-align: center;
+          justify-self: center;
+        }
       }
     }
 

@@ -27,6 +27,8 @@ export default function ScrollRevealSection({
         image={sectionImage}
         sectiontext1={texts.section.sectiontext1}
         sectiontext2={texts.section.sectiontext2}
+        sectiontext3={texts.section.sectiontext3}
+        sectiontext4={texts.section.sectiontext4}
         sectionitems={texts.section.sectionitems}
         sectionbutton={texts.section.sectionbutton}
       />

@@ -190,8 +190,12 @@
       }
     ],
 
-    "sectiontext1": "El verdadero valor no es mirar la cultura.",
-    "sectiontext2": "Es dejarse atravesar por ella.",
+    "sectiontext1": "El verdadero valor",
+    "sectiontext2": "no es mirar la cultura.",
+    "sectiontext3": "Es dejarse",
+    "sectiontext4": "atravesar por ella.",
+
+    
     "sectionitems": ["PERTENENCIA", "VÍNCULO HUMANO", "EMOCIÓN COMPARTIDA"],
     "sectionbutton": [
       "La cultura no se explica: se vive.",
@@ -296,8 +300,14 @@
         ]
       }
     ],
-    "sectiontext1": "El verdadero lujo no es hacer más.",
-    "sectiontext2": "Es volver al ritmo natural.",
+
+
+    "sectiontext1": "El verdadero lujo",
+    "sectiontext2": "no es hacer más.",
+    "sectiontext3": "Es volver",
+    "sectiontext4": "al ritmo natural.",
+
+
     "sectionitems": [
       "DESCANSO PROFUNDO",
       "REGULACIÓN EMOCIONAL",
@@ -400,8 +410,12 @@
         ]
       }
     ],
-    "sectiontext1": "La verdadera aventura no es llegar más lejos,",
-    "sectiontext2": "sino aprender a ir más profundo.",
+
+
+    "sectiontext1": "La verdadera aventura",
+    "sectiontext2": "no es llegar más lejos,",
+    "sectiontext3": "sino aprender",
+    "sectiontext4": "a ir más profundo.",
 
     "sectionitems": [
       "CONEXIÓN CON LA VIDA",

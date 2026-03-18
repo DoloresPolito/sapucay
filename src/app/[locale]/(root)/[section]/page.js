@@ -57,6 +57,8 @@ export default async function SectionPage({ params }) {
     section: {
       sectiontext1: t("sectiontext1"),
       sectiontext2: t("sectiontext2"),
+      sectiontext3: t("sectiontext3"),
+      sectiontext4: t("sectiontext4"),
       sectionitems: t.raw("sectionitems"),
       sectionbutton: t.raw("sectionbutton"), 
     },
