@@ -195,7 +195,6 @@
     "sectiontext3": "Es dejarse",
     "sectiontext4": "atravesar por ella.",
 
-    
     "sectionitems": ["PERTENENCIA", "VÍNCULO HUMANO", "EMOCIÓN COMPARTIDA"],
     "sectionbutton": [
       "La cultura no se explica: se vive.",
@@ -301,12 +300,10 @@
       }
     ],
 
-
     "sectiontext1": "El verdadero lujo",
     "sectiontext2": "no es hacer más.",
     "sectiontext3": "Es volver",
     "sectiontext4": "al ritmo natural.",
-
 
     "sectionitems": [
       "DESCANSO PROFUNDO",
@@ -349,11 +346,7 @@
         },
         {
           "label": "Duración",
-          "values": [
-            "3 días / 2 noches",
-            "3 días / 2 noches",
-            "Personalizado"
-          ]
+          "values": ["3 días / 2 noches", "3 días / 2 noches", "Personalizado"]
         },
         {
           "label": "Prácticas",
@@ -410,7 +403,6 @@
         ]
       }
     ],
-
 
     "sectiontext1": "La verdadera aventura",
     "sectiontext2": "no es llegar más lejos,",
@@ -482,9 +474,53 @@
       ]
     }
   },
-  "AboutPage": {
-    "title": "Acerca de",
-    "description": "Pagina de Acerca de",
-    "team": "Nuestro Equipo"
+
+  "Impacto": {
+    "HeroImpacto": {
+      "title1": "Turismo Regenerativo",
+      "title2": "en Iberá",
+      "subtitle": "Viajar como parte de un proceso vivo",
+      "text1": "En Colonia Carlos Pellegrini y los Esteros del Iberá, viajar no es solo conocer un lugar.Es formar parte de un proceso de regeneración del territorio.",
+      "text2": "Cada visita deja una huella.Nuestra decisión es que esa huella sea positiva, medible y compartida."
+    },
+
+    "TurismoImpacto": {
+      "title": "¿Qué es el turismo regenerativo?",
+      "subtitle": "Ir más allá de no dañar",
+      "text1": "El turismo regenerativo da un paso más allá del turismo sostenible.",
+      "text2": "No se trata solo de “no impactar negativamente”, sino de mejorar activamente los lugares que visitamos:",
+      "options": [
+        { "title": "Fortalecer la naturaleza" },
+        { "title": "Impulsar la comunidad local" },
+        { "title": "Generar oportunidades reales" },
+        { "title": "Dejar capacidades para el futuro" }
+      ],
+      "text3": "En Iberá, el turismo se convierte en una fuerza de recuperación, aprendizaje y colaboración.",
+      "text4": "El objetivo es simple y profundo: que el territorio esté mejor después de cada visita."
+    },
+
+    "SunsetImpacto": {
+      "title": "Cómo cada experiencia devuelve valor al territorio",
+      "subtitle": "Tres niveles de involucramiento",
+      "text1": "Diseñamos nuestras experiencias en distintos niveles para que cada viajero elija cómo quiere participar.",
+      "text2": "El destino es el mismo.Lo que cambia es la forma de habitarlo."
+    },
+
+    "SkyImpacto":{
+
+      "title": "Nuestros compromisos",
+      "subtitle": "Impacto real, medido y transparente.",
+      "text1": "Nuestro compromiso no es un discurso.Es un sistema de gestión certificado y evaluado.",
+      "text2": "En línea con la certificación Hoteles Más Verdes, trabajamos con compromisos claros:",
+      "options": [
+        { "title": "Compromisos ambientales", "items":["Uso eficiente de agua y energía", "Energía solar y reducción de emisiones", "Gestión de residuos y compostaje", "Cuidado activo de la biodiversidad"] },
+        { "title": "Compromisos sociales", "items":["Empleo local genuino", "Capacitación continua", "Formación gratuita para la comunidad", "Apoyo a emprendedores y productores locales"] },
+        { "title": "Compromisos de gestión", "items":["Mejora continua y transparencia", "Indicadores de impacto medibles", "Alianzas con actores locales y públicos", "Participación activa en el desarrollo del destino"] }
+     
+      ],
+      "text3": "Visitar Iberá es elegir un turismo quecuida, conecta y regenera.",
+      "text4": "Un viaje que transforma al territorio… y también a quien lo vive."
+
+    }
   }
 }

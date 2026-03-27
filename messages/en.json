@@ -462,9 +462,74 @@
     }
   },
 
-  "AboutPage": {
-    "title": "About",
-    "description": "About page",
-    "team": "Our Team"
+
+  "Impacto": {
+    "HeroImpacto": {
+      "title1": "Regenerative Tourism",
+      "title2": "in Iberá",
+      "subtitle": "Traveling as part of a living process",
+      "text1": "In Colonia Carlos Pellegrini and the Iberá Wetlands, traveling is not just about visiting a place. It is about becoming part of a process of territorial regeneration.",
+      "text2": "Every visit leaves a footprint. Our commitment is to make that footprint positive, measurable, and shared."
+    },
+  
+    "TurismoImpacto": {
+      "title": "What is regenerative tourism?",
+      "subtitle": "Going beyond doing no harm",
+      "text1": "Regenerative tourism goes one step further than sustainable tourism.",
+      "text2": "It’s not just about “avoiding negative impact,” but about actively improving the places we visit:",
+      "options": [
+        { "title": "Strengthening nature" },
+        { "title": "Empowering local communities" },
+        { "title": "Creating real opportunities" },
+        { "title": "Building capacity for the future" }
+      ],
+      "text3": "In Iberá, tourism becomes a force for restoration, learning, and collaboration.",
+      "text4": "The goal is simple yet profound: to leave the territory better after every visit."
+    },
+  
+    "SunsetImpacto": {
+      "title": "How each experience gives back to the territory",
+  
+      "subtitle": "Three levels of involvement",
+      "text1": "We design our experiences at different levels so that each traveler can choose how they want to engage.",
+      "text2": "The destination is the same. What changes is the way you experience it."
+    },
+    "SkyImpacto": {
+      "title": "Our Commitments",
+      "subtitle": "Real, measurable and transparent impact.",
+      "text1": "Our commitment is not just words. It is a certified and evaluated management system.",
+      "text2": "Aligned with the Hoteles Más Verdes certification, we work with clear commitments:",
+      "options": [
+        {
+          "title": "Environmental commitments",
+          "items": [
+            "Efficient use of water and energy",
+            "Solar energy and emission reduction",
+            "Waste management and composting",
+            "Active protection of biodiversity"
+          ]
+        },
+        {
+          "title": "Social commitments",
+          "items": [
+            "Genuine local employment",
+            "Continuous training",
+            "Free training programs for the community",
+            "Support for local entrepreneurs and producers"
+          ]
+        },
+        {
+          "title": "Management commitments",
+          "items": [
+            "Continuous improvement and transparency",
+            "Measurable impact indicators",
+            "Partnerships with local and public stakeholders",
+            "Active participation in destination development"
+          ]
+        }
+      ],
+      "text3": "Visiting Iberá means choosing a form of tourism that cares, connects and regenerates.",
+      "text4": "A journey that transforms the territory… and also those who experience it."
+    }
   }
 }

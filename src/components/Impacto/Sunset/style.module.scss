@@ -1,0 +1,65 @@
+@use "../../../styles/variables";
+@use "../../../styles/typography";
+
+.section {
+  display: flex;
+  background-color: none;
+  height: 80vh;
+  width: 100%;
+  justify-content: center;
+  background-color: none;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    .heroimage {
+      position: relative;
+      height: 80vh;
+      width: 100%;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      background-color: #1a1e22;
+    }
+
+    .overlay {
+      position: relative;
+      height: 100%;
+      width: 95%;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      pointer-events: none;
+
+      .titlecontainer {
+        display: flex;
+        flex-direction: column;
+        h2 {
+          margin: 0;
+        }
+    
+      }
+
+      h3 {
+        margin-top: 3vh;
+      }
+      @media only screen and (max-width: 850px) {
+        max-width: 100%;
+      }
+
+
+      .textcontainer{
+        display: flex;
+        flex-direction: column;
+      }
+    }
+  }
+}

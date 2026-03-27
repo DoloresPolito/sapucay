@@ -1,0 +1,113 @@
+@use "../../../styles/variables";
+@use "../../../styles/typography";
+
+.section {
+  position: relative;
+  height: 200vh; // sección grande para scrollear
+  width: 100vw;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.background {
+  position: absolute;
+  inset: 0;
+  height: 200vh;
+  width: 100%;
+
+  img {
+    object-fit: cover;
+  }
+}
+
+.content {
+  position: relative;
+  z-index: 2;
+  height: 150vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+
+  .titlecontainer {
+    display: flex;
+    flex-direction: column;
+    margin: 10vh 0vh;
+
+    h2 {
+      margin-bottom: 3vh;
+      line-height: 100%;
+    }
+    h3 {
+      margin-bottom: 3vh;
+      line-height: 100%;
+    }
+  }
+
+  .cardscontainer {
+    display: flex;
+    width: 100%;
+    border-top: 0.1vh solid rgba(255, 255, 255, 0.2);
+    border-bottom: 0.1vh solid rgba(67, 26, 26, 0.2);
+    margin-bottom: 10vh;
+    @media only screen and (max-width: 850px) {
+      flex-direction: column;
+    }
+
+    .card {
+      flex: 1;
+      padding: 5vh 3vw;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      border-right: 0.1vh solid rgba(255, 255, 255, 0.2);
+
+      &:last-child {
+        border-right: none;
+      }
+
+      @media only screen and (max-width: 850px) {
+        border-right: none;
+        border-bottom: 0.1vh solid rgba(255, 255, 255, 0.2);
+
+        &:last-child {
+          border-bottom: none;
+        }
+      }
+    }
+
+    .cardTitle {
+      font-size: 2.8vh;
+      color: white;
+      margin-bottom: 2vh;
+    }
+
+    .line {
+      width: 60%;
+      height: 0.5vh;
+      background-color: rgba(255, 255, 255, 0.3);
+      margin-bottom: 3vh;
+    }
+
+    .list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+
+      li {
+        font-size: 1.8vh;
+        margin-bottom: 1vh;
+      }
+    }
+  }
+
+  .bottomcontainer {
+    h4 {
+      font-size: 3vh;
+      margin-bottom: 3vh;
+      text-align: center;
+    }
+  }
+}
