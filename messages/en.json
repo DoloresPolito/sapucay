@@ -530,6 +530,75 @@
       ],
       "text3": "Visiting Iberá means choosing a form of tourism that cares, connects and regenerates.",
       "text4": "A journey that transforms the territory… and also those who experience it."
+    },
+    "LevelsImpacto": {
+      "items": [
+        {
+          "image": "/images/impacto/impacto1.png",
+          "title": "Explorer Level",
+          "subtitle": ["DISCOVER", "ENJOY", "CARE"],
+          "text1": "A first conscious approach to Iberá. Your visit:",
+          "bullets": [
+            "supports the local economy",
+            "contributes to ecosystem conservation",
+            "funds employment and training within the community"
+          ],
+          "text2": "Ideal for first-time visitors who want to enjoy the experience with awareness."
+        },
+        {
+          "image": "/images/impacto/impacto2.png",
+          "title": "Immersive Level",
+          "subtitle": ["CONNECT", "LEARN", "COLLABORATE"],
+          "text1": "Beyond discovering, you actively participate in:",
+          "bullets": [
+            "living cultural experiences",
+            "local knowledge and workshops",
+            "routes that integrate community, history, and nature"
+          ],
+          "text2": "Your journey activates local networks and strengthens community projects."
+        },
+        {
+          "image": "/images/impacto/impacto3.png",
+          "title": "Transformational Level",
+          "subtitle": ["CO-CREATE", "CONTRIBUTE", "LEAVE A LEGACY"],
+          "text1": "Designed for those who want to go beyond travel. Here, visitors can:",
+          "bullets": [
+            "share knowledge",
+            "participate in impact programs",
+            "contribute ideas, time, or professional experience"
+          ],
+          "text2": "Tourism becomes a space for deep exchange and mutual transformation."
+        }
+      ]
+    }
+  },
+  "Destino": {
+    "HeroDestino": {
+      "title": "The Destination",
+      "subtitle": "COLONIA CARLOS PELLEGRINI",
+      "text": "Where nature, community, and the future learned to regenerate together"
+    },
+    "MapDestino": {
+      "title": "A destination that is not visited:",
+      "subtitle": "it is understood",
+      "text1": "In the heart of the Iberá Wetlands, one of the largest and most biodiverse wetlands on the planet, there is a small village that has become a global reference for conservation, resilience, and human transformation: Colonia Carlos Pellegrini.",
+      "text2": "What is now synonymous with thriving nature and conscious tourism was, for decades, a forgotten territory shaped by isolation, poaching, and a lack of opportunities. The story of this destination is not one of an untouched landscape, but of an ecosystem that learned to regenerate alongside its people."
+    },
+    "HistoryDestino": {
+      "title": "History",
+      "subtitle": "From forgotten frontier to a beacon of conservation",
+      "text1": "Colonia Carlos Pellegrini was born as a rural settlement in an extreme environment, shaped by water, forest, and natural cycles. For much of the 20th century, Iberá was seen as an unproductive, marginal, and difficult place to inhabit.",
+      "text2": "The creation of the protected area and, later, Iberá National Park marked a turning point: for the first time, the value of the territory was no longer in what could be extracted, but in what could be preserved.",
+      "text3": "This change was neither immediate nor simple. It required decades of work, agreements, tensions, and collective learning. But it laid the foundation for a new identity: that of a community that chose to protect its environment as a way forward."
+    },
+    "CultureDestino": {
+      "title": "Living Culture",
+      "subtitle": "Tradition that evolves without losing its roots",
+      "text1": "The culture of Pellegrini is deeply rooted in the Litoral region: shared mate, chamamé music, bonfires, horses, and a way of life shaped by water and climate.",
+      "text2": "Far from becoming a folkloric museum, the local culture remains alive and evolving.",
+      "text3": "Today, ancestral rural knowledge coexists with new generations trained in conservation and tourism, family-run hospitality ventures, and women and young people as key drivers of local development.",
+      "subtitle1": "Visitors do not just observe the culture:",
+      "subtitle2": "they take part in it, listen to it, share it, and respect it."
     }
   }
 }

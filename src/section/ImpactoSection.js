@@ -6,9 +6,10 @@ import Hero from "../components/Impacto/Hero";
 import Turism from "../components/Impacto/Turism";
 import Sunset from "../components/Impacto/Sunset";
 import Sky from "../components/Impacto/Sky/Index";
+import Levels from "../components/Impacto/Levels";
 
 
-export default function HomeSection({ texts }) {
+export default function ImpactoSection({ texts }) {
   useEffect(() => {
     const lenis = new Lenis();
 
@@ -25,7 +26,7 @@ export default function HomeSection({ texts }) {
       <Hero herotexts={texts.hero} />
       <Turism turismtexts={texts.turismo} />
       <Sunset sunsettexts={texts.sunset} />
-
+      <Levels levelstexts={texts.levels}/>
       <Sky skytexts={texts.sky} />
 
     </Section>

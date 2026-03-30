@@ -1,0 +1,39 @@
+@use "../../../styles/variables";
+@use "../../../styles/typography";
+
+.section {
+  display: flex;
+  height: 50vh;
+  width: 100vw;
+  justify-content: center;
+  flex-direction: column;
+
+  @media only screen and (max-width: 850px) {
+    height: auto;
+  }
+
+  //bottom
+  .bottom {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+    @media only screen and (max-width: 850px) {
+      flex-direction: column;
+    }
+  }
+
+  .item {
+    width: 33.3333%;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+
+    @media only screen and (max-width: 850px) {
+      width: 100%;
+      height: 50vh;
+    }
+  }
+}

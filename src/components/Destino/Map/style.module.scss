@@ -1,0 +1,78 @@
+@use "../../../styles/variables";
+@use "../../../styles/typography";
+
+.section {
+  display: flex;
+  height: 200vh;
+  width: 100vw;
+  justify-content: center;
+  overflow: hidden;
+
+  .motionDiv {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    pointer-events: none;
+  }
+
+  .heroimage {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .overlay {
+    position: absolute;
+    inset: 0;
+    width: 50%;
+    margin: auto;
+    display: flex;
+
+    justify-content: center;
+    pointer-events: auto;
+    margin-top: 30vh;
+
+    // @media only screen and (max-width: 850px) {
+    //   text-align: center;
+    //   margin-top: 0vh;
+    // }
+  }
+
+  .container {
+    width: 70%;
+    max-width: 80vw;
+
+    // @media only screen and (max-width: 850px) {
+    //   width: 100%;
+    //   max-width: 100%;
+    // }
+  }
+
+  .header {
+    margin-bottom: 6vh;
+    // max-width: 50%;
+    display: flex;
+    flex-direction: column;
+
+    .titlecontainer {
+      display: flex;
+      flex-direction: column;
+      h2 {
+        margin: 0;
+      }
+    }
+
+    h3 {
+      margin-top: 3vh;
+    }
+    // @media only screen and (max-width: 850px) {
+    //   max-width: 100%;
+    // }
+  }
+}

@@ -506,21 +506,111 @@
       "text2": "El destino es el mismo.Lo que cambia es la forma de habitarlo."
     },
 
-    "SkyImpacto":{
-
+    "SkyImpacto": {
       "title": "Nuestros compromisos",
       "subtitle": "Impacto real, medido y transparente.",
       "text1": "Nuestro compromiso no es un discurso.Es un sistema de gestión certificado y evaluado.",
       "text2": "En línea con la certificación Hoteles Más Verdes, trabajamos con compromisos claros:",
       "options": [
-        { "title": "Compromisos ambientales", "items":["Uso eficiente de agua y energía", "Energía solar y reducción de emisiones", "Gestión de residuos y compostaje", "Cuidado activo de la biodiversidad"] },
-        { "title": "Compromisos sociales", "items":["Empleo local genuino", "Capacitación continua", "Formación gratuita para la comunidad", "Apoyo a emprendedores y productores locales"] },
-        { "title": "Compromisos de gestión", "items":["Mejora continua y transparencia", "Indicadores de impacto medibles", "Alianzas con actores locales y públicos", "Participación activa en el desarrollo del destino"] }
-     
+        {
+          "title": "Compromisos ambientales",
+          "items": [
+            "Uso eficiente de agua y energía",
+            "Energía solar y reducción de emisiones",
+            "Gestión de residuos y compostaje",
+            "Cuidado activo de la biodiversidad"
+          ]
+        },
+        {
+          "title": "Compromisos sociales",
+          "items": [
+            "Empleo local genuino",
+            "Capacitación continua",
+            "Formación gratuita para la comunidad",
+            "Apoyo a emprendedores y productores locales"
+          ]
+        },
+        {
+          "title": "Compromisos de gestión",
+          "items": [
+            "Mejora continua y transparencia",
+            "Indicadores de impacto medibles",
+            "Alianzas con actores locales y públicos",
+            "Participación activa en el desarrollo del destino"
+          ]
+        }
       ],
       "text3": "Visitar Iberá es elegir un turismo quecuida, conecta y regenera.",
       "text4": "Un viaje que transforma al territorio… y también a quien lo vive."
-
+    },
+    "LevelsImpacto": {
+      "items": [
+        {
+          "image": "/images/impacto/impacto1.png",
+          "title": "Nivel Explorador",
+          "subtitle": ["CONOCER", "DISFRUTAR", "CUIDAR"],
+          "text1": "Primer acercamiento consciente al Iberá. Tu visita:",
+          "bullets": [
+            "apoya la economía local",
+            "contribuye a la conservación del ecosistema",
+            "financia empleo y capacitación en la comunidad"
+          ],
+          "text2": "Ideal para quienes visitan por primera vez y quieren disfrutar con conciencia."
+        },
+        {
+          "image": "/images/impacto/impacto2.png",
+          "title": "Nivel Inmersivo",
+          "subtitle": ["CONECTAR", "APRENDER", "COLABORAR"],
+          "text1": "Además de conocer, participás activamente de:",
+          "bullets": [
+            "experiencias culturales vivas",
+            "saberes locales y talleres",
+            "circuitos que integran comunidad, historia y naturaleza"
+          ],
+          "text2": "Tu viaje activa redes locales y fortalece proyectos comunitarios."
+        },
+        {
+          "image": "/images/impacto/impacto3.png",
+          "title": "Nivel Transformacional",
+          "subtitle": ["CO CREAR", "APORTAR", "DEJAR LEGADO"],
+          "text1": "Pensado para quienes buscan ir más allá del viaje. Acá el visitante puede:",
+          "bullets": [
+            "compartir conocimientos",
+            "participar en programas de impacto",
+            "aportar ideas, tiempo o experiencia profesional"
+          ],
+          "text2": "El turismo se transforma en intercambio profundo y transformación mutua."
+        }
+      ]
+    }
+  },
+  "Destino": {
+    "HeroDestino": {
+      "title": "El Destino",
+      "subtitle": "COLONIA CARLOS PELLEGRINI",
+      "text": "Donde la naturaleza, la comunidad y el futuro aprendieron a regenerarse juntos"
+    },
+    "MapDestino": {
+      "title": "Un destino que no se visita:",
+      "subtitle": "se comprende",
+      "text1": "En el corazón de los Esteros del Iberá, uno de los humedales mas grandes y biodiversos del planeta, existe un pequeño pueblo que se convirtió en referencia mundial de conservación, resiliencia y transformación humana: Colonia Carlos Pellegrini.",
+      "text2": "Lo que hoy es sinónimo de naturaleza viva y turismo consciente, fue durante décadas un territorio olvidado, atravesado por el aislamiento, la caza furtiva y la falta de oportunidades. La historia de este destino no es la de un paisaje intacto, sino la de un ecosistema que aprendió a regenerarse junto a su gente."
+    },
+    "HistoryDestino": {
+      "title": "Historia",
+      "subtitle": "De frontera olvidada a faro de conservación",
+      "text1": "Colonia Carlos Pellegrini nació como asentamiento rural en un entorno extremo, dominado por el agua, el monte y los ciclos naturales. Durante gran parte del siglo XX, el Ibera fue visto como un territorio improductivo, marginal, difícil de habitar.",
+      "text2": "La creación del área protegida y, posteriormente, del Parque Nacional Ibera, marco un punto de inflexión: por primera vez, el valor del territorio no estaba en lo que se extraía, sino en lo que se conservaba.",
+      "text3": "Ese cambio no fue inmediato ni sencillo. Requirió décadas de trabajo, acuerdos, tensiones y aprendizaje colectivo. Pero sentó las bases de una nueva identidad: la de un pueblo que eligió proteger su entorno como forma de futuro."
+    },
+    "CultureDestino": {
+      "title": "Cultura Viva",
+      "subtitle": "Tradición que se adapta sin perder su raíz",
+      "text1": "La cultura de Pellegrini es profundamente litoraleña: el mate compartido, el chámame, el fogón, el caballo, la vida al ritmo del agua y del clima.",
+      "text2": "Lejos de convertirse en un museo folclórico, la cultura local sigue viva y en transformación. ",
+      "text3": "Hoy conviven saberes rurales ancestrales, nuevas generaciones formadas en conservación y turismo, emprendimientos familiares ligados a la hospitalidad, mujeres y novenes como protagonistas del desarrollo local.",
+      "subtitle1": "El visitante no observa la cultura:",
+      "subtitle2": "participa de ella, la escucha, la comparte y la respeta."
     }
   }
 }

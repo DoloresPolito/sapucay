@@ -40,6 +40,9 @@ export default async function ImpactoPage({ params }) {
       text3: t("SkyImpacto.text3"),
       text4: t("SkyImpacto.text4"),
 
+    },
+    levels:{
+      items:t.raw("LevelsImpacto.items")
     }
   };
 
