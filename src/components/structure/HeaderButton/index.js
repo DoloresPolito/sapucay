@@ -7,6 +7,7 @@ import { opacity, background } from "./amin";
 import Nav from "./Nav";
 import { SelectLanguage } from "../../SelectLanguage";
 import AnimatedDiv from "../../ui/AnimatedDiv";
+import Link from "next/link";
 
 export default function HeaderButton() {
   const [isActive, setIsActive] = useState(false);
@@ -22,9 +23,12 @@ export default function HeaderButton() {
           <SelectLanguage />
         </div>
         <AnimatedDiv>
+          <Link href="/">
+      
           <div className={styles.center}>
             <h1 className={styles.navtitle}>SAPUCAY EXPERIENCE</h1>
           </div>
+          </Link>
         </AnimatedDiv>
 
         <div

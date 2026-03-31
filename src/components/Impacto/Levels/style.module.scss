@@ -48,11 +48,12 @@
   .overlayBase {
     position: absolute;
     inset: 0;
-    padding: 3vh;
+    padding: 2vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     transition: opacity 0.4s ease;
+
   }
 
   .overlayBase {

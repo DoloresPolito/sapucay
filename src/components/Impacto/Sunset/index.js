@@ -23,12 +23,13 @@ export default function Sunset({ sunsettexts }) {
               <AnimatedDiv>
                 <h2 className={styles.titleh2}>{sunsettexts.title}</h2>
               </AnimatedDiv>
-            </div>
-
-            <AnimatedDiv delay={0.5}>
+              <AnimatedDiv delay={0.5}>
               <h3 className={styles.titleh3}>{sunsettexts.subtitle}</h3>
             </AnimatedDiv>
 
+            </div>
+
+     
             <div className={styles.textcontainer}>
               <p className={styles.text}>{sunsettexts.text1}</p>
               <p className={styles.text}>{sunsettexts.text2}</p>

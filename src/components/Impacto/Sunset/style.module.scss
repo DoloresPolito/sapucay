@@ -16,7 +16,6 @@
     width: 100%;
     align-items: center;
     justify-content: center;
-    text-align: center;
 
     .heroimage {
       position: relative;
@@ -31,7 +30,7 @@
     .overlay {
       position: relative;
       height: 100%;
-      width: 95%;
+      width: 50%;
       margin: 0 auto;
       display: flex;
       flex-direction: column;
@@ -39,26 +38,31 @@
       justify-content: center;
       pointer-events: none;
 
+      @media only screen and (max-width: 850px) {
+        width: 95%;
+
+        align-items: flex-start;
+      }
+
       .titlecontainer {
         display: flex;
         flex-direction: column;
+
         h2 {
           margin: 0;
         }
-    
+        h3 {
+          margin-top: 3vh;
+        }
       }
 
-      h3 {
-        margin-top: 3vh;
-      }
-      @media only screen and (max-width: 850px) {
-        max-width: 100%;
-      }
-
-
-      .textcontainer{
+      .textcontainer {
         display: flex;
         flex-direction: column;
+        margin-top: 4vh;
+        p {
+          margin-bottom: 3vh;
+        }
       }
     }
   }

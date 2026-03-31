@@ -8,6 +8,10 @@
   justify-content: center;
   overflow: hidden;
 
+  @media only screen and (max-width: 850px) {
+    height: 110vh;
+  }
+
   .motionDiv {
     position: relative;
     height: 100%;
@@ -38,25 +42,26 @@
     pointer-events: auto;
     margin-top: 30vh;
 
-    // @media only screen and (max-width: 850px) {
-    //   text-align: center;
-    //   margin-top: 0vh;
-    // }
+    @media only screen and (max-width: 850px) {
+      width: 100%;
+      margin-top: 10vh;
+
+    }
   }
 
   .container {
     width: 70%;
-    max-width: 80vw;
 
-    // @media only screen and (max-width: 850px) {
-    //   width: 100%;
-    //   max-width: 100%;
-    // }
+
+    @media only screen and (max-width: 850px) {
+      width: 100%;
+      padding: 0vh 2vh;
+
+    }
   }
 
   .header {
     margin-bottom: 6vh;
-    // max-width: 50%;
     display: flex;
     flex-direction: column;
 
@@ -71,8 +76,52 @@
     h3 {
       margin-top: 3vh;
     }
-    // @media only screen and (max-width: 850px) {
-    //   max-width: 100%;
-    // }
+
+  }
+
+  .textcontainer{
+
+    margin-bottom: 4vh;
+
+    p{
+      margin-bottom: 3vh;
+      line-height: 2.5vh;
+    }
+  }
+
+  .itemscontainer {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    margin-bottom: 6vh;
+  }
+
+  .item {
+    display: flex;
+    align-items: center;
+    gap: 2vh;
+    padding: 2vh 2.5vh;
+    border-radius: 2vh;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    border: 0.1vh solid rgba(255, 255, 255, 0.25);
+    transition: all 0.3s ease;
+    backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+
+  .icon {
+    font-size: 3vh;
+    color: white;
+    opacity: 0.9;
+  }
+    p {
+      margin: 0;
+
+    }
+  
+    &:hover {
+      background: rgba(255, 255, 255, 0.25);
+      transform: translateX(5px);
+    }
   }
 }

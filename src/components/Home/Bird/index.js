@@ -39,9 +39,9 @@ export default function Bird({ birdtexts }) {
           <p className={styles.text}>{birdtexts.text21}</p>
           <p className={styles.text}>{birdtexts.text22}</p>
 
-          <div>
+          {/* <div>
             <Button>{birdtexts.button2}</Button>
-          </div>
+          </div> */}
         </div>
 
         <div>
@@ -49,7 +49,7 @@ export default function Bird({ birdtexts }) {
           <h3 className={styles.titleh3}>{birdtexts.subtitle3}</h3>
           <p className={styles.text}>{birdtexts.text3}</p>
           <div>
-            <Button>{birdtexts.button3}</Button>
+            <Button href="/impacto">{birdtexts.button3}</Button>
           </div>
         </div>
       </div>

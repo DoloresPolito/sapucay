@@ -51,18 +51,18 @@ export default function Turism({ turismtexts }) {
 
                   <h3 className={styles.titleh3}>{turismtexts.subtitle}</h3>
                 </div>
-                <div>
+                <div className={styles.textcontainer}>
                   <p className={styles.text}>{turismtexts.text1}</p>
                   <p className={styles.text}>{turismtexts.text2}</p>
                 </div>
 
-                <div>
+                <div className={styles.itemscontainer}>
                   {turismtexts.options.map((option, i) => {
                     return <Item key={i} option={option} />;
                   })}
                 </div>
 
-                <div>
+                <div className={styles.textcontainer}>
                   <p className={styles.text}>{turismtexts.text3}</p>
                   <p className={styles.text}>{turismtexts.text4}</p>
                 </div>
@@ -77,7 +77,8 @@ export default function Turism({ turismtexts }) {
 
 function Item({ option }) {
   return (
-    <div>
+    <div className={styles.item}>
+      <div className={styles.icon}>›</div>
       <p className={styles.text}>{option.title}</p>
     </div>
   );
