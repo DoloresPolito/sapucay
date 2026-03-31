@@ -5,8 +5,6 @@ import image from "../../../../public/images/destino/destino-hero.png";
 import AnimatedDiv from "../../ui/AnimatedDiv";
 
 export default function Hero({ herotexts }) {
-
-
   return (
     <div className={styles.herosection}>
       <div className={styles.heroimage}>
@@ -15,34 +13,23 @@ export default function Hero({ herotexts }) {
           fill
           alt=""
           priority
-          style={{ objectFit: "cover"}}
+          style={{ objectFit: "cover" }}
         />
 
         <div className={styles.overlay}>
           <div className={styles.titlecontainer}>
             <AnimatedDiv>
-              <h2 className={styles.titleh2}>
-                {herotexts.title1}
-         
-                </h2>
-   
+              <h2 className={styles.titleh2}>{herotexts.title1}</h2>
+              <h3 className={styles.titleh3}>{herotexts.subtitle}</h3>
             </AnimatedDiv>
           </div>
 
-          <AnimatedDiv delay={0.5}>
-            <h3 className={styles.titleh3}>
-                {herotexts.subtitle}
-         
-            </h3>
-          </AnimatedDiv>
+  
 
           <div>
-           <p className={styles.text}>   {herotexts.text}</p>
-
+            <p className={styles.text}> {herotexts.text}</p>
           </div>
         </div>
-
-       
       </div>
     </div>
   );

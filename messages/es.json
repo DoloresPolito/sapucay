@@ -611,6 +611,15 @@
       "text3": "Hoy conviven saberes rurales ancestrales, nuevas generaciones formadas en conservación y turismo, emprendimientos familiares ligados a la hospitalidad, mujeres y novenes como protagonistas del desarrollo local.",
       "subtitle1": "El visitante no observa la cultura:",
       "subtitle2": "participa de ella, la escucha, la comparte y la respeta."
+    },
+    "NatureDestino":{
+      "title": "Naturaleza",
+      "subtitle": "Un santuario de biodiversidad reconocido a nivel mundial",
+      "text1": "Los Esteros del Iberá albergan una de las mayores concentraciones de biodiversidad de Sudamérica. Aquí conviven:",
+      "text2": "Entre ellas, destaca una especie de ave que solo habita en los Esteros del Ibera, convirtiendo al destino en un punto clave para la conservacion y la ciencia, y en referencia obligada para observadores de aves de todo el mundo.",
+      "text3": "La naturaleza en Ibera no es escenografia: es sistema vivo, monitoreado, protegido y en constante regeneracion.",
+      "bubble": "Yacarés, carpinchos, ciervos de los pantanos, mas de 350 especies de aves y especies reintroducidas como el oso hormiguero, el venado de las pampas y el yaguareté"
+      
     }
   }
 }

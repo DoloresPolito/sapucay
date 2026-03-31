@@ -39,6 +39,15 @@ export default async function DestinoPage({ params }) {
       text3: t("CultureDestino.text3"),
       subtitle1: t("CultureDestino.subtitle1"),
       subtitle2: t("CultureDestino.subtitle2"),
+    },
+    nature: {
+      title: t("NatureDestino.title"),
+      subtitle: t("NatureDestino.subtitle"),
+      text1: t("NatureDestino.text1"),
+      text2: t("NatureDestino.text2"),
+      text3: t("NatureDestino.text3"),
+      bubble: t("NatureDestino.bubble"),
+   
     }
 
 

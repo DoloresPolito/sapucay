@@ -26,7 +26,7 @@ export default function Map({ maptexts }) {
   });
 
   // Define y transform but control its value based on screen size
-  const yTransform = useTransform(scrollYProgress, [0, 1], ["0vh", "100vh"]);
+  const yTransform = useTransform(scrollYProgress, [0, 1], ["0vh", "50vh"]);
   const y = isMobile ? "0vh" : yTransform;
 
   return (

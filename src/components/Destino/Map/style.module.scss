@@ -7,6 +7,9 @@
   width: 100vw;
   justify-content: center;
   overflow: hidden;
+  @media only screen and (max-width: 850px) {
+    height: 100vh;
+  }
 
   .motionDiv {
     position: relative;
@@ -33,46 +36,56 @@
     width: 50%;
     margin: auto;
     display: flex;
-
     justify-content: center;
+    align-items: flex-end;
     pointer-events: auto;
-    margin-top: 30vh;
 
-    // @media only screen and (max-width: 850px) {
-    //   text-align: center;
-    //   margin-top: 0vh;
-    // }
+
+    @media only screen and (max-width: 850px) {
+      text-align: center;
+      margin-top: 0vh;
+      width: 97%;
+    }
   }
 
   .container {
-    width: 70%;
+    width: 60%;
     max-width: 80vw;
 
-    // @media only screen and (max-width: 850px) {
-    //   width: 100%;
-    //   max-width: 100%;
-    // }
+    @media only screen and (max-width: 850px) {
+      width: 100%;
+      max-width: 100%;
+    }
   }
 
   .header {
     margin-bottom: 6vh;
-    // max-width: 50%;
     display: flex;
     flex-direction: column;
-
+    margin-top: -100vh;
+    @media only screen and (max-width: 850px) {
+      margin-top: -10vh;
+    }
     .titlecontainer {
       display: flex;
       flex-direction: column;
       h2 {
         margin: 0;
+        color:black;
+        font-weight: 400;
+        font-size: 3.2vh;
       }
     }
 
     h3 {
-      margin-top: 3vh;
+      color:black;
+      font-size: 3vh;
     }
-    // @media only screen and (max-width: 850px) {
-    //   max-width: 100%;
-    // }
+
+  }
+  p{
+    color:black;
+    margin-bottom: 4vh;
+    line-height: 2.5vh;
   }
 }

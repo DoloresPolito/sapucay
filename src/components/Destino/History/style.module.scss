@@ -16,7 +16,7 @@
     width: 100%;
     align-items: center;
     justify-content: center;
-    text-align: center;
+    // text-align: center;
 
     .heroimage {
       position: relative;
@@ -31,13 +31,19 @@
     .overlay {
       position: relative;
       height: 100%;
-      width: 95%;
+      width: 40%;
       margin: 0 auto;
       display: flex;
       flex-direction: column;
-      align-items: center;
       justify-content: center;
-      pointer-events: none;
+      // align-items: center;
+      pointer-events: auto;
+      @media only screen and (max-width: 850px) {
+        text-align: center;
+        margin-top: 0vh;
+        width: 97%;
+
+      }
 
       .titlecontainer {
         display: flex;
@@ -50,15 +56,22 @@
 
       h3 {
         margin-top: 3vh;
+        margin-bottom: 3vh;
       }
-      @media only screen and (max-width: 850px) {
-        max-width: 100%;
-      }
+
 
 
       .textcontainer{
         display: flex;
         flex-direction: column;
+width: 90%;
+@media only screen and (max-width: 850px) {
+  width: 100%;}
+        p{
+ 
+          margin-bottom: 4vh;
+          line-height: 2.5vh;
+        }
       }
     }
   }

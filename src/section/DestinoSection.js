@@ -7,6 +7,8 @@ import Map from "../components/Destino/Map";
 import History from "../components/Destino/History";
 import Culture from "../components/Destino/Culture";
 import Pictures from "../components/Destino/Pictures";
+import Nature1 from "../components/Destino/Nature1";
+import Nature2 from "../components/Destino/Nature2";
 
 export default function DestinoSection({ texts }) {
   useEffect(() => {
@@ -25,9 +27,11 @@ export default function DestinoSection({ texts }) {
       <Hero herotexts={texts.hero} />
       <Map maptexts={texts.map} />
       <History historytexts={texts.history} />
-      <Pictures/>
+      <Pictures />
       <Culture culturetexts={texts.culture} />
-      {/*      <Sky skytexts={texts.sky} /> */}
+      <Nature1 naturetexts={texts.nature} />
+
+      <Nature2 naturetexts={texts.nature} />
     </Section>
   );
 }
