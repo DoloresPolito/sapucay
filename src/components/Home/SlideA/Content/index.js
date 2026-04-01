@@ -11,7 +11,6 @@ export default function Content({ item, isActive }) {
     >
       <div className={styles.left}>
         <h2 className={styles.titleh2}>{item.title}</h2>
-        {/* <p className={styles.text}>{item.subtitle}</p> */}
       </div>
 
       <div className={styles.right}>

@@ -116,7 +116,34 @@
       "impact2": "Fortalecimiento de la comunidad local",
       "impact3": "Experiencias que regeneran el territorio",
       "impact4": "Impacto social y ambiental medible"
-    }
+    },
+    "HabitarHome":{
+      "title1": "Dónde habitar el Iberá",
+      "title2": "El descanso también es parte del viaje",
+      "items": [
+        {
+          "image": "/images/home/hotel1.png",
+          "title": "Ñande Reta Lodge",
+          "text": "Un refugio intimo para descansar y habitar el ritmo del Ibera.",
+          "bullets": [
+            "Boutique",
+            "Cocina regional",
+            "Shows de chamamé"
+          ]
+        },
+        {
+          "image": "/images/home/hotel2.png",
+          "title": "Rancho de los Esteros",
+          "text": "Ubicada en el corazón del Ibera, esta posada combina confort, identidad local y una conexión autentica con el entorno.",
+          "bullets": [
+            "Boutique",
+            "Cocina regional",
+            "Piscina exterior"
+          ]
+        }
+      ]
+    
+  }
   },
   "footer": {
     "subtitle1": "Donde los viajes se viven tan profundo,",

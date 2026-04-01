@@ -1,0 +1,144 @@
+@use "../../../styles/variables";
+@use "../../../styles/typography";
+
+.section {
+  display: flex;
+  height: 120vh;
+  width: 100vw;
+  justify-content: center;
+  color: white;
+  flex-direction: column;
+  min-height: 120vh;
+
+  @media only screen and (max-width: 850px) {
+    height: auto;
+  }
+
+  p {
+    margin-bottom: 5vh;
+  }
+
+  //top
+  .top {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+
+    .heroimage {
+      position: relative;
+      height: 40vh;
+      width: 100%;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      background-color: #1a1e22;
+    }
+
+    .overlay {
+      position: relative;
+      height: 100%;
+      width: 95%;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      pointer-events: none;
+
+      .titlecontainer {
+        display: flex;
+        flex-direction: column;
+        h2 {
+          margin: 0;
+        }
+      }
+
+      h3 {
+        margin-top: 3vh;
+      }
+      @media only screen and (max-width: 850px) {
+        max-width: 100%;
+      }
+    }
+  }
+
+  //bottom
+  .bottom {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+    @media only screen and (max-width: 850px) {
+      flex-direction: column;
+    }
+  }
+
+  .item {
+    width: 50%;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+
+    @media only screen and (max-width: 850px) {
+      width: 100%;
+      height: 50vh;
+    }
+
+  
+  }
+
+
+  .overlayBase {
+    position: absolute;
+    inset: 0;
+    padding: 3vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    height: auto;
+    justify-content: flex-start;
+
+    h2{
+        margin-bottom: 2vh;
+    }
+
+    @media only screen and (max-width: 850px) {
+      position: absolute;
+      display: flex;
+      justify-content: flex-end;
+      width: 100%;
+
+      top: 0;
+      bottom: auto;
+      height: auto;
+    
+      justify-content: flex-start;
+   
+    }
+  }
+
+  .bullets {
+    display: flex;
+    gap: 1vh;
+    flex-wrap: wrap;
+    margin-top: 2vh;
+  }
+  
+  .bullet {
+    padding: 0.6vh 1.6vh;
+    border-radius: 2vh;
+    font-size: 1.8vh;
+    line-height: 1;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(6px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    color: white;
+    white-space: nowrap;
+  }
+}

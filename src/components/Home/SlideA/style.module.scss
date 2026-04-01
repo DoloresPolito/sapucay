@@ -102,6 +102,7 @@
     display: flex;
     flex-direction: column;
     width: 100%;
+ 
   }
 
   .item {
@@ -137,6 +138,7 @@
   .active {
     background: rgba(255, 255, 255, 0.12);
     padding-left: 1vw;
+   
   }
 
   .content {
@@ -152,6 +154,8 @@
     @media only screen and (max-width: 850px) {
       padding: 3vh 1vh;
       width: 100%;
+
+      flex-direction: column;
     }
 
     h2 {
@@ -159,7 +163,7 @@
       margin-bottom: 1vh;
       font-weight: 500;
       @media only screen and (max-width: 850px) {
-        font-size: 3vh;
+        margin-bottom: 3vh;
       }
     }
 
@@ -179,7 +183,8 @@
         margin-right: 1vh;
         padding-right: 1vh;
         justify-content: center;
-        width: 45%;
+        width: 100%;
+        border-right: none;
       }
     }
 
@@ -191,7 +196,7 @@
       text-align: center;
       width: 45%;
       @media only screen and (max-width: 850px) {
-        width: 45%;
+        width: 100%;
       }
     }
   }

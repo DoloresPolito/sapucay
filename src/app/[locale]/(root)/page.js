@@ -50,6 +50,11 @@ export default async function HomePage({ params }) {
       impact3: t("ImpactHome.impact3"),
       impact4: t("ImpactHome.impact4"),
     },
+    habitar:{
+      title1: t("HabitarHome.title1"),
+      title2: t("HabitarHome.title2"),
+      items: t.raw("HabitarHome.items"),
+    }
   };
 
   return (
@@ -58,3 +63,5 @@ export default async function HomePage({ params }) {
     </Section>
   );
 }
+
+

@@ -6,6 +6,7 @@ import SlideB from "@/src/components/Home/SlideB";
 import Hero from "@/src/components/Home/Hero";
 import Bird from "../components/Home/Bird";
 import Impact from "../components/Home/Impact";
+import Habitar from "../components/Home/Habitar";
 import Lenis from "lenis";
 
 
@@ -34,6 +35,7 @@ export default function HomeSection({texts}) {
 
       <Bird birdtexts={texts.bird}/>
       <Impact impacttexts={texts.impact}/>
+      <Habitar habitartexts={texts.habitar}/>
     </Section>
   );
 }

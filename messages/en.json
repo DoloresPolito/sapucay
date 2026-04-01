@@ -105,7 +105,34 @@
       "impact2": "Strengthening the local community",
       "impact3": "Experiences that regenerate the territory",
       "impact4": "Measurable social and environmental impact"
+    },
+    "HabitarHome": {
+      "title1": "Where to stay in Iberá",
+      "title2": "Rest is also part of the journey",
+      "items": [
+        {
+          "image": "/images/home/hotel1.png",
+          "title": "Ñande Reta Lodge",
+          "text": "An intimate retreat to rest and embrace the rhythm of Iberá.",
+          "bullets": [
+            "Boutique",
+            "Regional cuisine",
+            "Chamamé shows"
+          ]
+        },
+        {
+          "image": "/images/home/hotel2.png",
+          "title": "Rancho de los Esteros",
+          "text": "Located in the heart of Iberá, this lodge combines comfort, local identity, and an authentic connection with nature.",
+          "bullets": [
+            "Boutique",
+            "Regional cuisine",
+            "Outdoor pool"
+          ]
+        }
+      ]
     }
+   
   },
 
   "footer": {
