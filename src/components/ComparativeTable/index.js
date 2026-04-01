@@ -1,13 +1,38 @@
 "use client";
-
 import { useState } from "react";
 import Image from "next/image";
 import styles from "./style.module.scss";
+import { usePathname } from "next/navigation";
 
 export default function ComparativeTable({ backgroundImage, tabletext }) {
   const [activeCol, setActiveCol] = useState(null);
 
+  const pathname = usePathname();
+
+const getSectionName = () => {
+  if (pathname.includes("naturaleza")) return "Naturaleza viva";
+  if (pathname.includes("cultura")) return "Cultura y tradición";
+  if (pathname.includes("bienestar")) return "Bienestar";
+  return "";
+};
+
+  const phoneNumber = "5493446584076"; // tu número con código país (sin +)
+
+  const handleWhatsApp = (column) => {
+    const section = getSectionName();
+  
+    const message = `Hola! Estoy viendo la sección "${section}", ${column} y me gustaría recibir más información 😊`;
+  
+    const encodedMessage = encodeURIComponent(message);
+  
+    const url = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodedMessage}`;
+  
+    window.open(url, "_blank");
+  };
+
   return (
+
+    
     <section className={styles.section}>
       <div className={styles.background}>
         <Image
@@ -85,7 +110,7 @@ export default function ComparativeTable({ backgroundImage, tabletext }) {
                         className={`${styles.moreButton} ${
                           activeCol === i ? styles.activeButton : ""
                         }`}
-                        onClick={() => console.log("go to", col.name)}
+                        onClick={() => handleWhatsApp(col.level)}
                       >
                         {tabletext.button}
                       </button>
@@ -122,7 +147,7 @@ export default function ComparativeTable({ backgroundImage, tabletext }) {
 
               <button
                 className={styles.mobileButton}
-                onClick={() => console.log("go to", col.name)}
+                onClick={() => handleWhatsApp(col.level)}
               >
                 {tabletext.button}
               </button>
