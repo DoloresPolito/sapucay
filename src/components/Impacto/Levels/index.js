@@ -11,9 +11,18 @@ export default function Levels({ levelstexts }) {
             style={{ backgroundImage: `url(${item.image})` }}
           >
             <div className={styles.overlayBase}>
-              <h2 className={`${styles.titleh2} ${styles.titleWide}`}>
+              <h2 className={`${styles.titleh2} `}>
                 {item.title}
               </h2>
+              <div className={styles.subtitleRow}>
+  {item.subtitle.map((word, i) => (
+    <span key={i} className={styles.text}>
+      {word}
+      {i < item.subtitle.length - 1 && <span className={styles.separator}> | </span>}
+    </span>
+  ))}
+</div>
+
               <p className={styles.text}>{item.text1}</p>
               <div className={styles.bulletscontainer}>
                 {item.bullets.map((bullet, i) => (
@@ -22,7 +31,7 @@ export default function Levels({ levelstexts }) {
                   </div>
                 ))}
               </div>
-              <p className={styles.text}>{item.text2}</p>
+              {/* <p className={styles.text}>{item.text2}</p> */}
             </div>
           </div>
         ))}
