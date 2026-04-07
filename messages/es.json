@@ -17,6 +17,38 @@
       "title1": "Un mismo destino,",
       "title2": "distintas formas de vivirlo.",
       "subtitle": "Te ofrecemos distintas propuestas para que encuentres tu manera de explorar.",
+      
+      "items":[{
+        "title": "Naturaleza Viva",
+        "subtitle": "Subtítulo",
+        "image": "/images/naturaleza/naturaleza.png",
+        "items": [
+          { "title": "Nivel Explorador", "subtitle": "Naturaleza Viva" },
+          { "title": "Nivel Inmersivo", "subtitle": "Naturaleza Viva Inmersivo" },
+          { "title": "Nivel Regeneración y Sentido", "subtitle": "Naturaleza Viva Insignia" }
+        ]
+      },
+      {
+        "title": "Cultura y Tradición",
+        "subtitle": "Subtítulo",
+        "image": "/images/cultura/culturahero.png",
+        "items": [
+          { "title": "Nivel Explorador", "subtitle": "Sapucay Observador" },
+          { "title": "Nivel Inmersivo", "subtitle": "Sapucay MICE" },
+          { "title": "Nivel Regeneración y Sentido", "subtitle": "Travesía Ecuestre" }
+        ]
+      },
+      {
+        "title": "Bienestar",
+        "subtitle": "Subtítulo",
+        "image": "/images/bienestar/bienestar.png",
+        "items": [
+          { "title": "Nivel Explorador", "subtitle": "Detox" },
+          { "title": "Nivel Inmersivo", "subtitle": "Bienestar Natural" },
+          { "title": "Nivel Regeneración y Sentido", "subtitle": "Bienestar Insignia" }
+        ]
+      }],
+
       "types": [
         {
           "title": "Naturaleza Viva",
@@ -25,13 +57,7 @@
           "level2": "Naturaleza Viva Inmersivo",
           "level3": "Naturaleza Viva Insignia"
         },
-        {
-          "title": "Territorios Salvajes",
-          "subtitle": "Proyecto Liderazo de Evolución",
-          "level1": "Naturaleza Salvaje",
-          "level2": "Naturaleza Salvaje Inmersivo",
-          "level3": "Naturaleza Salvaje Insignia"
-        },
+
         {
           "title": "Cultura y Tradición",
           "subtitle": "Proyecto Liderazo de Evolución",
@@ -118,7 +144,7 @@
       "impact4": "Impacto social y ambiental medible"
     },
     "HabitarHome":{
-      "title1": "Dónde habitar el Iberá",
+      "title1": "Anfitriones del Iberá",
       "title2": "El descanso también es parte del viaje",
       "items": [
         {
@@ -129,6 +155,16 @@
             "Boutique",
             "Cocina regional",
             "Shows de chamamé"
+          ]
+        },
+        {
+          "image": "/images/home/hotel2.png",
+          "title": "Rancho de los Esteros",
+          "text": "Ubicada en el corazón del Ibera, esta posada combina confort, identidad local y una conexión autentica con el entorno.",
+          "bullets": [
+            "Boutique",
+            "Cocina regional",
+            "Piscina exterior"
           ]
         },
         {

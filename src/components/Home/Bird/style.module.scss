@@ -3,7 +3,7 @@
 
 .section {
   position: relative;
-  height: 200vh; // sección grande para scrollear
+  height: 160vh; // sección grande para scrollear
   width: 100vw;
   overflow: hidden;
   display: flex;
@@ -13,7 +13,7 @@
 .background {
   position: absolute;
   inset: 0;
-  height: 200vh; 
+  height: 160vh; 
   width: 100%;
 
   img {
@@ -24,7 +24,7 @@
 .content {
   position: relative;
   z-index: 2;
-  height: 150vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;

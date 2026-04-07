@@ -43,6 +43,7 @@ padding: 0vh 1.5vh;
     display: flex;
     justify-content: space-between;
 
+
     .left {
       justify-self: start;
       @media only screen and (max-width: 600px) {
@@ -51,8 +52,30 @@ padding: 0vh 1.5vh;
     }
 
     .center {
+      display: flex;
+      flex-direction: column;
       justify-self: center;
-     
+      text-align: justify;
+      justify-content: center;
+      align-items: center;
+
+      margin-top: 1vh;
+
+      @media only screen and (max-width: 600px) {
+        align-items: flex-start;
+      }
+     h1{
+      font-size: 4vh;
+      font-weight: 200;
+      @media only screen and (max-width: 600px) {
+        font-size: 3.5vh;
+      }
+     }
+     h2{
+
+      font-size: 3.5vh;
+
+     }
 
     }
 

@@ -26,7 +26,8 @@ export default function HeaderButton() {
           <Link href="/">
       
           <div className={styles.center}>
-            <h1 className={styles.navtitle}>SAPUCAY EXPERIENCE</h1>
+            <h1 className={styles.navtitle}>793 EDICIÓN LITORAL</h1>
+            <h2 className={styles.navtitle}>SAPUCAY EXPERIENCE</h2>
           </div>
           </Link>
         </AnimatedDiv>

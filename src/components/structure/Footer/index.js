@@ -15,7 +15,6 @@ export default function Footer() {
     { title: t("col1item6"), href: `/${locale}/cultura` },
   ];
 
-
   const underlineVariants = {
     initial: {
       width: 0,
@@ -67,8 +66,32 @@ export default function Footer() {
           <p className={styles.text}>
             Col. Carlos Pellegrini, Corrientes, Argentina
           </p>
-          <p className={styles.text}>info@sapucay.travel</p>
-          <p className={styles.text}>WhatsApp directo</p>
+          <p className={styles.text}>
+            <a href="mailto:litoral@793experience.com">
+              litoral@793experience.com
+            </a>
+          </p>
+
+          <p className={styles.text}>
+            <a
+              href="https://wa.me/541158587100"
+              // href="https://wa.me/543446584076"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              WhatsApp directo
+            </a>
+          </p>
+
+          <p className={styles.text}>
+            <a
+              href="https://instagram.com/793experience"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Instagram
+            </a>
+          </p>
         </div>
       </div>
 

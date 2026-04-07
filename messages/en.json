@@ -16,6 +16,36 @@
       "title1": "One destination, ",
       "title2": "different ways to experience it.",
       "subtitle": "We offer different journeys so you can find your own way to explore.",
+      "items":[{
+        "title": "Naturaleza Viva",
+        "subtitle": "Subtítulo",
+        "image": "/images/home/inmersivo.png",
+        "items": [
+          { "title": "Nivel Explorador", "subtitle": "Texto 1" },
+          { "title": "Nivel Inmersivo", "subtitle": "Texto 2" },
+          { "title": "Nivel Regeneración y Sentido", "subtitle": "Texto 3" }
+        ]
+      },
+      {
+        "title": "Cultura y Tradición",
+        "subtitle": "Subtítulo",
+        "image": "/images/home/explorador.png",
+        "items": [
+          { "title": "Nivel Explorador", "subtitle": "Texto 1" },
+          { "title": "Nivel Inmersivo", "subtitle": "Texto 2" },
+          { "title": "Nivel Regeneración y Sentido", "subtitle": "Texto 3" }
+        ]
+      },
+      {
+        "title": "Bienestar",
+        "subtitle": "Subtítulo",
+        "image": "/images/home/regeneracion.png",
+        "items": [
+          { "title": "Nivel Explorador", "subtitle": "Texto 1" },
+          { "title": "Nivel Inmersivo", "subtitle": "Texto 2" },
+          { "title": "Nivel Regeneración y Sentido", "subtitle": "Texto 3" }
+        ]
+      }],
       "types": [
         {
           "title": "Living Nature",
@@ -24,13 +54,7 @@
           "level2": "Immersive Living Nature",
           "level3": "Living Nature Signature"
         },
-        {
-          "title": "Wild Territories",
-          "subtitle": "Evolution Leadership Project",
-          "level1": "Wild Nature",
-          "level2": "Immersive Wild Nature",
-          "level3": "Wild Nature Signature"
-        },
+
         {
           "title": "Culture & Tradition",
           "subtitle": "Evolution Leadership Project",
@@ -107,7 +131,7 @@
       "impact4": "Measurable social and environmental impact"
     },
     "HabitarHome": {
-      "title1": "Where to stay in Iberá",
+      "title1": "Hosts of Iberá",
       "title2": "Rest is also part of the journey",
       "items": [
         {

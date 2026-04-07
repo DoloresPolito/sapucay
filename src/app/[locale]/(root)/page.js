@@ -21,6 +21,7 @@ export default async function HomePage({ params }) {
       title1: t("TypesHome.title1"),
       title2: t("TypesHome.title2"),
       subtitle: t("TypesHome.subtitle"),
+      items:t.raw("TypesHome.items"),
       types: t.raw("TypesHome.types"),
     },
     bird: {
@@ -43,7 +44,19 @@ export default async function HomePage({ params }) {
       subtitle: t("LevelsHome.subtitle"),
       button: t("LevelsHome.button"),
       items: t.raw("LevelsHome.items"),
+
     },
+
+    levelsnew: {
+      // title1: t("LevelsHome.title1"),
+      // title2: t("LevelsHome.title2"),
+      // subtitle: t("LevelsHome.subtitle"),
+      // button: t("LevelsHome.button"),
+      // items: t.raw("LevelsNewHome.items"),
+
+    },
+
+
     impact: {
       impact1: t("ImpactHome.impact1"),
       impact2: t("ImpactHome.impact2"),

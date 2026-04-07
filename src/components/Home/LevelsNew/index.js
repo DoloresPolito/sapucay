@@ -4,12 +4,11 @@ import { useScroll, useTransform, motion } from "framer-motion";
 import Image from "next/image";
 import styles from "./style.module.scss";
 import image from "../../../../public/images/home/home1.png";
-import Body from "./Body";
-import Content from "./Content";
+
 import AnimatedDiv from "../../ui/AnimatedDiv";
-export default function SlideA({ typestexts }) {
+
+export default function LevelsNew({ typestexts }) {
   const items = typestexts?.types ?? [];
-  const items2 = typestexts?.items ?? [];
   const [selectedLink, setSelectedLink] = useState({
     isActive: false,
     index: 0,
@@ -20,7 +19,7 @@ export default function SlideA({ typestexts }) {
 
   useEffect(() => {
     const handleResize = () => {
-      setIsMobile(window.innerWidth <= 850);
+      setIsMobile(window.innerWidth <= 750);
     };
     handleResize();
     window.addEventListener("resize", handleResize);
@@ -53,27 +52,53 @@ export default function SlideA({ typestexts }) {
             <div className={styles.container}>
               <AnimatedDiv>
                 <div className={styles.header}>
-              
                   <div className={styles.titlecontainer}>
-                  <h2 className={styles.titleh2}>{typestexts.title1}</h2>
-                  <h2 className={`${styles.titleh2} ${styles.titleWide}`}>{typestexts.title2}</h2>
+                    <h2 className={styles.titleh2}>{typestexts.title1}</h2>
+                    <h2 className={`${styles.titleh2} ${styles.titleWide}`}>
+                      {typestexts.title2}
+                    </h2>
                   </div>
-             
 
                   <h3 className={styles.titleh3}>{typestexts.subtitle}</h3>
                 </div>
               </AnimatedDiv>
               <div className={styles.columns}>
-                <Body
-                  items={items2}
-                  selectedLink={selectedLink}
-                  setSelectedLink={setSelectedLink}
-                />
+                <div className={styles.body}>
+                  {items.map((item, index) => (
+                    <div
+                      key={index}
+                      className={`${styles.item} ${
+                        selectedLink.index === index ? styles.active : ""
+                      }`}
+                      onMouseEnter={() =>
+                        setSelectedLink({ isActive: true, index })
+                      }
+                    >
+                      <h3 className={styles.titleh3}>{item.title}</h3>
+                    </div>
+                  ))}
+                </div>
 
-                <Content
-                  item={items2[selectedLink.index]}
-                  isActive={selectedLink.isActive}
-                />
+                <motion.div
+                  className={styles.content}
+                  initial={{ opacity: 0, y: 40 }}
+                  animate={
+                    selectedLink.isActive
+                      ? { opacity: 1, y: 0 }
+                      : { opacity: 0.6, y: 0 }
+                  }
+                  transition={{ duration: 0.4 }}
+                >
+                  <div className={styles.left}>
+                    {/* <h2 className={styles.titleh2}>{item.title}</h2> */}
+                  </div>
+
+                  <div className={styles.right}>
+                    {/* <p className={styles.text}>{item.level1}</p>
+        <p className={styles.text}>{item.level2}</p>
+        <p className={styles.text}>{item.level3}</p> */}
+                  </div>
+                </motion.div>
               </div>
             </div>
           </div>

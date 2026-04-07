@@ -34,15 +34,13 @@ export default function Bird({ birdtexts }) {
           {/* <div className={styles.personalbutton}>{birdtexts.button}</div> */}
         </div>
 
-        <div>
+        {/* <div>
           <h2 className={styles.titleh2}>{birdtexts.title2}</h2>
           <p className={styles.text}>{birdtexts.text21}</p>
           <p className={styles.text}>{birdtexts.text22}</p>
 
-          {/* <div>
-            <Button>{birdtexts.button2}</Button>
-          </div> */}
-        </div>
+   
+        </div> */}
 
         <div>
           <h2 className={styles.titleh2}>{birdtexts.title3}</h2>
