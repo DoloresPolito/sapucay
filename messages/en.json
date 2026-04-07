@@ -16,36 +16,38 @@
       "title1": "One destination, ",
       "title2": "different ways to experience it.",
       "subtitle": "We offer different journeys so you can find your own way to explore.",
-      "items":[{
-        "title": "Naturaleza Viva",
-        "subtitle": "Subtítulo",
-        "image": "/images/home/inmersivo.png",
-        "items": [
-          { "title": "Nivel Explorador", "subtitle": "Texto 1" },
-          { "title": "Nivel Inmersivo", "subtitle": "Texto 2" },
-          { "title": "Nivel Regeneración y Sentido", "subtitle": "Texto 3" }
-        ]
-      },
-      {
-        "title": "Cultura y Tradición",
-        "subtitle": "Subtítulo",
-        "image": "/images/home/explorador.png",
-        "items": [
-          { "title": "Nivel Explorador", "subtitle": "Texto 1" },
-          { "title": "Nivel Inmersivo", "subtitle": "Texto 2" },
-          { "title": "Nivel Regeneración y Sentido", "subtitle": "Texto 3" }
-        ]
-      },
-      {
-        "title": "Bienestar",
-        "subtitle": "Subtítulo",
-        "image": "/images/home/regeneracion.png",
-        "items": [
-          { "title": "Nivel Explorador", "subtitle": "Texto 1" },
-          { "title": "Nivel Inmersivo", "subtitle": "Texto 2" },
-          { "title": "Nivel Regeneración y Sentido", "subtitle": "Texto 3" }
-        ]
-      }],
+      "items": [
+        {
+          "title": "Living Nature",
+          "subtitle": "Environment, calm and connection.",
+          "image": "/images/naturaleza/naturaleza.png",
+          "items": [
+            { "title": "Explorer Level", "subtitle": "Living Nature" },
+            { "title": "Immersive Level", "subtitle": "Living Nature Immersive" },
+            { "title": "Regeneration & Meaning Level", "subtitle": "Living Nature Signature" }
+          ]
+        },
+        {
+          "title": "Culture & Tradition",
+          "subtitle": "Tradition, community and territory",
+          "image": "/images/cultura/culturahero.png",
+          "items": [
+            { "title": "Explorer Level", "subtitle": "Sapucay Observer" },
+            { "title": "Immersive Level", "subtitle": "Sapucay MICE" },
+            { "title": "Regeneration & Meaning Level", "subtitle": "Equestrian Journey" }
+          ]
+        },
+        {
+          "title": "Wellbeing",
+          "subtitle": "A conscious, intimate and transformative experience",
+          "image": "/images/bienestar/bienestar.png",
+          "items": [
+            { "title": "Explorer Level", "subtitle": "Detox" },
+            { "title": "Immersive Level", "subtitle": "Natural Wellbeing" },
+            { "title": "Regeneration & Meaning Level", "subtitle": "Wellbeing Signature" }
+          ]
+        }
+      ],
       "types": [
         {
           "title": "Living Nature",

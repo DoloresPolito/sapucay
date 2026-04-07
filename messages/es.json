@@ -20,7 +20,7 @@
       
       "items":[{
         "title": "Naturaleza Viva",
-        "subtitle": "Subtítulo",
+        "subtitle": "Entorno, calma y conexión.",
         "image": "/images/naturaleza/naturaleza.png",
         "items": [
           { "title": "Nivel Explorador", "subtitle": "Naturaleza Viva" },
@@ -30,7 +30,7 @@
       },
       {
         "title": "Cultura y Tradición",
-        "subtitle": "Subtítulo",
+        "subtitle": "Tradición, comunidad y territorio",
         "image": "/images/cultura/culturahero.png",
         "items": [
           { "title": "Nivel Explorador", "subtitle": "Sapucay Observador" },
@@ -40,7 +40,7 @@
       },
       {
         "title": "Bienestar",
-        "subtitle": "Subtítulo",
+        "subtitle": "Experiencia consciente, íntima y transformadora",
         "image": "/images/bienestar/bienestar.png",
         "items": [
           { "title": "Nivel Explorador", "subtitle": "Detox" },
