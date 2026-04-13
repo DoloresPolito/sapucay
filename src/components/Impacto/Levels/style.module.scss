@@ -8,6 +8,7 @@
   justify-content: center;
   flex-direction: column;
 
+
   @media only screen and (max-width: 850px) {
     height: auto;
   }
@@ -62,6 +63,7 @@
 
     h2 {
       margin-bottom: 1vh;
+      text-transform: uppercase;
     }
 
     .subtitleRow {

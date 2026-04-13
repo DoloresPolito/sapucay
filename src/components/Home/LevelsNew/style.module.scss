@@ -7,7 +7,9 @@
   width: 100vw;
   justify-content: center;
   overflow: hidden;
-
+  @media only screen and (max-width: 850px) {
+    height: 120vh;
+  }
   .motionDiv {
     position: relative;
     height: 100%;
@@ -37,7 +39,7 @@
     justify-content: center;
     color: white;
     pointer-events: auto;
-    margin-top: -20vh;
+    margin-top: -5vh;
 
     @media only screen and (max-width: 850px) {
       text-align: center;
@@ -46,7 +48,7 @@
   }
 
   .container {
-    width: 80%;
+    width: 90%;
     max-width: 80vw;
 
     @media only screen and (max-width: 850px) {
@@ -56,21 +58,23 @@
   }
 
   .header {
-    margin-bottom: 6vh;
-    max-width: 50%;
+    max-width: 100%;
     display: flex;
     flex-direction: column;
+    align-items: center;
 
     .titlecontainer {
       display: flex;
       flex-direction: column;
+      align-items: center;
+
       h2 {
         margin: 0;
       }
       .titleWide {
         letter-spacing: 0.03vh;
         font-weight: 500;
-        font-size: 4.5vh;
+        // font-size: 4.5vh;
 
         @media only screen and (max-width: 850px) {
           font-size: 4vh;
@@ -89,12 +93,14 @@
   .columns {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 3vh;
+    gap: 8vh;
     align-items: center;
+    margin-top: 5vh;
 
     @media only screen and (max-width: 850px) {
       display: flex;
       flex-direction: column;
+      gap: 0; //
     }
   }
 
@@ -102,7 +108,13 @@
     display: flex;
     flex-direction: column;
     width: 100%;
- 
+
+    h3 {
+      font-size: 4.5vh;
+      @media only screen and (max-width: 850px) {
+        font-size: 3.5vh;
+      }
+    }
   }
 
   .item {
@@ -138,66 +150,80 @@
   .active {
     background: rgba(255, 255, 255, 0.12);
     padding-left: 1vw;
-   
   }
 
   .content {
-    padding: 3vh 3vh;
+    position: relative;
+    height: 55vh;
     border-radius: 20px;
-    background: rgba(255, 255, 255, 0.18);
-    backdrop-filter: blur(12px);
+    overflow: hidden;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    height: 30vh;
-
+    align-items: flex-end;
+    width: 100%; // 👈 clave
+    margin-top: 4vh;
     @media only screen and (max-width: 850px) {
-      padding: 3vh 1vh;
       width: 100%;
-
-      flex-direction: column;
+      border-radius: 0; // opcional (queda mejor full width)
     }
+  }
 
-    h2 {
-      font-size: 4vh;
-      margin-bottom: 1vh;
-      font-weight: 500;
-      @media only screen and (max-width: 850px) {
-        margin-bottom: 3vh;
-      }
-    }
+  /* Oscurecer para legibilidad */
+  .bgOverlay {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    background: rgba(26, 30, 34, 0.4); // 👈 mismo tono que antes
+  }
 
+  /* Contenido encima */
+  .contentInner {
+    position: relative;
+    z-index: 2;
+    padding: 5vh 4vh;
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+
+    height: 100%;
+  }
+
+  .top {
+    margin-bottom: 4vh;
+    max-width: 70%;
+  
     p {
-      margin-bottom: 0.7vh;
+      font-size: 2vh;
+      line-height: 1.5;
+      opacity: 0.9;
     }
+  }
 
-    .left {
-      display: flex;
-      margin-right: 3vh;
-      flex-direction: column;
-      justify-content: center;
-      padding-right: 3vh;
-      border-right: 0.3vh solid rgba(255, 255, 255, 0.3);
-      width: 45%;
-      @media only screen and (max-width: 850px) {
-        margin-right: 1vh;
-        padding-right: 1vh;
-        justify-content: center;
-        width: 100%;
-        border-right: none;
-      }
+  .bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+  }
+  
+  .feature {
+    position: relative;
+    padding-left: 3vh;
+  
+    p {
+      font-size: 2vh;
+      margin: 0;
     }
-
-    .right {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      width: 45%;
-      @media only screen and (max-width: 850px) {
-        width: 100%;
-      }
+  
+    &::before {
+      content: "→";
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 2vh;
+      opacity: 0.9;
     }
   }
 }

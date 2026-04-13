@@ -8,8 +8,12 @@ export default async function RootLayout({ children, params }) {
   return (
     <div>
       <Navbar />
-      <main >{children}</main>
-      <Footer/>
+
+      <div id="page-content">
+        <main>{children}</main>
+        <Footer />
+      </div>
+ 
     </div>
   );
 }

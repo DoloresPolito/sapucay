@@ -24,17 +24,18 @@
   display: block;
 }
 
+
+
 .overlay {
   position: relative;
   height: 100%;
-  width: 60%;
+  width: 95%;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
-  pointer-events: none; // opcional
-  text-align: center;
+
   @media only screen and (max-width: 850px) {
     width: 90%;
   }
@@ -42,32 +43,42 @@
   .titlecontainer {
     display: flex;
     flex-direction: column;
+    margin-top: 25vh;
+
     h2 {
       margin: 0;
-      font-size: 5.5vh;
-      margin-top: -5vh;
-      margin-bottom: 10vh;
+      font-size: 12.5vh;
+      line-height: 100%;
       @media only screen and (max-width: 850px) {
         font-size: 4.5vh;
+      }
+    }
+
+    .titleWide {
+      letter-spacing: 0.03vh;
+      font-weight: 400;
+      color: rgb(220, 219, 219);
+      font-size: 5.5vh;
+      margin: 0;
+      font-style: italic;
+      @media only screen and (max-width: 850px) {
+        font-size: 5vh;
       }
     }
   }
 
   h3 {
     margin-top: 3vh;
-    margin-bottom: 8vh;
-    font-size: 4vh;
-    font-weight: 400;
-  }
-  @media only screen and (max-width: 850px) {
+    margin-bottom: 5vh;
     max-width: 100%;
+    font-size: 2.8vh;
   }
 
-  p {
-    max-width: 60vh;
-    letter-spacing: 0.1vh;
-    @media only screen and (max-width: 850px) {
-      max-width: 100%;
-    }
+  .buttoncontainer{
+
+    display: flex;
+    flex-direction: row;
+    gap:3vh
   }
+  
 }

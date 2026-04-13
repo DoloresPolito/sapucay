@@ -39,7 +39,7 @@
     justify-content: center;
     color: white;
     pointer-events: auto;
-    margin-top: -5vh;
+    margin-top: -17vh;
 
     @media only screen and (max-width: 850px) {
       text-align: center;
@@ -63,6 +63,7 @@
     flex-direction: column;
     align-items: center;
 
+
     .titlecontainer {
       display: flex;
       flex-direction: column;
@@ -74,7 +75,7 @@
       .titleWide {
         letter-spacing: 0.03vh;
         font-weight: 500;
-        // font-size: 4.5vh;
+      font-style: italic;
 
         @media only screen and (max-width: 850px) {
           font-size: 4vh;
@@ -91,11 +92,12 @@
   }
 
   .columns {
+
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 8vh;
     align-items: center;
-    margin-top: 5vh;
+    margin-top: 10vh;
 
     @media only screen and (max-width: 850px) {
       display: flex;
@@ -130,7 +132,7 @@
     justify-content: space-between;
 
     &:hover {
-      background: rgba(255, 255, 255, 0.08);
+      background: rgba(255, 255, 255, 0.3);
       padding-left: 1vw;
     }
 
@@ -155,12 +157,12 @@
 
   .content {
     position: relative;
-    height: 55vh;
+    height: 30vh;
     border-radius: 20px;
     overflow: hidden;
     display: flex;
     align-items: flex-end;
-    width: 100%; // 👈 clave
+    width: 50%; // 👈 clave
     margin-top: 4vh;
     @media only screen and (max-width: 850px) {
       width: 100%;
@@ -195,7 +197,9 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
+    // align-items: flex-end;
+    // text-align: end;
     height: 100%;
   }
 

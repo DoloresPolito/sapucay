@@ -13,16 +13,20 @@
   padding: 0vh 5vh;
 
   @media only screen and (max-width: 850px) {
-padding: 0vh 1.5vh;
+    padding: 0vh 1.5vh;
   }
 
   &.active {
-    background-color: rgba(255, 252, 248, 0.95);
+    background-color: rgba(255, 252, 248, 0.5);
   }
 
   .background {
-    background-color: #fffcf6;
-    background-color: rgba(255, 252, 248, 0.85);
+
+    background: rgba(159, 159, 159, 0.3);
+
+    /* Blur del fondo */
+    backdrop-filter: blur(1000px);
+    -webkit-backdrop-filter: blur(1000px); // soporte Safari
 
     opacity: 1;
     height: 100vh;
@@ -43,7 +47,6 @@ padding: 0vh 1.5vh;
     display: flex;
     justify-content: space-between;
 
-
     .left {
       justify-self: start;
       @media only screen and (max-width: 600px) {
@@ -58,25 +61,24 @@ padding: 0vh 1.5vh;
       text-align: justify;
       justify-content: center;
       align-items: center;
-
       margin-top: 1vh;
+
 
       @media only screen and (max-width: 600px) {
         align-items: flex-start;
       }
-     h1{
-      font-size: 4vh;
-      font-weight: 200;
-      @media only screen and (max-width: 600px) {
-        font-size: 3.5vh;
+      h1 {
+        font-size: 2.9vh;
+        font-weight: 200;
+        line-height: 100%;
+        @media only screen and (max-width: 600px) {
+          font-size: 3.5vh;
+        }
       }
-     }
-     h2{
-
-      font-size: 3.5vh;
-
-     }
-
+      h2 {
+        font-size: 4vh;
+        line-height: 100%;
+      }
     }
 
     .right {
@@ -132,13 +134,13 @@ padding: 0vh 1.5vh;
         &::after {
           transform: rotate(45deg);
           top: 0;
-          background-color: black;
+          background-color: white;
         }
 
         &::before {
           transform: rotate(-45deg);
           top: 0;
-          background-color: black;
+          background-color: white;
         }
       }
     }

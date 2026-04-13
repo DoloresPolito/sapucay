@@ -3,12 +3,12 @@ import { useState, useEffect, useRef } from "react";
 import { useScroll, useTransform, motion } from "framer-motion";
 import Image from "next/image";
 import styles from "./style.module.scss";
-import image from "../../../../public/images/home/home1.png";
+import image from "../../../../public/images/home/caballo.png";
 
 import AnimatedDiv from "../../ui/AnimatedDiv";
 
-export default function LevelsNew({ typestexts }) {
-  const items = typestexts?.types ?? [];
+export default function LevelsNew({ levelstexts }) {
+  const items = levelstexts?.items ?? [];
   const [selectedLink, setSelectedLink] = useState({
     isActive: false,
     index: 0,
@@ -53,13 +53,13 @@ export default function LevelsNew({ typestexts }) {
               <AnimatedDiv>
                 <div className={styles.header}>
                   <div className={styles.titlecontainer}>
-                    <h2 className={styles.titleh2}>{typestexts.title1}</h2>
+                    <h2 className={styles.titleh2}>{levelstexts.title1}</h2>
                     <h2 className={`${styles.titleh2} ${styles.titleWide}`}>
-                      {typestexts.title2}
+                      {levelstexts.title2}
                     </h2>
                   </div>
 
-                  <h3 className={styles.titleh3}>{typestexts.subtitle}</h3>
+                  <h3 className={styles.titleh3}>{levelstexts.subtitle}</h3>
                 </div>
               </AnimatedDiv>
               <div className={styles.columns}>
@@ -89,14 +89,20 @@ export default function LevelsNew({ typestexts }) {
                   }
                   transition={{ duration: 0.4 }}
                 >
-                  <div className={styles.left}>
-                    {/* <h2 className={styles.titleh2}>{item.title}</h2> */}
-                  </div>
+                  <div className={styles.bgOverlay} />
 
-                  <div className={styles.right}>
-                    {/* <p className={styles.text}>{item.level1}</p>
-        <p className={styles.text}>{item.level2}</p>
-        <p className={styles.text}>{item.level3}</p> */}
+                  <div className={styles.contentInner}>
+                    <div className={styles.top}>
+                      <p> {items[selectedLink.index].text}</p>
+                    </div>
+
+                    <div className={styles.bottom}>
+  {items[selectedLink.index].bullets.map((el, i) => (
+    <div key={i} className={styles.feature}>
+      <p>{el}</p>
+    </div>
+  ))}
+</div>
                   </div>
                 </motion.div>
               </div>

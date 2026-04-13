@@ -4,10 +4,8 @@ import Image from "next/image";
 import image from "../../../../public/images/impacto/impacthero.png";
 
 import AnimatedDiv from "../../ui/AnimatedDiv";
-
+import Button from "../../ui/Button";
 export default function Hero({ herotexts }) {
-
-
   return (
     <div className={styles.herosection}>
       <div className={styles.heroimage}>
@@ -16,37 +14,44 @@ export default function Hero({ herotexts }) {
           fill
           alt=""
           priority
-          style={{ objectFit: "cover"}}
+          style={{ objectFit: "cover" }}
         />
+
+
 
         <div className={styles.overlay}>
           <div className={styles.titlecontainer}>
             <AnimatedDiv>
-              <h2 className={styles.titleh2}>
-                {herotexts.title1}
-         
-                </h2>
+              <h2 className={styles.titleh2}> {herotexts.title1}</h2>
+            </AnimatedDiv>
+
+            <AnimatedDiv delay={0.2}>
               <h2 className={`${styles.titleh2} ${styles.titleWide}`}>
                 {herotexts.title2}
-           
               </h2>
             </AnimatedDiv>
           </div>
 
           <AnimatedDiv delay={0.5}>
-            <h3 className={styles.titleh3}>
-                {herotexts.subtitle}
-         
-            </h3>
+            <h3 className={styles.titleh3}> {herotexts.text1}</h3>
           </AnimatedDiv>
+          {/* <AnimatedDiv delay={0.5}>
+            <h3 className={styles.titleh3}> {herotexts.text2}</h3>
+          </AnimatedDiv> */}
 
-          <div>
-           <p className={styles.text}>   {herotexts.text1}</p>
-           <p className={styles.text}>   {herotexts.text2}</p>
-          </div>
+          {/* <div>
+            <Button
+            // onClick={scrollToNext}
+            >
+              Historia
+            </Button>
+            <Button
+            // onClick={scrollToNext}
+            >
+              Cultura
+            </Button>
+          </div> */}
         </div>
-
-       
       </div>
     </div>
   );

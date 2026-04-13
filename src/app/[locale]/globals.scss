@@ -10,6 +10,13 @@ body {
   overflow-x: hidden;
   background: transparent;
   font-family: "FuturaBook", sans-serif;
+  // filter: blur(10px);
+}
+
+#page-content.blur {
+  filter: blur(10px);
+  transition: filter 0.3s ease;
+
 }
 
 * {

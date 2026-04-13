@@ -32,13 +32,12 @@ export default function Footer() {
     <footer className={styles.footer}>
       <div className={styles.container}>
         <div className={styles.col}>
-          <h1 className={styles.navtitle}>SPUCAY EXPERIENCE</h1>
+        
 
           <div className={styles.titlecontainer}>
+          <h1 className={styles.navtitle}>793 TRAVEL EXPERIENCE</h1>
             <h2 className={styles.titleh2}>{t("subtitle1")}</h2>
-            <h2 className={`${styles.titleh2} ${styles.titleWide}`}>
-              {t("subtitle2")}
-            </h2>
+  
           </div>
         </div>
 

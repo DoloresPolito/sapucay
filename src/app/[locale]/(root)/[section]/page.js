@@ -14,11 +14,11 @@ const IMAGES = {
     "/images/cultura/culturasection.png",
   ],
   bienestar: [
-    "/images/bienestar/bienestar.png",
+    "/images/bienestar/bienestarsection.png",
     "/images/bienestar/01.png",
     "/images/bienestar/02.png",
     "/images/bienestar/03.png",
-    "/images/bienestar/bienestarsection.png",
+    "/images/bienestar/opcion2.png",
   ],
   naturaleza: [
     "/images/naturaleza/naturaleza.png",
@@ -45,7 +45,8 @@ export default async function SectionPage({ params }) {
 
   const texts = {
     hero: {
-      title: t("herotitle"),
+      title1: t("herotitle1"),
+      title2: t("herotitle2"),
       subtitle: t("herosubtitle"),
       button: t("herobutton"),
     },
@@ -53,6 +54,7 @@ export default async function SectionPage({ params }) {
       title: t("descriptiontitle"),
       subtitle: t("descriptionsubtitle"),
       items: t.raw("items"),
+      items1: t.raw("items1"),
     },
     section: {
       sectiontext1: t("sectiontext1"),

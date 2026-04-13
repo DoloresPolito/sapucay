@@ -20,7 +20,7 @@ export default function Sky({ skytexts }) {
         <div className={styles.cardscontainer}>
           {skytexts.options.map((option, i) => (
             <div key={i} className={styles.card}>
-              <h4 className={styles.cardTitle}>{option.title}</h4>
+              <h2 className={styles.titleh2}>{option.title}</h2>
 
               <div className={styles.line} />
 

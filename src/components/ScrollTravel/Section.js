@@ -53,7 +53,7 @@ export default function Section({
             {sectionitems.map((item, index) => (
               <div key={index} className={styles.itemcontainer}>
                 <div>
-                  <p className={`${styles.text} ${styles.itemWide}`}>{item}</p>
+                  <p className={`${styles.tabletitle} ${styles.itemWide}`}>{item}</p>
                 </div>
               </div>
             ))}
@@ -65,7 +65,7 @@ export default function Section({
             {sectionbutton.map((item, index) => (
               <div key={index} className={styles.itemsection}>
                 <div>
-                  <p className={styles.text}>{item}</p>
+                  <p className={styles.titleh3}>{item}</p>
                 </div>
               </div>
             ))}

@@ -6,7 +6,7 @@ import styles from "./style.module.scss";
 import Button from "../ui/Button";
 import AnimatedDiv from "../ui/AnimatedDiv";
 
-export default function Intro({ image, herotitle, herosubtitle, herobutton }) {
+export default function Intro({ image, herotitle1, herotitle2, herosubtitle, herobutton }) {
   const container = useRef(null);
 
   const [isMobile, setIsMobile] = useState(false);
@@ -31,10 +31,7 @@ export default function Intro({ image, herotitle, herosubtitle, herobutton }) {
 
   return (
     <div ref={container} className={styles.intro}>
-      <motion.div
-        style={!isMobile ? { y } : {}}
-        className={styles.introImage}
-      >
+      <motion.div style={!isMobile ? { y } : {}} className={styles.introImage}>
         <Image
           src={image}
           fill
@@ -44,26 +41,26 @@ export default function Intro({ image, herotitle, herosubtitle, herobutton }) {
         />
 
         <div className={styles.overlay}>
-          <div className={styles.left}>
-            <div className={styles.titlecontainer}>
-              <AnimatedDiv>
-                <h2 className={`${styles.titleh2} ${styles.titleWide}`}>
-                  {herotitle}
-                </h2>
-                <h2 className={styles.titleh2}>{herosubtitle}</h2>
-              </AnimatedDiv>
-            </div>
-
-            <div>
-              <Button>{herobutton}</Button>
-            </div>
+          <div className={styles.titlecontainer}>
+            <AnimatedDiv>
+              <h2 className={styles.titleh2}>{herotitle1}</h2>
+            </AnimatedDiv>
+            <AnimatedDiv delay={0.2}>
+              <h2 className={`${styles.titleh2} ${styles.titleWide}`}>{herotitle2}</h2>
+            </AnimatedDiv>
           </div>
 
-          <div className={styles.right}>
-            <p className={styles.titleh2}>Mercedes</p>
-            <p className={styles.titleh2}>Esteros del Iberá</p>
-            <p className={styles.titleh2}>Corrientes - Argentina</p>
-          </div>
+          <AnimatedDiv delay={0.5}>
+            <h3 className={styles.titleh3}>
+            {herosubtitle}
+            </h3>
+          </AnimatedDiv>
+          <p className={styles.titleh3}>Mercedes</p>
+          <p className={styles.titleh3}>Esteros del Iberá</p>
+          <p className={styles.titleh3}>Corrientes - Argentina</p>
+          {/* <div>
+            <Button onClick={scrollToNext}>Explorar experiencias</Button>
+          </div> */}
         </div>
       </motion.div>
     </div>

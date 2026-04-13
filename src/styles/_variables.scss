@@ -1,6 +1,7 @@
 /* =====================
    FONT FAMILIES
 ===================== */
+$font-poppins: var(--font-poppins), sans-serif;
 
 $font-primary-light: "FuturaPtLight", sans-serif;
 $font-primary-medium: "FuturaPtMedium", sans-serif;
@@ -13,6 +14,20 @@ $font-heavy: "FuturaHeavy", sans-serif;
 $font-heavy-italic: "FuturaHeavyItalic", sans-serif;
 
 $font-light-italic: "FuturaLightItalic", sans-serif;
+
+// $font-book: $font-poppins;
+
+$font-poppins: $font-poppins;
+
+$font-primary-medium: $font-poppins;
+$font-primary-heavy: $font-poppins;
+$font-primary-light: $font-poppins;
+$font-heavy: $font-poppins;
+$font-heavy-italic: $font-poppins;
+$font-book-italic: $font-poppins;
+
+// $font-book: $font-poppins;
+// $font-primary-medium: $font-poppins;
 
 /* =====================
    TYPO ROLES

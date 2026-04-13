@@ -3,36 +3,35 @@ import { useState } from "react";
 import Image from "next/image";
 import styles from "./style.module.scss";
 import { usePathname } from "next/navigation";
+import AnimatedDiv from "../ui/AnimatedDiv";
 
 export default function ComparativeTable({ backgroundImage, tabletext }) {
   const [activeCol, setActiveCol] = useState(null);
 
   const pathname = usePathname();
 
-const getSectionName = () => {
-  if (pathname.includes("naturaleza")) return "Naturaleza viva";
-  if (pathname.includes("cultura")) return "Cultura y tradición";
-  if (pathname.includes("bienestar")) return "Bienestar";
-  return "";
-};
+  const getSectionName = () => {
+    if (pathname.includes("naturaleza")) return "Naturaleza viva";
+    if (pathname.includes("cultura")) return "Cultura y tradición";
+    if (pathname.includes("bienestar")) return "Bienestar";
+    return "";
+  };
 
   const phoneNumber = "5493446584076"; // tu número con código país (sin +)
 
   const handleWhatsApp = (column) => {
     const section = getSectionName();
-  
+
     const message = `Hola! Estoy viendo la sección "${section}", ${column} y me gustaría recibir más información 😊`;
-  
+
     const encodedMessage = encodeURIComponent(message);
-  
+
     const url = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodedMessage}`;
-  
+
     window.open(url, "_blank");
   };
 
   return (
-
-    
     <section className={styles.section}>
       <div className={styles.background}>
         <Image
@@ -45,8 +44,14 @@ const getSectionName = () => {
 
       <div className={styles.content}>
         <header className={styles.header}>
+          <AnimatedDiv>
+
+ 
           <h2 className={styles.titleh2}>{tabletext.title}</h2>
+          </AnimatedDiv>
+          <AnimatedDiv delay={0.2}>
           <h3 className={styles.titleh3}>{tabletext.subtitle}</h3>
+          </AnimatedDiv>
         </header>
 
         {/* ========================= */}
@@ -66,8 +71,10 @@ const getSectionName = () => {
                       onMouseLeave={() => setActiveCol(null)}
                     >
                       <div className={styles.columnHeader}>
-                        <span>{col.name}</span>
-                        <small>{col.level}</small>
+                        <span className={styles.tabletitle}>{col.name}</span>
+                        <small className={styles.tablesubtitle}>
+                          {col.level}
+                        </small>
                       </div>
                     </th>
                   ))}
@@ -77,7 +84,13 @@ const getSectionName = () => {
               <tbody>
                 {tabletext.rows.map((row, i) => (
                   <tr key={i}>
-                    <td className={styles.rowLabel}>{row.label}</td>
+                    <td
+                      className={`${styles.rowLabel}
+                     ${styles.tabletitle}
+                    `}
+                    >
+                      {row.label}
+                    </td>
 
                     {row.values.map((value, j) => (
                       <td
@@ -129,18 +142,20 @@ const getSectionName = () => {
         <div className={styles.mobileTables}>
           {tabletext.columns.map((col, colIndex) => (
             <div key={colIndex} className={styles.mobileCard}>
-              <div className={styles.mobileHeader}>
-                <span className={styles.text}>{col.name}</span>
-                <small>{col.level}</small>
+              <div className={styles.columnHeader}>
+                <span className={styles.tabletitle}>{col.name}</span>
+                <small className={styles.tablesubtitle}>{col.level}</small>
               </div>
+              {/* <div className={styles.mobileHeader}>
+                <span className={styles.tabletitle}>{col.name}</span>
+                <small>{col.level}</small>
+              </div> */}
 
               <div className={styles.mobileList}>
                 {tabletext.rows.map((row, rowIndex) => (
                   <div key={rowIndex} className={styles.mobileItem}>
                     <p className={styles.text}>{row.label}</p>
-                    <p className={styles.text}>
-                      {row.values[colIndex]}
-                    </p>
+                    <p className={styles.text}>{row.values[colIndex]}</p>
                   </div>
                 ))}
               </div>

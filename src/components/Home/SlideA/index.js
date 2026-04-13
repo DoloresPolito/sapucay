@@ -3,10 +3,10 @@ import { useState, useEffect, useRef } from "react";
 import { useScroll, useTransform, motion } from "framer-motion";
 import Image from "next/image";
 import styles from "./style.module.scss";
-import image from "../../../../public/images/home/home1.png";
+import image from "../../../../public/images/home/homeslideA.png";
 import Body from "./Body";
-import Content from "./Content";
 import AnimatedDiv from "../../ui/AnimatedDiv";
+import Content from "./Content";
 export default function SlideA({ typestexts }) {
   const items = typestexts?.types ?? [];
   const items2 = typestexts?.items ?? [];
@@ -61,6 +61,8 @@ export default function SlideA({ typestexts }) {
              
 
                   <h3 className={styles.titleh3}>{typestexts.subtitle}</h3>
+                  <h3 className={styles.titleh3}>Cada persona tiene una intención distinta: descubrir, conectar, transformarse o dejar huella en familia, con amig@s, sol@s, o con el equipo de trabajo.</h3>
+                  
                 </div>
               </AnimatedDiv>
               <div className={styles.columns}>
@@ -70,10 +72,10 @@ export default function SlideA({ typestexts }) {
                   setSelectedLink={setSelectedLink}
                 />
 
-                <Content
+                {/* <Content
                   item={items2[selectedLink.index]}
                   isActive={selectedLink.isActive}
-                />
+                /> */}
               </div>
             </div>
           </div>

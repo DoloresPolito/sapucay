@@ -25,32 +25,30 @@
 }
 
 .overlay {
-  position: absolute; // 👈 importante para posicionarlo libre
-  right: 0; // 👈 lo pega a la derecha
-  top: 0;
+  position: relative;
   height: 100%;
-  width: 40%; // 👈 ocupa 1/3
+  width: 95%;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
-  align-items: flex-start; // 👈 alinea a la izquierda
+  align-items: flex-start;
   justify-content: center;
-  text-align: left; // 👈 texto a la izquierda
-  padding: 0 4vw;
-  pointer-events: none;
 
   @media only screen and (max-width: 850px) {
-    width: 100%;
-    align-items: center;
-    text-align: center;
-    padding: 0vh 3vh;
+    width: 95%;
+
   }
 
   .titlecontainer {
     display: flex;
     flex-direction: column;
+    margin-top: 25vh;
+
     h2 {
       margin: 0;
-      font-size: 5.5vh;
+      font-size: 12.5vh;
+      line-height: 100%;
+   
       @media only screen and (max-width: 850px) {
         font-size: 4.5vh;
       }
@@ -58,25 +56,27 @@
 
     .titleWide {
       letter-spacing: 0.03vh;
-      font-weight: 500;
+      font-weight: 400;
       color: rgb(220, 219, 219);
-      font-size: 6vh;
-
+      font-size: 12.5vh;
+      margin: 0;
+      font-style: italic;
+      margin-bottom: 3vh;
       @media only screen and (max-width: 850px) {
-        font-size: 5vh;
+        font-size: 4.5vh;
       }
     }
   }
 
   h3 {
-    margin-top: 3vh;
-    margin-bottom: 5vh;
-  }
-
-  p {
+    // margin-top: 3vh;
     margin-bottom: 3vh;
+    max-width: 50%;
+    font-size: 2.8vh;
+    @media only screen and (max-width: 850px) {
+      max-width: 90%;}
+    
+  
   }
-  @media only screen and (max-width: 850px) {
-    max-width: 100%;
-  }
+  
 }

@@ -4,7 +4,7 @@
 .section {
   display: flex;
   background-color: none;
-  height: 80vh;
+  height: 70vh;
   width: 100%;
   justify-content: center;
   background-color: none;
@@ -12,14 +12,15 @@
   .container {
     display: flex;
     flex-direction: column;
-    height: 80vh;
+    height: 70vh;
     width: 100%;
     align-items: center;
     justify-content: center;
 
+
     .heroimage {
       position: relative;
-      height: 80vh;
+      height: 70vh;
       width: 100%;
       overflow: hidden;
       display: flex;
@@ -37,11 +38,12 @@
       align-items: center;
       justify-content: center;
       pointer-events: none;
+      text-align: center;
 
       @media only screen and (max-width: 850px) {
         width: 95%;
 
-        align-items: flex-start;
+    
       }
 
       .titlecontainer {

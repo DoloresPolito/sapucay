@@ -3,7 +3,7 @@ import { useState, useEffect, useRef } from "react";
 import { useScroll, useTransform, motion } from "framer-motion";
 import Image from "next/image";
 import styles from "./style.module.scss";
-import image from "../../../../public/images/impacto/turismo.png";
+import image from "../../../../public/images/bienestar/bienestarhero1.png";
 import AnimatedDiv from "../../ui/AnimatedDiv";
 
 export default function Turism({ turismtexts }) {
@@ -81,5 +81,7 @@ function Item({ option }) {
       <div className={styles.icon}>›</div>
       <p className={styles.text}>{option.title}</p>
     </div>
+
+    
   );
 }

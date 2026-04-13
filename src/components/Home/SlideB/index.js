@@ -8,7 +8,7 @@ export default function SlideB({levelstexts, typestexts}) {
     <div className={styles.section}>
       <div className={styles.container}>
         <Levels levelstexts={levelstexts}/>
-        {/* <LevelsNew typestexts={typestexts}/> */}
+        {/* <LevelsNew levelstexts={levelstexts}/> */}
       </div>
     </div>
   );

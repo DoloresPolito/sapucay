@@ -28,18 +28,18 @@ export default function Content({ item, isActive }) {
 
       {/* Contenido */}
       <div className={styles.contentInner}>
-        <div className={styles.top}>
+        {/* <div className={styles.top}>
           <h2 className={styles.titleh2}>{item.title}</h2>
           <p className={styles.subtitle}>{item.subtitle}</p>
-        </div>
+        </div> */}
 
         <div className={styles.bottom}>
-          {item.items?.map((el, i) => (
+          {/* {item.items?.map((el, i) => (
             <div key={i} className={styles.feature}>
               <h4>{el.title}</h4>
               <p>{el.subtitle}</p>
             </div>
-          ))}
+          ))} */}
         </div>
       </div>
     </motion.div>

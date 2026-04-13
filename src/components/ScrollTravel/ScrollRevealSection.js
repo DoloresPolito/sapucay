@@ -14,7 +14,8 @@ export default function ScrollRevealSection({
     <>
       <Intro
         image={introImage}
-        herotitle={texts.hero.title}
+        herotitle1={texts.hero.title1}
+        herotitle2={texts.hero.title2}
         herosubtitle={texts.hero.subtitle}
         herobutton={texts.hero.button}
       />
@@ -22,6 +23,7 @@ export default function ScrollRevealSection({
         title={texts.description.title}
         subtitle={texts.description.subtitle}
         items={texts.description.items} // 👈 acá
+        items1={texts.description.items1} // 👈 acá
       />
       <Section
         image={sectionImage}

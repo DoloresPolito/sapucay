@@ -19,13 +19,23 @@
   grid-template-columns: 1.2fr 1fr 1fr;
   gap: 6vw;
 
+  
+
   .titlecontainer {
     display: flex;
     flex-direction: column;
+
+    h1{
+      font-size: 3.2vh;
+      font-weight: 200;
+      line-height: 100%;
+    }
+    
     h2 {
       margin: 0;
       color: black;
-      font-size: 3vh;
+      font-size: 4.5vh;
+      line-height: 100%;
     }
     .titleWide {
       letter-spacing: 0.03vh;

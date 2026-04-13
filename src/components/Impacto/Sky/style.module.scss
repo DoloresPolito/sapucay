@@ -39,6 +39,7 @@
     h2 {
       margin-bottom: 3vh;
       line-height: 100%;
+      text-transform: uppercase;
     }
     h3 {
       margin-bottom: 3vh;
@@ -78,10 +79,10 @@
       }
     }
 
-    .cardTitle {
+    h2{
       font-size: 2.8vh;
-      color: white;
       margin-bottom: 2vh;
+      text-transform: uppercase;
     }
 
     .line {

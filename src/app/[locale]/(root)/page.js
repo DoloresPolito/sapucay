@@ -14,7 +14,6 @@ export default async function HomePage({ params }) {
       title2: t("HeroHome.title2"),
       subtitle: t("HeroHome.subtitle"),
       button: t("HeroHome.button"),
-      options: t.raw("HeroHome.options"),
     },
 
     types: {
@@ -25,17 +24,15 @@ export default async function HomePage({ params }) {
       types: t.raw("TypesHome.types"),
     },
     bird: {
-      title: t("BirdHome.title"),
-      subtitle: t("BirdHome.subtitle"),
-      button: t("BirdHome.button"),
-      title2: t("BirdHome.title2"),
-      text21: t("BirdHome.text2-1"),
-      text22: t("BirdHome.text2-2"),
-      button2: t("BirdHome.button2"),
+     
       title3: t("BirdHome.title3"),
       subtitle3: t("BirdHome.subtitle3"),
       text3: t("BirdHome.text3"),
       button3: t("BirdHome.button3"),
+      impact1: t("BirdHome.impact1"),
+      impact2: t("BirdHome.impact2"),
+      impact3: t("BirdHome.impact3"),
+      impact4: t("BirdHome.impact4"),
     },
 
     levels: {
@@ -57,12 +54,6 @@ export default async function HomePage({ params }) {
     },
 
 
-    impact: {
-      impact1: t("ImpactHome.impact1"),
-      impact2: t("ImpactHome.impact2"),
-      impact3: t("ImpactHome.impact3"),
-      impact4: t("ImpactHome.impact4"),
-    },
     habitar:{
       title1: t("HabitarHome.title1"),
       title2: t("HabitarHome.title2"),

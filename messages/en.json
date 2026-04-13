@@ -1,24 +1,19 @@
 {
   "Home": {
     "HeroHome": {
-      "title1": "Where journeys are lived so deeply",
-      "title2": "that in the end all that’s left is to shout it out.",
-      "subtitle": "We design authentic experiences that connect territories, culture, and hospitality.",
-      "button": "Discover more",
-      "options": [
-        { "title": "Living Nature" },
-        { "title": "Culture & Tradition" },
-        { "title": "Wellness" }
-      ]
+      "title1": "YOUR JOURNEY,",
+      "title2": "YOUR INTENTION",
+      "subtitle": "In 793, we design itineraries that resonate with the traveler’s stage of life, selecting destinations that respect cultures and the environment, and that promote social development and sustainability.",
+      "button": "Explore experiences"
     },
 
     "TypesHome": {
-      "title1": "One destination, ",
-      "title2": "different ways to experience it.",
+      "title1": "ONE DESTINATION,",
+      "title2": "DIFFERENT WAYS TO EXPERIENCE IT",
       "subtitle": "We offer different journeys so you can find your own way to explore.",
       "items": [
         {
-          "title": "Living Nature",
+          "title": "LIVING NATURE",
           "subtitle": "Environment, calm and connection.",
           "image": "/images/naturaleza/naturaleza.png",
           "items": [
@@ -28,7 +23,7 @@
           ]
         },
         {
-          "title": "Culture & Tradition",
+          "title": "CULTURE & TRADITION",
           "subtitle": "Tradition, community and territory",
           "image": "/images/cultura/culturahero.png",
           "items": [
@@ -38,7 +33,7 @@
           ]
         },
         {
-          "title": "Wellbeing",
+          "title": "WELLNESS & CONNECTION",
           "subtitle": "A conscious, intimate and transformative experience",
           "image": "/images/bienestar/bienestar.png",
           "items": [
@@ -114,17 +109,14 @@
     },
 
     "BirdHome": {
-      "title": "There is no right level.",
-      "subtitle": "There is a moment in life, an openness, and a way of being.",
-      "button": "Each experience respects your pace and accompanies the way you choose to travel today.",
-      "title2": "Sapucay Travel is an Argentine agency dedicated to creating experiences with soul.",
-      "text2-1": "Based in the Iberá Wetlands and with a presence in Buenos Aires, we design journeys where nature, culture, and emotions come together in one place.",
-      "text2-2": "True luxury lies in authenticity, human connection, living land, and shared moments.",
-      "button2": "Discover our philosophy",
-      "title3": "Impact and commitment",
+      "title3": "IMPACT AND COMMITMENT",
       "subtitle3": "Tourism that leaves a positive footprint",
       "text3": "We travel with a regenerative vision: each experience in Iberá aims to strengthen nature, the local community, and the future of the territory. We measure our impact and work to ensure every visit adds value.",
-      "button3": "Discover our impact"
+      "button3": "Discover our impact",
+      "impact1": "Active ecosystem conservation",
+      "impact2": "Strengthening the local community",
+      "impact3": "Experiences that regenerate the territory",
+      "impact4": "Measurable social and environmental impact"
     },
     "ImpactHome": {
       "impact1": "Active ecosystem conservation",
@@ -162,41 +154,83 @@
   },
 
   "footer": {
-    "subtitle1": "Where journeys are lived so deeply",
-    "subtitle2": "that in the end the only thing left is to shout them out.",
+    "subtitle1": "LITORAL EDITION",
     "title1": "Navigation",
-    "col1item1": "Home",
-    "col1item2": "The Destination",
-    "col1item3": "Impact & Commitment",
-    "col1item4": "Wellbeing",
-    "col1item5": "Nature",
-    "col1item6": "Culture & Tradition",
+    "col1item1": "HOME",
+    "col1item2": "THE DESTINATION",
+    "col1item3": "IMPACT & COMMITMENT",
+    "col1item4": "WELLNESS & CONNECTION",
+    "col1item5": "LIVING NATURE",
+    "col1item6": "CULTURE & TRADITION",
     "title2": "Contact",
     "col2item1": "Col. Carlos Pellegrini, Corrientes, Argentina",
     "col2item2": "info@sapucaytravel",
     "col2item3": "Direct WhatsApp",
-    "right": "Sapucay Experience ® 2026. All rights reserved."
+    "right": "793 TRAVEL EXPERIENCE ® 2026. All rights reserved."
   },
 
   "nav": {
-    "home": "Home",
-    "cultura": "Culture & Tradition",
-    "bienestar": "Wellbeing",
-    "naturaleza": "Nature",
-    "impacto": "Impact & Commitment",
-    "destino": "The Destination"
+    "home": "HOME",
+    "cultura": "CULTURE & TRADITION",
+    "bienestar": "WELLNESS & CONNECTION",
+    "naturaleza": "LIVING NATURE",
+    "impacto": "IMPACT & COMMITMENT",
+    "destino": "THE DESTINATION"
   },
 
   "cultura": {
-    "herotitle": "Culture and Tradition",
+    "herotitle1": "CULTURE",
+    "herotitle2": "&TRADITION",
     "herosubtitle": "Tradition, community, and territory as a sensitive and transformative experience.",
     "herobutton": "Learn more",
-    "descriptiontitle": "Choose how to experience Iberá",
+    "descriptiontitle": "CHOOSE HOW TO EXPERIENCE IBERÁ",
     "descriptionsubtitle": "All Culture and Tradition programs share the same framework, but differ in their level of depth, guidance, and impact.",
+    "items1": [
+      {
+        "image": "/images/cultura/cult1.png",
+        "title": "SAPUCAY OBSERVER",
+        "title2": "Explorer level",
+        "subtitle": ["DISCOVER", "ENJOY", "CARE"],
+        "text1": "A deeper experience: mindful practices, nature understood from within, and personalized well-being.",
+        "bullets": [
+          "First approach to the territory",
+          "Guided cultural experiences",
+          "Respectful contact with local communities"
+        ],
+        "text2": "Ideal for first-time visitors who want to enjoy with awareness."
+      },
+      {
+        "image": "/images/cultura/cult2.png",
+        "title": "SAPUCAY MICE",
+        "title2": "Immersive level",
+        "subtitle": ["CONNECT", "LEARN", "COLLABORATE"],
+        "text1": "Collaborative processes and experiences designed for groups and organizations.",
+        "bullets": [
+          "Tailor-made experience design",
+          "Work with local stakeholders",
+          "Measurable impact on the territory"
+        ],
+        "text2": "Your journey activates local networks and strengthens community projects."
+      },
+      {
+        "image": "/images/cultura/cult3.png",
+        "title": "EQUESTRIAN JOURNEY",
+        "title2":"Regeneration and purpose level",
+        "subtitle": ["CO-CREATE", "CONTRIBUTE", "LEAVE A LEGACY"],
+        "text1": "A transformative journey with guidance and purpose.",
+        "bullets": [
+          "Horseback routes through Iberá",
+          "Deep understanding of the landscape",
+          "Personal experience and legacy"
+        ],
+        "text2": "Tourism becomes a deep exchange and mutual transformation."
+      }
+    ],
+    
     "items": [
       {
         "image": "/images/cultura/01.png",
-        "title": "Sapucay Observer",
+        "title": "SAPUCAY OBSERVER",
         "subtitle": "Explorer level",
         "text": "A deeper experience: conscious practices, an inward reading of nature, and personalized well-being.",
         "button": "See more",
@@ -208,7 +242,7 @@
       },
       {
         "image": "/images/cultura/02.png",
-        "title": "Sapucay MICE",
+        "title": "SAPUCAY MICE",
         "subtitle": "Immersive level",
         "text": "Collaborative processes and experiences designed for groups and organizations.",
         "button": "See more",
@@ -220,7 +254,7 @@
       },
       {
         "image": "/images/cultura/03.png",
-        "title": "Equestrian Journey",
+        "title": "EQUESTRIAN JOURNEY",
         "subtitle": "Regeneration and purpose level",
         "text": "A transformative journey with guidance and purpose.",
         "button": "See more",
@@ -245,20 +279,20 @@
     ],
 
     "table": {
-      "title": "Experience Levels",
+      "title": "EXPERIENCE LEVELS",
       "subtitle": "Comparison between the different program levels",
       "button": "More information",
       "columns": [
-        { "name": "Sapucay Observer", "level": "Explorer level" },
-        { "name": "Sapucay MICE", "level": "Immersive level" },
+        { "name": "SAPUCAY OBSERVER", "level": "Explorer level" },
+        { "name": "SAPUCAY MICE", "level": "Immersive level" },
         {
-          "name": "Equestrian Journey",
+          "name": "EQUESTRIAN JOURNEY",
           "level": "Regeneration & meaning level"
         }
       ],
       "rows": [
         {
-          "label": "Purpose",
+          "label": "PURPOSE",
           "values": [
             "Information",
             "Understanding the Iberá model",
@@ -266,7 +300,7 @@
           ]
         },
         {
-          "label": "Connection with culture",
+          "label": "CONNECTION WITH CULTURE",
           "values": [
             "Learn about local traditions",
             "Actively participate in rural and cultural practices",
@@ -274,11 +308,11 @@
           ]
         },
         {
-          "label": "Duration",
+          "label": "DURATION",
           "values": ["3 days / 2 nights", "4 days / 3 nights", "Customized"]
         },
         {
-          "label": "Practices",
+          "label": "PRACTICES",
           "values": [
             "Safaris and walks",
             "Journeys, horseback rides, and time spent in the landscape",
@@ -290,15 +324,60 @@
   },
 
   "bienestar": {
-    "herotitle": "Wellbeing",
+    "herotitle1": "WELLNESS",
+    "herotitle2": "&CONNECTION",
     "herosubtitle": "A conscious pause in one of South America's purest ecosystems. Nature, silence, and deep practices to restore balance.",
     "herobutton": "Learn more",
-    "descriptiontitle": "Choose how to experience Iberá",
+    "descriptiontitle": "CHOOSE HOW TO EXPERIENCE IBERÁ",
     "descriptionsubtitle": "All Iberá Wellbeing programs share a common framework, but differ in their level of depth, guidance, and impact.",
+    "items1": [
+      {
+        "image": "/images/bienestar/bienestar-1.png",
+        "title": "DETOX",
+        "title2": "Explorer level",
+        "subtitle": ["DISCOVER", "ENJOY", "CARE"],
+        "text1": "A pause to step away from the daily rhythm and reconnect with the body through nature, rest, and simplicity.",
+        "bullets": [
+          "Guided walks in natural surroundings",
+          "Mindful movement at sunrise",
+          "Natural nutrition and deep rest"
+        ],
+        "text2": "Ideal for first-time visitors who want to enjoy with awareness."
+      },
+      {
+        "image": "/images/bienestar/bienestar1.png",
+        "title": "NATURAL WELL-BEING",
+        "title2": "Immersive level",
+        "subtitle": ["CONNECT", "LEARN", "COLLABORATE"],
+        "text1": "A deep experience that combines wellness practices, nature, and guidance to restore physical and emotional balance.",
+        "bullets": [
+          "Breathing practices and emotional regulation",
+          "Grounding and sensory walks",
+          "Mindful navigation in silence"
+        ],
+        "text2": "Your journey activates local networks and strengthens community projects."
+      },
+      {
+        "image": "/images/bienestar/bienestar-3.png",
+        "title": "SIGNATURE WELL-BEING",
+        "title2": "Regeneration and purpose level",
+       
+        "subtitle": ["CO-CREATE", "CONTRIBUTE", "LEAVE A LEGACY"],
+        "text1": "A transformative process that integrates emotional assessment, deep practices, and personalized guidance with real impact.",
+        "bullets": [
+          "Pre- and post-emotional assessment (AI-based)",
+          "Guided meditation with horses",
+          "Specialized emotional support"
+        ],
+        "text2": "Tourism becomes a deep exchange and mutual transformation."
+      }
+    ],
+    
     "items": [
       {
-        "image": "/images/bienestar/01.png",
-        "title": "Detox",
+   
+        "image": "/images/bienestar/bienestar-1.png",
+        "title": "DETOX",
         "subtitle": "Explorer level",
         "text": "A pause to release the pace of everyday life and reconnect with the body through nature, rest, and simplicity.",
         "button": "See more",
@@ -312,8 +391,8 @@
         ]
       },
       {
-        "image": "/images/bienestar/02.png",
-        "title": "Natural Wellbeing",
+        "image": "/images/bienestar/bienestar1.png",
+        "title": "NATURAL WELLBEING",
         "subtitle": "Immersive level",
         "text": "A deep experience combining wellbeing practices, nature, and guidance to restore physical and emotional balance.",
         "button": "See more",
@@ -327,8 +406,8 @@
         ]
       },
       {
-        "image": "/images/bienestar/03.png",
-        "title": "Wellbeing Signature",
+        "image": "/images/bienestar/bienestar-3.png",
+        "title": "WELLBEING SIGNATURE",
         "subtitle": "Regeneration & meaning level",
         "text": "A transformative process that integrates emotional assessment, deep practices, and personalized guidance with real impact.",
         "button": "See more",
@@ -359,20 +438,20 @@
       "In Iberá, nature sets the pace, and each experience follows that pulse."
     ],
     "table": {
-      "title": "Explore the levels",
+      "title": "EXPERIENCE LEVELS",
       "subtitle": "Choose the one that best fits your needs",
       "button": "More information",
       "columns": [
-        { "name": "Detox", "level": "Explorer level" },
-        { "name": "Natural Wellbeing", "level": "Immersive level" },
+        { "name": "DETOX", "level": "Explorer level" },
+        { "name": "NATURAL WELLBEING", "level": "Immersive level" },
         {
-          "name": "Wellbeing Signature",
+          "name": "WELLBEING SIGNATURE",
           "level": "Regeneration & meaning level"
         }
       ],
       "rows": [
         {
-          "label": "Purpose",
+          "label": "PURPOSE",
           "values": [
             "Rest and reconnect",
             "Regulate body and emotions",
@@ -380,7 +459,7 @@
           ]
         },
         {
-          "label": "Rhythm",
+          "label": "RHYTHM",
           "values": [
             "Slow and contemplative",
             "Deep and sustained",
@@ -388,11 +467,11 @@
           ]
         },
         {
-          "label": "Duration",
+          "label": "DURATION",
           "values": ["3 days / 2 nights", "3 days / 2 nights", "Custom"]
         },
         {
-          "label": "Practices",
+          "label": "PRACTICES",
           "values": [
             "Walks, rest, connection with nature",
             "Grounding, breathing, medicinal plants",
@@ -403,15 +482,58 @@
     }
   },
   "naturaleza": {
-    "herotitle": "Nature",
+    "herotitle1": "LIVING",
+    "herotitle2": "NATURE",
     "herosubtitle": "Connection with the territory and its biodiversity.",
     "herobutton": "Learn more",
-    "descriptiontitle": "Choose how to experience Iberá",
+    "descriptiontitle": "CHOOSE HOW TO EXPERIENCE IBERÁ",
     "descriptionsubtitle": "All programs share a common framework, but differ in their level of depth, guidance, and impact.",
+    "items1": [
+      {
+        "image": "/images/naturaleza/naturaleza1.png",
+        "title": "LIVING NATURE",
+        "title2": "Explorer level",
+        "subtitle": ["DISCOVER", "ENJOY", "CARE"],
+        "text1": "A first immersion into the life of Iberá: observe, explore, and be amazed by an ecosystem in its purest state.",
+        "bullets": [
+          "Wildlife observation in natural habitats",
+          "Safaris and interpretive walks",
+          "First conscious connection with the ecosystem"
+        ],
+        "text2": "Ideal for first-time visitors who want to enjoy with awareness."
+      },
+      {
+        "image": "/images/naturaleza/naturaleza2.png",
+        "title": "LIVING NATURE IMMERSIVE",
+        "title2": "Immersive level",
+        "subtitle": ["CONNECT", "LEARN", "COLLABORATE"],
+        "text1": "A deeper experience: connection with the territory, its people, and a true understanding of conservation.",
+        "bullets": [
+          "Interaction with park rangers and local guides",
+          "Activities such as horseback riding and kayaking",
+          "Understanding the ecosystem from within"
+        ],
+        "text2": "Your journey activates local networks and strengthens community projects."
+      },
+      {
+        "image": "/images/naturaleza/naturaleza3.png",
+        "title": "LIVING NATURE SIGNATURE",
+        "title2":"Regeneration and purpose level",
+        "subtitle": ["CO-CREATE", "CONTRIBUTE", "LEAVE A LEGACY"],
+        "text1": "A transformative experience where you no longer just observe nature, but take on a role within it.",
+        "bullets": [
+          "Participation in regenerative actions",
+          "Deep understanding of the territory",
+          "A personal experience with impact and purpose"
+        ],
+        "text2": "Tourism becomes a deep exchange and mutual transformation."
+      }
+    ],
+   
     "items": [
       {
         "image": "/images/naturaleza/01.png",
-        "title": "Living Nature",
+        "title": "LIVING NATURE",
         "subtitle": "Explorer level",
         "text": "A first immersion into Iberá’s living system: observe, explore, and be surprised by an ecosystem in its pure state.",
         "button": "See more",
@@ -423,7 +545,7 @@
       },
       {
         "image": "/images/naturaleza/02.png",
-        "title": "Living Nature Immersive",
+        "title": "LIVING NATURE INMERSIVE",
         "subtitle": "Immersive level",
         "text": "A deeper experience: connection with the territory, its people, and a real understanding of conservation.",
         "button": "See more",
@@ -435,7 +557,7 @@
       },
       {
         "image": "/images/naturaleza/03.png",
-        "title": "Living Nature Signature",
+        "title": "LIVING NATURE SIGNATURE",
         "subtitle": "Regeneration & meaning level",
         "text": "A transformative experience where nature is no longer just observed, but actively engaged with.",
         "button": "See more",
@@ -463,20 +585,20 @@
       "Travel becomes a way of relating to life in its most essential form."
     ],
     "table": {
-      "title": "Experience levels",
+      "title": "EXPERIENCE LEVELS",
       "subtitle": "Comparison between the different program levels",
       "button": "More information",
       "columns": [
-        { "name": "Living Nature", "level": "Explorer level" },
-        { "name": "Living Nature Immersive", "level": "Immersive level" },
+        { "name": "LIVING NATURE", "level": "Explorer level" },
+        { "name": "LIVING NATURE INMERSIVE", "level": "Immersive level" },
         {
-          "name": "Living Nature Signature",
+          "name": "LIVING NATURE SIGNATURE",
           "level": "Regeneration & meaning level"
         }
       ],
       "rows": [
         {
-          "label": "Purpose",
+          "label": "PURPOSE",
           "values": [
             "Discover nature",
             "Understand the ecosystem",
@@ -484,7 +606,7 @@
           ]
         },
         {
-          "label": "Wildlife interaction",
+          "label": "WILDLIFE INTERACTION",
           "values": [
             "Observation",
             "Observation + interpretation",
@@ -492,7 +614,7 @@
           ]
         },
         {
-          "label": "Human connection",
+          "label": "HUMAN CONNECTION",
           "values": [
             "Local guides",
             "Park rangers and local experts",
@@ -500,7 +622,7 @@
           ]
         },
         {
-          "label": "Activities",
+          "label": "ACTIVITIES",
           "values": [
             "Navigation and walks",
             "Horseback riding and kayaking",
@@ -508,7 +630,7 @@
           ]
         },
         {
-          "label": "Knowledge",
+          "label": "KNOWLEDGE",
           "values": ["Natural", "Ecosystemic", "Systemic and symbolic"]
         }
       ]
@@ -518,15 +640,15 @@
 
   "Impacto": {
     "HeroImpacto": {
-      "title1": "Regenerative Tourism",
-      "title2": "in Iberá",
+      "title1": "REGENERATIVE",
+      "title2": "TOURISM",
       "subtitle": "Traveling as part of a living process",
       "text1": "In Colonia Carlos Pellegrini and the Iberá Wetlands, traveling is not just about visiting a place. It is about becoming part of a process of territorial regeneration.",
       "text2": "Every visit leaves a footprint. Our commitment is to make that footprint positive, measurable, and shared."
     },
   
     "TurismoImpacto": {
-      "title": "What is regenerative tourism?",
+      "title": "WHAT IS REGENERATIVE TOURISM?",
       "subtitle": "Going beyond doing no harm",
       "text1": "Regenerative tourism goes one step further than sustainable tourism.",
       "text2": "It’s not just about “avoiding negative impact,” but about actively improving the places we visit:",
@@ -541,14 +663,14 @@
     },
   
     "SunsetImpacto": {
-      "title": "How each experience gives back to the territory",
+      "title": "HOW EACH EXPERIENCE GIVES BACK TO THE TERRITORY",
   
       "subtitle": "Three levels of involvement",
       "text1": "We design our experiences at different levels so that each traveler can choose how they want to engage.",
       "text2": "The destination is the same. What changes is the way you experience it."
     },
     "SkyImpacto": {
-      "title": "Our Commitments",
+      "title": "OUR COMMITMENTS",
       "subtitle": "Real, measurable and transparent impact.",
       "text1": "Our commitment is not just words. It is a certified and evaluated management system.",
       "text2": "Aligned with the Hoteles Más Verdes certification, we work with clear commitments:",
@@ -588,7 +710,7 @@
       "items": [
         {
           "image": "/images/impacto/impacto1.png",
-          "title": "Explorer Level",
+          "title": "EXPLORER LEVEL",
           "subtitle": ["DISCOVER", "ENJOY", "CARE"],
           "text1": "A first conscious approach to Iberá. Your visit:",
           "bullets": [
@@ -600,7 +722,7 @@
         },
         {
           "image": "/images/impacto/impacto2.png",
-          "title": "Immersive Level",
+          "title": "IMMERSIVE LEVEL",
           "subtitle": ["CONNECT", "LEARN", "COLLABORATE"],
           "text1": "Beyond discovering, you actively participate in:",
           "bullets": [
@@ -612,7 +734,7 @@
         },
         {
           "image": "/images/impacto/impacto3.png",
-          "title": "Transformational Level",
+          "title": "TRANSFORMATIONAL LEVEL",
           "subtitle": ["CO-CREATE", "CONTRIBUTE", "LEAVE A LEGACY"],
           "text1": "Designed for those who want to go beyond travel. Here, visitors can:",
           "bullets": [
@@ -627,7 +749,7 @@
   },
   "Destino": {
     "HeroDestino": {
-      "title": "The Destination",
+      "title": "THE DESTINATION",
       "subtitle": "COLONIA CARLOS PELLEGRINI",
       "text": "Where nature, community, and the future learned to regenerate together"
     },
