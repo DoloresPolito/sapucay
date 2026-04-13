@@ -61,7 +61,7 @@ export default function SlideA({ typestexts }) {
              
 
                   <h3 className={styles.titleh3}>{typestexts.subtitle}</h3>
-                  <h3 className={styles.titleh3}>Cada persona tiene una intención distinta: descubrir, conectar, transformarse o dejar huella en familia, con amig@s, sol@s, o con el equipo de trabajo.</h3>
+                  <h3 className={styles.titleh3}>Cada persona tiene una intención distinta: descubrir, conectar, transformarse o dejar huella.</h3>
                   
                 </div>
               </AnimatedDiv>
