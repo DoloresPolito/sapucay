@@ -33,14 +33,14 @@ export default function Hero({ herotexts }) {
             <h3 className={styles.titleh3}>{herotexts.text}</h3>
           </AnimatedDiv>
 
-          <div className={styles.buttoncontainer}>
+          {/* <div className={styles.buttoncontainer}>
             <Button 
             // onClick={scrollToNext}
             >Historia</Button>
                   <Button 
             // onClick={scrollToNext}
             >Cultura</Button>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

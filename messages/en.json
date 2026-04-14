@@ -10,12 +10,14 @@
     "TypesHome": {
       "title1": "ONE DESTINATION,",
       "title2": "DIFFERENT WAYS TO EXPERIENCE IT",
-      "subtitle": "We offer different journeys so you can find your own way to explore.",
+      "subtitle": "We offer different journeys so you can find your own way to explore",
+      "subtitle2": "Each person has a different intention: to discover, connect, transform, or leave a mark",
       "items": [
         {
           "title": "LIVING NATURE",
           "subtitle": "Environment, calm and connection.",
           "image": "/images/naturaleza/naturaleza.png",
+          "url":"/naturaleza",
           "items": [
             { "title": "Explorer Level", "subtitle": "Living Nature" },
             { "title": "Immersive Level", "subtitle": "Living Nature Immersive" },
@@ -26,6 +28,7 @@
           "title": "CULTURE & TRADITION",
           "subtitle": "Tradition, community and territory",
           "image": "/images/cultura/culturahero.png",
+          "url":"/cultura",
           "items": [
             { "title": "Explorer Level", "subtitle": "Sapucay Observer" },
             { "title": "Immersive Level", "subtitle": "Sapucay MICE" },
@@ -36,6 +39,7 @@
           "title": "WELLNESS & CONNECTION",
           "subtitle": "A conscious, intimate and transformative experience",
           "image": "/images/bienestar/bienestar.png",
+          "url":"/bienestar",
           "items": [
             { "title": "Explorer Level", "subtitle": "Detox" },
             { "title": "Immersive Level", "subtitle": "Natural Wellbeing" },
@@ -183,6 +187,8 @@
     "herotitle2": "&TRADITION",
     "herosubtitle": "Tradition, community, and territory as a sensitive and transformative experience.",
     "herobutton": "Learn more",
+    "heroplace1":"Mercedes",
+    "heroplace2":"Esteros del Iberá",
     "descriptiontitle": "CHOOSE HOW TO EXPERIENCE IBERÁ",
     "descriptionsubtitle": "All Culture and Tradition programs share the same framework, but differ in their level of depth, guidance, and impact.",
     "items1": [
@@ -328,6 +334,8 @@
     "herotitle2": "&CONNECTION",
     "herosubtitle": "A conscious pause in one of South America's purest ecosystems. Nature, silence, and deep practices to restore balance.",
     "herobutton": "Learn more",
+    "heroplace1":"Esteros del Iberá",
+    "heroplace2":"",
     "descriptiontitle": "CHOOSE HOW TO EXPERIENCE IBERÁ",
     "descriptionsubtitle": "All Iberá Wellbeing programs share a common framework, but differ in their level of depth, guidance, and impact.",
     "items1": [
@@ -486,6 +494,8 @@
     "herotitle2": "NATURE",
     "herosubtitle": "Connection with the territory and its biodiversity.",
     "herobutton": "Learn more",
+    "heroplace1":"Esteros del Iberá",
+    "heroplace2":"",
     "descriptiontitle": "CHOOSE HOW TO EXPERIENCE IBERÁ",
     "descriptionsubtitle": "All programs share a common framework, but differ in their level of depth, guidance, and impact.",
     "items1": [

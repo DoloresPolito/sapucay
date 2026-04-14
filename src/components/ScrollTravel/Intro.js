@@ -12,6 +12,8 @@ export default function Intro({
   herotitle2,
   herosubtitle,
   herobutton,
+  heroplace1,
+  heroplace2
 }) {
   const container = useRef(null);
 
@@ -63,8 +65,8 @@ export default function Intro({
           </AnimatedDiv>
           <div className={styles.placecontainer}>
             <div className={styles.top}>
-              <h3 className={styles.titleh3}>Mercedes</h3>
-              <h3 className={styles.titleh3}>Esteros del Iberá</h3>
+              <h3 className={styles.titleh3}>{heroplace1}</h3>
+              <h3 className={styles.titleh3}>{heroplace2}</h3>
             </div>
             <div className={styles.bottom}>
               {" "}
@@ -73,9 +75,9 @@ export default function Intro({
             </div>
           </div>
 
-          <div>
+          {/* <div>
             <Button>Conocé los niveles</Button>
-          </div>
+          </div> */}
         </div>
       </motion.div>
     </div>

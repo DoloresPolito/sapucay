@@ -20,6 +20,7 @@ export default async function HomePage({ params }) {
       title1: t("TypesHome.title1"),
       title2: t("TypesHome.title2"),
       subtitle: t("TypesHome.subtitle"),
+      subtitle2: t("TypesHome.subtitle2"),
       items:t.raw("TypesHome.items"),
       types: t.raw("TypesHome.types"),
     },

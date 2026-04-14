@@ -73,8 +73,7 @@ export default function Footer() {
 
           <p className={styles.text}>
             <a
-              href="https://wa.me/541158587100"
-              // href="https://wa.me/543446584076"
+              href="https://wa.me/541158387100"
               target="_blank"
               rel="noopener noreferrer"
             >

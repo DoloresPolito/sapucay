@@ -12,12 +12,14 @@
     "TypesHome": {
       "title1": "UN MISMO DESTINO,",
       "title2": "DISTINTAS FORMAS DE VIVIRLO",
-      "subtitle": "Te ofrecemos distintas propuestas para que encuentres tu manera de explorar.",
+      "subtitle": "Te ofrecemos distintas propuestas para que encuentres tu manera de explorar",
+      "subtitle2": "Cada persona tiene una intención distinta: descubrir, conectar, transformarse o dejar huella",
       
       "items":[{
         "title": "NATURALEZA VIVA",
         "subtitle": "Entorno, calma y conexión.",
         "image": "/images/naturaleza/naturaleza.png",
+        "url":"/naturaleza",
         "items": [
           { "title": "Nivel Explorador", "subtitle": "Naturaleza Viva" },
           { "title": "Nivel Inmersivo", "subtitle": "Naturaleza Viva Inmersivo" },
@@ -28,6 +30,7 @@
         "title": "CULTURA & TRADICIÓN",
         "subtitle": "Tradición, comunidad y territorio",
         "image": "/images/cultura/culturahero.png",
+        "url":"/cultura",
         "items": [
           { "title": "Nivel Explorador", "subtitle": "Sapucay Observador" },
           { "title": "Nivel Inmersivo", "subtitle": "Sapucay MICE" },
@@ -38,6 +41,7 @@
         "title": "BIENESTAR & CONEXIÓN",
         "subtitle": "Experiencia consciente, íntima y transformadora",
         "image": "/images/bienestar/bienestar.png",
+        "url":"/bienestar",
         "items": [
           { "title": "Nivel Explorador", "subtitle": "Detox" },
           { "title": "Nivel Inmersivo", "subtitle": "Bienestar Natural" },
@@ -207,6 +211,8 @@
     "herotitle2": "&TRADICIÓN",
     "herosubtitle": "Tradición, comunidad y territorio como una experiencia sensible y transformadora.",
     "herobutton": "Conocé más",
+    "heroplace1":"Mercedes",
+    "heroplace2":"Esteros del Iberá",
     "descriptiontitle": "ELEGÍ CÓMO VIVIR EL IBERÁ",
     "descriptionsubtitle": "Todos los programas de Cultura y Tradición comparten un mismo marco, pero se diferencian por nivel de profundidad, acompañamiento e impacto.",
     "items1": [
@@ -351,6 +357,8 @@
     "herotitle2": "&CONEXIÓN",
     "herosubtitle": "Una pausa consciente en uno de los ecosistemas más puros de Sudamérica. Naturaleza, silencio y prácticas profundas para volver al equilibrio.",
     "herobutton": "Conocé más",
+    "heroplace1":"Esteros del Iberá",
+    "heroplace2":"",
     "descriptiontitle": "ELEGÍ CÓMO VIVIR EL IBERÁ",
     "descriptionsubtitle": "Todos los programas de Bienestar Iberá comparten un mismo marco, pero se diferencian por nivel de profundidad, acompañamiento e impacto.",
     "items1": [
@@ -506,6 +514,8 @@
     "herotitle2": "VIVA",
     "herosubtitle": "Conexión con el territorio y su biodiversidad.",
     "herobutton": "Conocé más",
+    "heroplace1":"Esteros del Iberá",
+    "heroplace2":"",
     "descriptiontitle": "ELEGÍ CÓMO VIVIR EL IBERÁ",
     "descriptionsubtitle": "Todos los programas de Cultura y Tradición comparten un mismo marco, pero se diferencian por nivel de profundidad, acompañamiento e impacto.",
     "items1": [

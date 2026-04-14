@@ -49,6 +49,9 @@ export default async function SectionPage({ params }) {
       title2: t("herotitle2"),
       subtitle: t("herosubtitle"),
       button: t("herobutton"),
+      place1: t("heroplace1"),
+      place2: t("heroplace2"),
+
     },
     description: {
       title: t("descriptiontitle"),

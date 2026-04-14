@@ -53,16 +53,17 @@ export default function SlideA({ typestexts }) {
             <div className={styles.container}>
               <AnimatedDiv>
                 <div className={styles.header}>
-              
                   <div className={styles.titlecontainer}>
-                  <h2 className={styles.titleh2}>{typestexts.title1}</h2>
-                  <h2 className={`${styles.titleh2} ${styles.titleWide}`}>{typestexts.title2}</h2>
+                    <h2 className={styles.titleh2}>{typestexts.title1}</h2>
+                    <h2 className={`${styles.titleh2} ${styles.titleWide}`}>
+                      {typestexts.title2}
+                    </h2>
                   </div>
-             
 
                   <h3 className={styles.titleh3}>{typestexts.subtitle}</h3>
-                  <h3 className={styles.titleh3}>Cada persona tiene una intención distinta: descubrir, conectar, transformarse o dejar huella.</h3>
-                  
+                  <h3 className={styles.titleh3}>
+                  {typestexts.subtitle2}
+                  </h3>
                 </div>
               </AnimatedDiv>
               <div className={styles.columns}>

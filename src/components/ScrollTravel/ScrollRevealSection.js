@@ -18,6 +18,8 @@ export default function ScrollRevealSection({
         herotitle2={texts.hero.title2}
         herosubtitle={texts.hero.subtitle}
         herobutton={texts.hero.button}
+        heroplace1={texts.hero.place1}
+        heroplace2={texts.hero.place2}
       />
       <Description
         title={texts.description.title}
