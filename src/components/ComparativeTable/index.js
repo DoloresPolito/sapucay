@@ -17,7 +17,7 @@ export default function ComparativeTable({ backgroundImage, tabletext }) {
     return "";
   };
 
-  const phoneNumber = "5493446584076"; // tu número con código país (sin +)
+  const phoneNumber = "5491158387100"; // tu número con código país (sin +)
 
   const handleWhatsApp = (column) => {
     const section = getSectionName();
