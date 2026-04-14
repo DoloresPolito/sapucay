@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import styles from "./style.module.scss";
 
+
 const underline = {
   initial: { width: 0 },
   hover: { width: "100%", transition: { duration: 0.5, ease: "easeInOut" } },

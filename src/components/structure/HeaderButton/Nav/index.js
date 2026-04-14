@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import { height } from "../amin";
 import Body from "./Body";
 import { useTranslations, useLocale } from "next-intl";
+import { SelectLanguage } from "@/src/components/SelectLanguage";
 
 export default function Index({ setIsActive }) {
   const t = useTranslations("nav");
@@ -23,18 +24,18 @@ export default function Index({ setIsActive }) {
     index: 0,
   });
 
-  // const [isMobile, setIsMobile] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
 
-  // useEffect(() => {
-  //   const handleResize = () => {
-  //     setIsMobile(window.innerWidth < 750);
-  //   };
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 600);
+    };
 
-  //   handleResize(); // Set initial value
-  //   window.addEventListener("resize", handleResize);
+    handleResize(); // Set initial value
+    window.addEventListener("resize", handleResize);
 
-  //   return () => window.removeEventListener("resize", handleResize);
-  // }, []);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
 
   return (
     <motion.div
@@ -52,6 +53,12 @@ export default function Index({ setIsActive }) {
             setSelectedLink={setSelectedLink}
             setIsActive={setIsActive}
           />
+
+{isMobile && (
+    <div className={styles.languageMobile}>
+      <SelectLanguage />
+    </div>
+  )}
         </div>
       </div>
     </motion.div>
