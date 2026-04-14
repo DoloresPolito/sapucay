@@ -95,7 +95,8 @@
   flex-direction: column;
   gap: 0.3rem;
 line-height: 110%;
- 
+
+ margin-bottom: 1vh;
 
   small {
     opacity: 0.7;
@@ -161,7 +162,8 @@ line-height: 110%;
 
   display: flex;
   flex-direction: column;
-  gap: 2vh;
+  gap: 4vh;
+
 }
 
 .mobileHeader {
@@ -192,6 +194,7 @@ line-height: 110%;
 .mobileItem p:first-child {
   flex: 1;
   text-align: left;
+
 }
 
 .mobileItem p:last-child {
@@ -200,10 +203,11 @@ line-height: 110%;
 }
 .mobileLabel {
   opacity: 0.7;
+
 }
 
 .mobileButton {
-  margin-top: 1vh;
+  margin-top: 0vh;
   padding: 0.7rem 1.6rem;
   border-radius: 999px;
   border: 1px solid rgba(255, 255, 255, 0.4);

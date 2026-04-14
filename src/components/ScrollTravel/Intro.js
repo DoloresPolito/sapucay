@@ -6,7 +6,13 @@ import styles from "./style.module.scss";
 import Button from "../ui/Button";
 import AnimatedDiv from "../ui/AnimatedDiv";
 
-export default function Intro({ image, herotitle1, herotitle2, herosubtitle, herobutton }) {
+export default function Intro({
+  image,
+  herotitle1,
+  herotitle2,
+  herosubtitle,
+  herobutton,
+}) {
   const container = useRef(null);
 
   const [isMobile, setIsMobile] = useState(false);
@@ -46,21 +52,30 @@ export default function Intro({ image, herotitle1, herotitle2, herosubtitle, her
               <h2 className={styles.titleh2}>{herotitle1}</h2>
             </AnimatedDiv>
             <AnimatedDiv delay={0.2}>
-              <h2 className={`${styles.titleh2} ${styles.titleWide}`}>{herotitle2}</h2>
+              <h2 className={`${styles.titleh2} ${styles.titleWide}`}>
+                {herotitle2}
+              </h2>
             </AnimatedDiv>
           </div>
 
           <AnimatedDiv delay={0.5}>
-            <h3 className={styles.titleh3}>
-            {herosubtitle}
-            </h3>
+            <h3 className={styles.titleh3}>{herosubtitle}</h3>
           </AnimatedDiv>
-          <p className={styles.titleh3}>Mercedes</p>
-          <p className={styles.titleh3}>Esteros del Iberá</p>
-          <p className={styles.titleh3}>Corrientes - Argentina</p>
-          {/* <div>
-            <Button onClick={scrollToNext}>Explorar experiencias</Button>
-          </div> */}
+          <div className={styles.placecontainer}>
+            <div className={styles.top}>
+              <h3 className={styles.titleh3}>Mercedes</h3>
+              <h3 className={styles.titleh3}>Esteros del Iberá</h3>
+            </div>
+            <div className={styles.bottom}>
+              {" "}
+              <h3 className={styles.titleh3}>Corrientes</h3>{" "}
+                   <h3 className={styles.titleh3}>Argentina</h3>
+            </div>
+          </div>
+
+          <div>
+            <Button>Conocé los niveles</Button>
+          </div>
         </div>
       </motion.div>
     </div>

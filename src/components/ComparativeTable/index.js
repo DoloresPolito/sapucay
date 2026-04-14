@@ -146,10 +146,7 @@ export default function ComparativeTable({ backgroundImage, tabletext }) {
                 <span className={styles.tabletitle}>{col.name}</span>
                 <small className={styles.tablesubtitle}>{col.level}</small>
               </div>
-              {/* <div className={styles.mobileHeader}>
-                <span className={styles.tabletitle}>{col.name}</span>
-                <small>{col.level}</small>
-              </div> */}
+   
 
               <div className={styles.mobileList}>
                 {tabletext.rows.map((row, rowIndex) => (
