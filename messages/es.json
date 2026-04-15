@@ -213,7 +213,7 @@
     "herobutton": "Conocé más",
     "heroplace1":"Mercedes",
     "heroplace2":"Esteros del Iberá",
-    "descriptiontitle": "ELEGÍ CÓMO VIVIR EL IBERÁ",
+    "descriptiontitle": "ELEGÍ CÓMO VIVIR EL LITORAL",
     "descriptionsubtitle": "Todos los programas de Cultura y Tradición comparten un mismo marco, pero se diferencian por nivel de profundidad, acompañamiento e impacto.",
     "items1": [
       {
@@ -304,7 +304,7 @@
     "sectionitems": ["PERTENENCIA", "VÍNCULO HUMANO", "EMOCIÓN COMPARTIDA"],
     "sectionbutton": [
       "La cultura no se explica: se vive.",
-      " En Iberá, la tradición se transmite en gestos, silencios y encuentros.",
+      " En el litoral, la tradición se transmite en gestos, silencios y encuentros.",
       "Cada experiencia acompaña el pulso de la comunidad y la forma de estar juntos."
     ],
 
@@ -359,7 +359,7 @@
     "herobutton": "Conocé más",
     "heroplace1":"Esteros del Iberá",
     "heroplace2":"",
-    "descriptiontitle": "ELEGÍ CÓMO VIVIR EL IBERÁ",
+    "descriptiontitle": "ELEGÍ CÓMO VIVIR EL LITORAL",
     "descriptionsubtitle": "Todos los programas de Bienestar Iberá comparten un mismo marco, pero se diferencian por nivel de profundidad, acompañamiento e impacto.",
     "items1": [
       {
@@ -516,8 +516,8 @@
     "herobutton": "Conocé más",
     "heroplace1":"Esteros del Iberá",
     "heroplace2":"",
-    "descriptiontitle": "ELEGÍ CÓMO VIVIR EL IBERÁ",
-    "descriptionsubtitle": "Todos los programas de Cultura y Tradición comparten un mismo marco, pero se diferencian por nivel de profundidad, acompañamiento e impacto.",
+    "descriptiontitle": "ELEGÍ CÓMO VIVIR EL LITORAL",
+    "descriptionsubtitle": "Todos los programas de Naturaleza comparten un mismo marco, pero se diferencian por nivel de profundidad, acompañamiento e impacto.",
     "items1": [
       {
         "image": "/images/naturaleza/naturaleza1.png",
@@ -601,8 +601,8 @@
 
     "sectiontext1": "La verdadera aventura",
     "sectiontext2": "no es llegar más lejos,",
-    "sectiontext3": "sino aprender",
-    "sectiontext4": "a ir más profundo.",
+    "sectiontext3": "sino ir más profundo.",
+    "sectiontext4": "",
 
     "sectionitems": [
       "CONEXIÓN CON LA VIDA",
@@ -611,7 +611,7 @@
     ],
 
     "sectionbutton": [
-      "En el Iberá, la naturaleza no se recorre: se habita.",
+      "En el litoral, la naturaleza no se recorre: se habita.",
       "Cada experiencia invita a moverse con respeto, observar con atención y comprender los ritmos del ecosistema.",
       "Viajar se transforma en una forma de vincularse con la vida en su estado más esencial."
     ],
@@ -735,14 +735,14 @@
           ]
         }
       ],
-      "text3": "Visitar Iberá es elegir un turismo quecuida, conecta y regenera.",
+      "text3": "Visitar Iberá es elegir un turismo que cuida, conecta y regenera.",
       "text4": "Un viaje que transforma al territorio… y también a quien lo vive."
     },
     "LevelsImpacto": {
       "items": [
         {
           "image": "/images/impacto/impacto1.png",
-          "title": "Nivel Explorador",
+          "title": "PROGRAMA HUESPED COLABORADOR",
           "subtitle": ["CONOCER", "DISFRUTAR", "CUIDAR"],
           "text1": "Primer acercamiento consciente al Iberá. Tu visita:",
           "bullets": [
@@ -754,7 +754,7 @@
         },
         {
           "image": "/images/impacto/impacto2.png",
-          "title": "Nivel Inmersivo",
+          "title": "PROGRAMA HUESPED TRANSMISOR DE CONOCIMIENTO",
           "subtitle": ["CONECTAR", "APRENDER", "COLABORAR"],
           "text1": "Además de conocer, participás activamente de:",
           "bullets": [
@@ -766,7 +766,7 @@
         },
         {
           "image": "/images/impacto/impacto3.png",
-          "title": "Nivel Transformacional",
+          "title": "PROGRAMA HUESPED REGENERATIVO",
           "subtitle": ["CO CREAR", "APORTAR", "DEJAR LEGADO"],
           "text1": "Pensado para quienes buscan ir más allá del viaje. Acá el visitante puede:",
           "bullets": [

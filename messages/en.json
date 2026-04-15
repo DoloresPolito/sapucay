@@ -182,14 +182,14 @@
     "destino": "THE DESTINATION"
   },
 
-  "cultura": {
+  "cultura": {  
     "herotitle1": "CULTURE",
     "herotitle2": "&TRADITION",
     "herosubtitle": "Tradition, community, and territory as a sensitive and transformative experience.",
     "herobutton": "Learn more",
     "heroplace1":"Mercedes",
     "heroplace2":"Esteros del Iberá",
-    "descriptiontitle": "CHOOSE HOW TO EXPERIENCE IBERÁ",
+    "descriptiontitle": "CHOOSE HOW TO EXPERIENCE LITORAL",
     "descriptionsubtitle": "All Culture and Tradition programs share the same framework, but differ in their level of depth, guidance, and impact.",
     "items1": [
       {
@@ -280,7 +280,7 @@
     "sectionitems": ["BELONGING", "HUMAN CONNECTION", "SHARED EMOTION"],
     "sectionbutton": [
       "Culture is not explained: it is lived.",
-      "In Iberá, tradition is passed on through gestures, silences, and encounters.",
+      "In litoral, tradition is passed on through gestures, silences, and encounters.",
       "Each experience follows the rhythm of the community and the way of being together."
     ],
 
@@ -336,7 +336,7 @@
     "herobutton": "Learn more",
     "heroplace1":"Esteros del Iberá",
     "heroplace2":"",
-    "descriptiontitle": "CHOOSE HOW TO EXPERIENCE IBERÁ",
+    "descriptiontitle": "CHOOSE HOW TO EXPERIENCE LITORAL",
     "descriptionsubtitle": "All Iberá Wellbeing programs share a common framework, but differ in their level of depth, guidance, and impact.",
     "items1": [
       {
@@ -496,7 +496,7 @@
     "herobutton": "Learn more",
     "heroplace1":"Esteros del Iberá",
     "heroplace2":"",
-    "descriptiontitle": "CHOOSE HOW TO EXPERIENCE IBERÁ",
+    "descriptiontitle": "CHOOSE HOW TO EXPERIENCE LITORAL",
     "descriptionsubtitle": "All programs share a common framework, but differ in their level of depth, guidance, and impact.",
     "items1": [
       {
@@ -581,8 +581,8 @@
 
     "sectiontext1": "The true adventure",
     "sectiontext2": "is not about going further,",
-    "sectiontext3": "but about learning",
-    "sectiontext4": "to go deeper.",
+    "sectiontext3": "but about going deeper",
+    "sectiontext4": "",
 
     "sectionitems": [
       "CONNECTION WITH LIFE",
@@ -590,7 +590,7 @@
       "INTERDEPENDENCE"
     ],
     "sectionbutton": [
-      "In Iberá, nature is not explored: it is inhabited.",
+      "In litoral, nature is not explored: it is inhabited.",
       "Each experience invites you to move with respect, observe with attention, and understand the rhythms of the ecosystem.",
       "Travel becomes a way of relating to life in its most essential form."
     ],
@@ -720,7 +720,7 @@
       "items": [
         {
           "image": "/images/impacto/impacto1.png",
-          "title": "EXPLORER LEVEL",
+          "title": "COLLABORATING GUEST PROGRAM",
           "subtitle": ["DISCOVER", "ENJOY", "CARE"],
           "text1": "A first conscious approach to Iberá. Your visit:",
           "bullets": [
@@ -732,7 +732,7 @@
         },
         {
           "image": "/images/impacto/impacto2.png",
-          "title": "IMMERSIVE LEVEL",
+          "title": "KNOWLEDGE-SHARING GUEST PROGRAM",
           "subtitle": ["CONNECT", "LEARN", "COLLABORATE"],
           "text1": "Beyond discovering, you actively participate in:",
           "bullets": [
@@ -744,7 +744,7 @@
         },
         {
           "image": "/images/impacto/impacto3.png",
-          "title": "TRANSFORMATIONAL LEVEL",
+          "title": "REGENERATIVE GUEST PROGRAM",
           "subtitle": ["CO-CREATE", "CONTRIBUTE", "LEAVE A LEGACY"],
           "text1": "Designed for those who want to go beyond travel. Here, visitors can:",
           "bullets": [
