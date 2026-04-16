@@ -5,6 +5,7 @@ import { routing } from "@/src/i18n/routing";
 import { setRequestLocale } from "next-intl/server";
 import PageTransition from "@/src/components/PageTransition";
 import { Poppins } from "next/font/google";
+import Head from "next/head";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -29,7 +30,22 @@ export default async function RootLayout({ children, params }) {
   return (
     <html lang={locale}>
       <body className={poppins.className}>
-        {/* <body> */}
+        <Head>
+          <link
+            rel="icon"
+            type="image/png"
+            href="/favicon-96x96.png"
+            sizes="96x96"
+          />
+          <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+          <link rel="shortcut icon" href="/favicon.ico" />
+          <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="/apple-touch-icon.png"
+          />
+          <link rel="manifest" href="/site.webmanifest" />
+        </Head>
         <NextIntlClientProvider messages={messages}>
           <PageTransition>{children}</PageTransition>
         </NextIntlClientProvider>
