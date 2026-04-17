@@ -11,7 +11,7 @@
   overflow: hidden;
 
   @media (max-width: 850px) {
-    padding: 10vh 0;
+    padding: 8vh 0;
   }
 }
 
@@ -29,19 +29,25 @@
   position: relative;
   z-index: 2;
   width: 90%;
-  max-width: 1400px;
   color: white;
   display: flex;
   flex-direction: column;
   gap: 4vh;
+  @media (max-width: 850px) {
+  width: 95%;
+  }
 }
 
 .header {
   text-align: center;
-  margin: 8vh 0vh;
+  margin: 4vh 0vh;
+  @media (max-width: 850px) {
+
+    margin: 0vh 0vh;
+  }
 
   h2{
-    margin-bottom: 2vh;
+    margin-bottom: 1vh;
   }
 }
 
