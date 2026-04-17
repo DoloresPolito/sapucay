@@ -1,7 +1,7 @@
 "use client";
 import styles from "./style.module.scss";
 import Image from "next/image";
-import image from "../../../../public/images/impacto/impacthero.png";
+import image from "../../../../public/images/impacto/regen3.png";
 
 import AnimatedDiv from "../../ui/AnimatedDiv";
 import Button from "../../ui/Button";

@@ -7,6 +7,8 @@
   padding: 8vh 4vh 4vh 4vh;
   display: flex;
   flex-direction: column;
+  justify-self: center;
+  // background-color: red;
   h1,
   p,
   h3 {
@@ -86,7 +88,7 @@
 @media (max-width: 850px) {
 
   .footer{
-    padding: 8vh 1vh 1vh 3vh;
+    padding: 8vh 1vh 1vh 2vh;
   }
   .container {
     grid-template-columns: 1fr;

@@ -35,7 +35,7 @@
   justify-content: center;
 
   @media only screen and (max-width: 850px) {
-    width: 90%;
+    width: 95%;
 
   }
 
@@ -48,6 +48,7 @@
       margin: 0;
       font-size: 12.5vh;
       line-height: 100%;
+
       @media only screen and (max-width: 850px) {
         font-size: 4.5vh;
       }
@@ -70,10 +71,16 @@
     margin-top: 3vh;
     margin-bottom: 5vh;
     max-width: 50%;
-    
+
     @media only screen and (max-width: 850px) {
       max-width: 90%;}
+
+      @media only screen and (max-width: 450px) {
+        max-width: 100%;
+
+    }
   }
+ 
 
 }
 
