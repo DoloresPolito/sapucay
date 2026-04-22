@@ -5,7 +5,7 @@ import { routing } from "@/src/i18n/routing";
 import { setRequestLocale } from "next-intl/server";
 import PageTransition from "@/src/components/PageTransition";
 import { Poppins } from "next/font/google";
-import Head from "next/head";
+// import Head from "next/head";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -17,6 +17,22 @@ import "./globals.scss";
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
 }
+
+export const metadata = {
+  title: "793 TRAVEL EXPERIENCE",
+  description: "EDICIÓN LITORAL",
+
+  icons: {
+    icon: [
+      { url: "/favicon.ico" },
+      { url: "/favicon-96x96.png", sizes: "96x96", type: "image/png" },
+      { url: "/favicon.svg", type: "image/svg+xml" },
+    ],
+    apple: "/apple-touch-icon.png",
+  },
+
+  manifest: "/site.webmanifest",
+};
 
 export default async function RootLayout({ children, params }) {
   const { locale } = await params;
@@ -30,7 +46,7 @@ export default async function RootLayout({ children, params }) {
   return (
     <html lang={locale}>
       <body className={poppins.className}>
-        <Head>
+        {/* <Head>
           <link
             rel="icon"
             type="image/png"
@@ -45,7 +61,7 @@ export default async function RootLayout({ children, params }) {
             href="/apple-touch-icon.png"
           />
           <link rel="manifest" href="/site.webmanifest" />
-        </Head>
+        </Head> */}
         <NextIntlClientProvider messages={messages}>
           <PageTransition>{children}</PageTransition>
         </NextIntlClientProvider>
