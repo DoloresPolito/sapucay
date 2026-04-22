@@ -13,7 +13,9 @@ export default function Intro({
   herosubtitle,
   herobutton,
   heroplace1,
-  heroplace2
+  heroplace2,
+  heroarreglo1,
+  heroarreglo2,
 }) {
   const container = useRef(null);
 
@@ -65,13 +67,22 @@ export default function Intro({
           </AnimatedDiv>
           <div className={styles.placecontainer}>
             <div className={styles.top}>
-              <h3 className={styles.titleh3}>{heroplace1}</h3>
-              <h3 className={styles.titleh3}>{heroplace2}</h3>
+              {heroarreglo1.map((place, i) => {
+                return (
+                  <h3 className={styles.titleh3} index={i}>
+                    {place}
+                  </h3>
+                );
+              })}
             </div>
             <div className={styles.bottom}>
-              {" "}
-              <h3 className={styles.titleh3}>Corrientes</h3>{" "}
-                   <h3 className={styles.titleh3}>Argentina</h3>
+              {heroarreglo2.map((place, i) => {
+                return (
+                  <h3 className={styles.titleh3} index={i}>
+                    {place}
+                  </h3>
+                );
+              })}
             </div>
           </div>
 

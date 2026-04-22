@@ -213,6 +213,8 @@
     "herobutton": "Conocé más",
     "heroplace1":"Mercedes",
     "heroplace2":"Esteros del Iberá",
+    "heroarreglo1":["Mercedes", "Esteros del Ibera"],
+    "heroarreglo2":["Corrientes"],
     "descriptiontitle": "ELEGÍ CÓMO VIVIR EL LITORAL",
     "descriptionsubtitle": "Todos los programas de Cultura y Tradición comparten un mismo marco, pero se diferencian por nivel de profundidad, acompañamiento e impacto.",
     "items1": [
@@ -359,6 +361,8 @@
     "herobutton": "Conocé más",
     "heroplace1":"Esteros del Iberá",
     "heroplace2":"",
+    "heroarreglo1":["Esteros del Ibera"],
+    "heroarreglo2":["Corrientes"],
     "descriptiontitle": "ELEGÍ CÓMO VIVIR EL LITORAL",
     "descriptionsubtitle": "Todos los programas de Bienestar Iberá comparten un mismo marco, pero se diferencian por nivel de profundidad, acompañamiento e impacto.",
     "items1": [
@@ -516,6 +520,8 @@
     "herobutton": "Conocé más",
     "heroplace1":"Esteros del Iberá",
     "heroplace2":"",
+    "heroarreglo1":["El Palmar", "Esteros del Ibera", "El Impenetrable",  "Bañado de la Estrella"],
+    "heroarreglo2":["Entre Ríos", "Corrientes", "Chaco", "Formosa"],
     "descriptiontitle": "ELEGÍ CÓMO VIVIR EL LITORAL",
     "descriptionsubtitle": "Todos los programas de Naturaleza comparten un mismo marco, pero se diferencian por nivel de profundidad, acompañamiento e impacto.",
     "items1": [

@@ -189,6 +189,8 @@
     "herobutton": "Learn more",
     "heroplace1":"Mercedes",
     "heroplace2":"Esteros del Iberá",
+    "heroarreglo1":["Mercedes", "Esteros del Ibera"],
+    "heroarreglo2":["Corrientes"],
     "descriptiontitle": "CHOOSE HOW TO EXPERIENCE LITORAL",
     "descriptionsubtitle": "All Culture and Tradition programs share the same framework, but differ in their level of depth, guidance, and impact.",
     "items1": [
@@ -336,6 +338,8 @@
     "herobutton": "Learn more",
     "heroplace1":"Esteros del Iberá",
     "heroplace2":"",
+    "heroarreglo1":["Esteros del Ibera"],
+    "heroarreglo2":["Corrientes"],
     "descriptiontitle": "CHOOSE HOW TO EXPERIENCE LITORAL",
     "descriptionsubtitle": "All Iberá Wellbeing programs share a common framework, but differ in their level of depth, guidance, and impact.",
     "items1": [
@@ -496,6 +500,8 @@
     "herobutton": "Learn more",
     "heroplace1":"Esteros del Iberá",
     "heroplace2":"",
+    "heroarreglo1":["El Palmar", "Esteros del Ibera", "El Impenetrable",  "Bañado de la Estrella"],
+    "heroarreglo2":["Entre Ríos", "Corrientes", "Chaco", "Formosa"],
     "descriptiontitle": "CHOOSE HOW TO EXPERIENCE LITORAL",
     "descriptionsubtitle": "All programs share a common framework, but differ in their level of depth, guidance, and impact.",
     "items1": [

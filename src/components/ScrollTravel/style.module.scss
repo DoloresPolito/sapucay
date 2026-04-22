@@ -85,8 +85,9 @@
 
     .top {
       display: flex;
+      flex-wrap: wrap; // 👈 clave
       // align-items: center;
-
+margin-bottom: 0.5vh;
       > * {
         display: flex;
         align-items: center;
@@ -102,6 +103,7 @@
         font-weight: 400;
         margin: 0; // 👈 clave
         margin-bottom: 1vh;
+        white-space: nowrap; // 👈 clave
         @media only screen and (max-width: 850px) {
           font-size: 2.5vh;
         }
@@ -110,6 +112,7 @@
 
     .bottom {
       display: flex;
+      flex-wrap: wrap; // 👈 clave
       flex-direction: row;
 
       > * {
@@ -127,6 +130,7 @@
         font-weight: 400;
         margin: 0; // 👈 clave
         margin-bottom: 5vh;
+        white-space: nowrap; // 👈 clave
         @media only screen and (max-width: 850px) {
           font-size: 2.5vh;
         }

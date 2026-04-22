@@ -51,6 +51,10 @@ export default async function SectionPage({ params }) {
       button: t("herobutton"),
       place1: t("heroplace1"),
       place2: t("heroplace2"),
+      heroarreglo1:t.raw("heroarreglo1"),
+      heroarreglo2:t.raw("heroarreglo2"),
+
+
 
     },
     description: {
