@@ -69,7 +69,7 @@ export default function Intro({
             <div className={styles.top}>
               {heroarreglo1.map((place, i) => {
                 return (
-                  <h3 className={styles.titleh3} index={i}>
+                  <h3 key={i} className={styles.titleh3} >
                     {place}
                   </h3>
                 );
