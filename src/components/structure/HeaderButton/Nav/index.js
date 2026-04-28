@@ -12,11 +12,12 @@ export default function Index({ setIsActive }) {
   const locale = useLocale();
   const links = [
     { title: t("home"), href: `/${locale}` },
+    { title: t("naturaleza"), href: `/${locale}/naturaleza` },
     { title: t("cultura"), href: `/${locale}/cultura` },
     { title: t("bienestar"), href: `/${locale}/bienestar` },
-    { title: t("naturaleza"), href: `/${locale}/naturaleza` },
-    { title: t("impacto"), href: `/${locale}/impacto` },
     { title: t("destino"), href: `/${locale}/destino` },
+    { title: t("impacto"), href: `/${locale}/impacto` },
+
   ];
 
   const [selectedLink, setSelectedLink] = useState({

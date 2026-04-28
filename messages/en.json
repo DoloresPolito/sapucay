@@ -161,11 +161,11 @@
     "subtitle1": "LITORAL EDITION",
     "title1": "Navigation",
     "col1item1": "HOME",
-    "col1item2": "THE DESTINATION",
-    "col1item3": "IMPACT & COMMITMENT",
+    "col1item2": "LIVING NATURE",
+    "col1item3": "CULTURE & TRADITION",
     "col1item4": "WELLNESS & CONNECTION",
-    "col1item5": "LIVING NATURE",
-    "col1item6": "CULTURE & TRADITION",
+    "col1item5": "THE DESTINATION",
+    "col1item6": "IMPACT & COMMITMENT",
     "title2": "Contact",
     "col2item1": "Col. Carlos Pellegrini, Corrientes, Argentina",
     "col2item2": "info@sapucaytravel",
@@ -175,11 +175,11 @@
 
   "nav": {
     "home": "HOME",
+    "naturaleza": "LIVING NATURE",
     "cultura": "CULTURE & TRADITION",
     "bienestar": "WELLNESS & CONNECTION",
-    "naturaleza": "LIVING NATURE",
-    "impacto": "IMPACT & COMMITMENT",
-    "destino": "THE DESTINATION"
+    "impacto": "THE DESTINATION",
+    "destino": "IMPACT & COMMITMENT"
   },
 
   "cultura": {  
@@ -189,7 +189,7 @@
     "herobutton": "Learn more",
     "heroplace1":"Mercedes",
     "heroplace2":"Esteros del Iberá",
-    "heroarreglo1":["Mercedes", "Esteros del Ibera"],
+    "heroarreglo1":["Mercedes", "Esteros del Iberá"],
     "heroarreglo2":["Corrientes"],
     "descriptiontitle": "CHOOSE HOW TO EXPERIENCE LITORAL",
     "descriptionsubtitle": "All Culture and Tradition programs share the same framework, but differ in their level of depth, guidance, and impact.",
@@ -338,7 +338,7 @@
     "herobutton": "Learn more",
     "heroplace1":"Esteros del Iberá",
     "heroplace2":"",
-    "heroarreglo1":["Esteros del Ibera"],
+    "heroarreglo1":["Esteros del Iberá"],
     "heroarreglo2":["Corrientes"],
     "descriptiontitle": "CHOOSE HOW TO EXPERIENCE LITORAL",
     "descriptionsubtitle": "All Iberá Wellbeing programs share a common framework, but differ in their level of depth, guidance, and impact.",
@@ -500,7 +500,7 @@
     "herobutton": "Learn more",
     "heroplace1":"Esteros del Iberá",
     "heroplace2":"",
-    "heroarreglo1":["El Palmar", "Esteros del Ibera", "El Impenetrable",  "Bañado de la Estrella"],
+    "heroarreglo1":["El Palmar", "Esteros del Iberá", "El Impenetrable",  "Bañado de la Estrella"],
     "heroarreglo2":["Entre Ríos", "Corrientes", "Chaco", "Formosa"],
     "descriptiontitle": "CHOOSE HOW TO EXPERIENCE LITORAL",
     "descriptionsubtitle": "All programs share a common framework, but differ in their level of depth, guidance, and impact.",

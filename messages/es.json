@@ -184,11 +184,11 @@
     "subtitle1": "EDICION LITORAL",
     "title1": "Navegación",
     "col1item1": "INICIO",
-    "col1item2": "EL DESTINO",
-    "col1item3": "IMPACTO & COMPROMISO",
+    "col1item2": "NATURALEZA VIVA",
+    "col1item3": "CULTURA & TRADICIÓN",
     "col1item4": "BIENESTAR & CONEXIÓN",
-    "col1item5": "NATURALEZA VIVA",
-    "col1item6": "CULTURA & TRADICIÓN",
+    "col1item5": "EL DESTINO",
+    "col1item6": "IMPACTO & COMPROMISO",
 
     "title2": "Contacto",
     "col2item1": "Col. Carlos Pellegrini, Corrientes, Argentina",
@@ -199,11 +199,11 @@
 
   "nav": {
     "home": "INICIO",
+    "naturaleza": "NATURALEZA VIVA",
     "cultura": "CULTURA & TRADICIÓN",
     "bienestar": "BIENESTAR & CONEXIÓN",
-    "naturaleza": "NATURALEZA VIVA",
-    "impacto": "IMPACTO Y COMPROMISO",
-    "destino": "EL DESTINO"
+    "impacto": "EL DESTINO",
+    "destino": "IMPACTO Y COMPROMISO"
   },
 
   "cultura": {
@@ -213,7 +213,7 @@
     "herobutton": "Conocé más",
     "heroplace1":"Mercedes",
     "heroplace2":"Esteros del Iberá",
-    "heroarreglo1":["Mercedes", "Esteros del Ibera"],
+    "heroarreglo1":["Mercedes", "Esteros del Iberá"],
     "heroarreglo2":["Corrientes"],
     "descriptiontitle": "ELEGÍ CÓMO VIVIR EL LITORAL",
     "descriptionsubtitle": "Todos los programas de Cultura y Tradición comparten un mismo marco, pero se diferencian por nivel de profundidad, acompañamiento e impacto.",
@@ -324,7 +324,7 @@
           "label": "PROPÓSITO",
           "values": [
             "Información",
-            "Comprensión del modela Iberá",
+            "Comprensión del modelo Iberá",
             "Participación directa en una acción regenerativa concreta"
           ]
         },
@@ -361,7 +361,7 @@
     "herobutton": "Conocé más",
     "heroplace1":"Esteros del Iberá",
     "heroplace2":"",
-    "heroarreglo1":["Esteros del Ibera"],
+    "heroarreglo1":["Esteros del Iberá"],
     "heroarreglo2":["Corrientes"],
     "descriptiontitle": "ELEGÍ CÓMO VIVIR EL LITORAL",
     "descriptionsubtitle": "Todos los programas de Bienestar Iberá comparten un mismo marco, pero se diferencian por nivel de profundidad, acompañamiento e impacto.",
@@ -520,7 +520,7 @@
     "herobutton": "Conocé más",
     "heroplace1":"Esteros del Iberá",
     "heroplace2":"",
-    "heroarreglo1":["El Palmar", "Esteros del Ibera", "El Impenetrable",  "Bañado de la Estrella"],
+    "heroarreglo1":["El Palmar", "Esteros del Iberá", "El Impenetrable",  "Bañado de la Estrella"],
     "heroarreglo2":["Entre Ríos", "Corrientes", "Chaco", "Formosa"],
     "descriptiontitle": "ELEGÍ CÓMO VIVIR EL LITORAL",
     "descriptionsubtitle": "Todos los programas de Naturaleza comparten un mismo marco, pero se diferencian por nivel de profundidad, acompañamiento e impacto.",
@@ -681,7 +681,7 @@
       "title1": "TURISMO ",
       "title2": "REGENERATIVO",
       "subtitle": "EN IBERÄ",
-      "text1": "En Colonia Carlos Pellegrini y los Esteros del Iberá, viajar no es solo conocer un lugar.Es formar parte de un proceso de regeneración del territorio.",
+      "text1": "En Colonia Carlos Pellegrini y los Esteros del Iberá, viajar no es solo conocer un lugar. Es formar parte de un proceso de regeneración del territorio.",
       "text2": "Cada visita deja una huella.Nuestra decisión es que esa huella sea positiva, medible y compartida."
     },
 
@@ -704,7 +704,7 @@
       "title": "CÓMO CADA EXPERIENCIA DEVUELVE VALOR AL TERRITORIO",
       "subtitle": "Tres niveles de involucramiento",
       "text1": "Diseñamos nuestras experiencias en distintos niveles para que cada viajero elija cómo quiere participar.",
-      "text2": "El destino es el mismo.Lo que cambia es la forma de habitarlo."
+      "text2": "El destino es el mismo. Lo que cambia es la forma de habitarlo."
     },
 
     "SkyImpacto": {
@@ -800,8 +800,8 @@
     "HistoryDestino": {
       "title": "Historia",
       "subtitle": "De frontera olvidada a faro de conservación",
-      "text1": "Colonia Carlos Pellegrini nació como asentamiento rural en un entorno extremo, dominado por el agua, el monte y los ciclos naturales. Durante gran parte del siglo XX, el Ibera fue visto como un territorio improductivo, marginal, difícil de habitar.",
-      "text2": "La creación del área protegida y, posteriormente, del Parque Nacional Ibera, marco un punto de inflexión: por primera vez, el valor del territorio no estaba en lo que se extraía, sino en lo que se conservaba.",
+      "text1": "Colonia Carlos Pellegrini nació como asentamiento rural en un entorno extremo, dominado por el agua, el monte y los ciclos naturales. Durante gran parte del siglo XX, el Iberá fue visto como un territorio improductivo, marginal, difícil de habitar.",
+      "text2": "La creación del área protegida y, posteriormente, del Parque Nacional Iberá, marcó un punto de inflexión: por primera vez, el valor del territorio no estaba en lo que se extraía, sino en lo que se conservaba.",
       "text3": "Ese cambio no fue inmediato ni sencillo. Requirió décadas de trabajo, acuerdos, tensiones y aprendizaje colectivo. Pero sentó las bases de una nueva identidad: la de un pueblo que eligió proteger su entorno como forma de futuro."
     },
     "CultureDestino": {
