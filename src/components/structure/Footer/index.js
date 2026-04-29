@@ -8,11 +8,11 @@ export default function Footer() {
   const locale = useLocale();
   const links = [
     { title: t("col1item1"), href: `/${locale}` },
-    { title: t("col1item2"), href: `/${locale}/destino` },
-    { title: t("col1item3"), href: `/${locale}/impacto` },
+    { title: t("col1item2"), href: `/${locale}/naturaleza` },
+    { title: t("col1item3"), href: `/${locale}/cultura` },
     { title: t("col1item4"), href: `/${locale}/bienestar` },
-    { title: t("col1item5"), href: `/${locale}/naturaleza` },
-    { title: t("col1item6"), href: `/${locale}/cultura` },
+    { title: t("col1item5"), href: `/${locale}/destino` },
+    { title: t("col1item6"), href: `/${locale}/impacto` },
   ];
 
   const underlineVariants = {
